@@ -82,8 +82,9 @@ body{
     background-color: rgb(3, 71, 71);
     position: absolute;
     width: 100%;
-    height: 100%;
+    height:auto;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     z-index: 1;
 }
