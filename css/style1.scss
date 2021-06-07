@@ -1,0 +1,52 @@
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+
+
+
+body{
+    width: 100vw;
+    height: 100vh;
+    
+    
+ }
+ 
+
+
+ 
+.container{
+    background-color: rgb(3, 71, 71);
+    position: absolute;
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+header{
+    background-color: darkred;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 25px;
+}
+
+.photo{
+    background-color: darksalmon;
+    width: 100%;
+    height: 300px;
+}
+
+
+
+.carte{
+    background-color: darkseagreen;
+    height: auto;
+}
