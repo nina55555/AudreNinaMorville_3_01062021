@@ -75,7 +75,7 @@
     position: absolute;
     width: 100%;
     height:auto;
-    padding-top: 55px;
+    padding-top: 49px;
     display: flex;
     flex-direction: column;
     z-index: 1;
@@ -98,16 +98,30 @@ header{
 
 .localisation{
     background-color: darkturquoise;
-    text-align: center;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
+
+.localisation i{
+    padding-right: 10px;
+}
+
 
 
 .reservation{
     background-color: green;
     text-align: center;
     padding: 30px;
+    height: 225px;
 }
 
+
+
+.reservation p{
+    padding-top: 15px;
+}
 
 .reservation button{
     background-color: hotpink;
@@ -122,6 +136,67 @@ header{
     text-decoration: none;
     color: white;
 }
+
+
+.fonctionnement{
+    background-color: rosybrown;
+    padding: 40px 10px;
+}
+
+
+
+.fonctionnement .selection{
+    background-color: rgb(33, 81, 121);
+    margin: 15px 5px;
+    height: 59px;
+    display: flex;
+    align-items: center;
+    
+}
+
+.fonctionnement .selection .number{
+    background-color: rgb(121, 33, 81);
+    width: 25px;
+    height: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    z-index: 1;
+}
+
+
+
+.fonctionnement .selection .number p{
+    color: white;    
+    
+}
+
+
+
+.fonctionnement-button{
+    background-color: yellowgreen;
+    width: 100%;
+    display: flex;
+    height: 59px;
+    justify-content: space-evenly;
+    align-items: center ;
+    border-radius: 15px;
+    transform: translateX(-10px);
+    padding-right: 25px;
+}
+
+
+.fonctionnement-icon{
+    /*background-color: rgb(224, 35, 60);*/
+    font-size: 20px;
+}
+
+
+
+
+
+
 
 
 

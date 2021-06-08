@@ -92,7 +92,7 @@
   position: absolute;
   width: 100%;
   height: auto;
-  padding-top: 55px;
+  padding-top: 49px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -115,13 +115,31 @@ header {
 
 .localisation {
   background-color: darkturquoise;
-  text-align: center;
+  height: 30px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.localisation i {
+  padding-right: 10px;
 }
 
 .reservation {
   background-color: green;
   text-align: center;
   padding: 30px;
+  height: 225px;
+}
+
+.reservation p {
+  padding-top: 15px;
 }
 
 .reservation button {
@@ -135,6 +153,68 @@ header {
 .reservation button a {
   text-decoration: none;
   color: white;
+}
+
+.fonctionnement {
+  background-color: rosybrown;
+  padding: 40px 10px;
+}
+
+.fonctionnement .selection {
+  background-color: #215179;
+  margin: 15px 5px;
+  height: 59px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.fonctionnement .selection .number {
+  background-color: #792151;
+  width: 25px;
+  height: 25px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border-radius: 10px;
+  z-index: 1;
+}
+
+.fonctionnement .selection .number p {
+  color: white;
+}
+
+.fonctionnement-button {
+  background-color: yellowgreen;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 59px;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border-radius: 15px;
+  -webkit-transform: translateX(-10px);
+          transform: translateX(-10px);
+  padding-right: 25px;
+}
+
+.fonctionnement-icon {
+  /*background-color: rgb(224, 35, 60);*/
+  font-size: 20px;
 }
 
 footer {
