@@ -92,6 +92,7 @@
   position: absolute;
   width: 100%;
   height: auto;
+  padding-top: 55px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -99,15 +100,14 @@
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
   z-index: 1;
 }
 
 header {
   background-color: darkorange;
   width: 100%;
+  height: auto;
+  padding: 15px;
   text-align: center;
   position: fixed;
   top: 0px;
