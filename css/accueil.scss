@@ -3,20 +3,12 @@
 *{
     margin: 0px;
     padding: 0px;
-    box-sizing: border-box;
-    overflow: hidden;
 }
 
 
 
 
 
-body{
-   width: 100vw;
-   height: 100vh;
-   
-   
-}
 
 
 
@@ -92,14 +84,25 @@ body{
 
 
 
-
-
-/*
-.container header{
-    height: 10vh;
-    width: 100vw;
-    display: flex;
-    text-align: center;
+header{
+  background-color: darkorange;
+  width: 100%;
+  text-align: center;
+  position: fixed;
+  top: 0px;
 }
 
-*/
+
+
+
+footer{
+  background-color: deeppink;
+  width: 100%;
+  /*position: fixed;
+  bottom: 0px;
+  */
+}
+
+
+
+

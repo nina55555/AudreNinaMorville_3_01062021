@@ -1,14 +1,6 @@
 * {
   margin: 0px;
   padding: 0px;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
-  overflow: hidden;
-}
-
-body {
-  width: 100vw;
-  height: 100vh;
 }
 
 .loader {
@@ -113,13 +105,19 @@ body {
   z-index: 1;
 }
 
-/*
-.container header{
-    height: 10vh;
-    width: 100vw;
-    display: flex;
-    text-align: center;
+header {
+  background-color: darkorange;
+  width: 100%;
+  text-align: center;
+  position: fixed;
+  top: 0px;
 }
 
-*/
-/*# sourceMappingURL=style.css.map */
+footer {
+  background-color: deeppink;
+  width: 100%;
+  /*position: fixed;
+  bottom: 0px;
+  */
+}
+/*# sourceMappingURL=accueil.css.map */
