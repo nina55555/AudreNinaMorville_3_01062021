@@ -113,6 +113,30 @@ header {
   top: 0px;
 }
 
+.localisation {
+  background-color: darkturquoise;
+  text-align: center;
+}
+
+.reservation {
+  background-color: green;
+  text-align: center;
+  padding: 30px;
+}
+
+.reservation button {
+  background-color: hotpink;
+  width: 59%;
+  height: 35px;
+  margin-top: 30px;
+  border-radius: 20px;
+}
+
+.reservation button a {
+  text-decoration: none;
+  color: white;
+}
+
 footer {
   background-color: deeppink;
   width: 100%;
