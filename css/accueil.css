@@ -44,6 +44,7 @@
 .loader i {
   /*background-color: darkgray;*/
   color: darkgoldenrod;
+  border: 1px solid #9356DC;
   height: 50px;
   width: 50px;
   display: -webkit-box;
@@ -63,27 +64,31 @@
 
 @-webkit-keyframes spin {
   0% {
-    -webkit-transform: rotateY(90deg);
-            transform: rotateY(90deg);
+    -webkit-transform: rotateY(0deg);
+            transform: rotateY(0deg);
+  }
+  50% {
+    -webkit-transform: rotateY(180deg);
+            transform: rotateY(180deg);
   }
   100% {
     -webkit-transform: rotateY(0deg);
             transform: rotateY(0deg);
-    -webkit-transform: scale(1.5);
-            transform: scale(1.5);
   }
 }
 
 @keyframes spin {
   0% {
-    -webkit-transform: rotateY(90deg);
-            transform: rotateY(90deg);
+    -webkit-transform: rotateY(0deg);
+            transform: rotateY(0deg);
+  }
+  50% {
+    -webkit-transform: rotateY(180deg);
+            transform: rotateY(180deg);
   }
   100% {
     -webkit-transform: rotateY(0deg);
             transform: rotateY(0deg);
-    -webkit-transform: scale(1.5);
-            transform: scale(1.5);
   }
 }
 

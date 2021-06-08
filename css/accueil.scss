@@ -42,6 +42,7 @@
 .loader i{
     /*background-color: darkgray;*/
     color: darkgoldenrod;
+    border: 1px solid #9356DC ;
     height: 50px;
     width: 50px;
     display:flex;
@@ -55,12 +56,15 @@
 
 @keyframes spin{
     0%{
-        transform: rotateY(90deg);
+        transform: rotateY(0deg);
+        
+    }
+    50%{
+        transform: rotateY(180deg);
         
     }
     100%{
         transform: rotateY(0deg);
-        transform: scale(1.5);
         
     }
 }
