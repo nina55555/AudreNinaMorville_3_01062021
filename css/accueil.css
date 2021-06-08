@@ -200,21 +200,25 @@ header {
   display: -ms-flexbox;
   display: flex;
   height: 59px;
-  -webkit-box-pack: space-evenly;
-      -ms-flex-pack: space-evenly;
-          justify-content: space-evenly;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
   border-radius: 15px;
   -webkit-transform: translateX(-10px);
           transform: translateX(-10px);
-  padding-right: 25px;
+}
+
+.fonctionnement-button p {
+  background-color: sandybrown;
 }
 
 .fonctionnement-icon {
   /*background-color: rgb(224, 35, 60);*/
-  font-size: 20px;
+  -webkit-transform: translateX(-40px);
+          transform: translateX(-40px);
 }
 
 footer {
