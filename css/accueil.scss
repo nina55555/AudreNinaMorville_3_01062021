@@ -212,6 +212,48 @@ header .logo img{
 
 
 
+.restaurant-card{
+    background-color: blanchedalmond;
+    margin-bottom: 10px;
+    width: 100%;
+    height: 180px;
+    border-radius: 15px;
+}
+
+
+
+.restaurant-card img{
+    object-fit: cover;
+    height: 70%;
+    width: 100%;
+    border-radius: 15px 15px 0px 0px;
+}
+
+
+
+.restaurant-card i{
+    //background-color: green;
+    padding-top: 15px;
+    padding-right: 15px;
+}
+
+.restaurant-infos{
+    //background-color: fuchsia;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+
+
+
+
+
+
+
+
+
+
 
 
 
