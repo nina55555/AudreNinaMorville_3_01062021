@@ -93,7 +93,6 @@
 }
 
 .container {
-  background-color: #034747;
   position: absolute;
   width: 100%;
   height: auto;
@@ -109,7 +108,7 @@
 }
 
 header {
-  background-color: darkorange;
+  background-color: #f7f5f3;
   width: 100%;
   height: auto;
   padding: 5px;
@@ -124,7 +123,7 @@ header .logo img {
 }
 
 .localisation {
-  background-color: darkturquoise;
+  background-color: #c9caca;
   height: 30px;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -144,7 +143,7 @@ header .logo img {
 }
 
 .reservation {
-  background-color: green;
+  background-color: #ebeceb;
   text-align: center;
   padding: 30px;
   height: 225px;
@@ -155,7 +154,7 @@ header .logo img {
 }
 
 .reservation button {
-  background-color: hotpink;
+  background-color: #fa69ff;
   width: 59%;
   height: 35px;
   margin-top: 30px;
@@ -168,12 +167,10 @@ header .logo img {
 }
 
 .fonctionnement {
-  background-color: rosybrown;
   padding: 40px 10px;
 }
 
 .fonctionnement .selection {
-  background-color: #215179;
   margin: 15px 5px;
   height: 59px;
   display: -webkit-box;
@@ -206,7 +203,7 @@ header .logo img {
 }
 
 .fonctionnement-button {
-  background-color: yellowgreen;
+  background-color: #e8ebe8;
   width: 100%;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -223,10 +220,6 @@ header .logo img {
           transform: translateX(-10px);
 }
 
-.fonctionnement-button p {
-  background-color: sandybrown;
-}
-
 .fonctionnement-icon {
   /*background-color: rgb(224, 35, 60);*/
   font-size: 20px;
@@ -234,12 +227,35 @@ header .logo img {
           transform: translateX(-40px);
 }
 
+.all-restaurants h1 {
+  margin-left: 20px;
+}
+
 .restaurant-card {
-  background-color: blanchedalmond;
-  margin-bottom: 10px;
-  width: 100%;
+  background-color: #faf8f5;
+  margin: 0 auto 15px;
+  width: 90%;
   height: 180px;
   border-radius: 15px;
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-shadow: 5px 5px 5px #a8a6a7;
+          box-shadow: 5px 5px 5px #a8a6a7;
+}
+
+.nouveau a {
+  background-color: green;
+  position: absolute;
+  top: 0px;
+  left: 80%;
+  padding: 5px;
+  margin-top: 5px;
 }
 
 .restaurant-card img {
@@ -255,6 +271,15 @@ header .logo img {
   padding-right: 15px;
 }
 
+.active-card {
+  text-decoration: none;
+  height: 180px;
+}
+
+.active-card img {
+  height: 70%;
+}
+
 .restaurant-infos {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -262,13 +287,49 @@ header .logo img {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.restaurant-infos i {
+  margin: 15px 10px;
+  padding: 0px;
 }
 
 footer {
-  background-color: deeppink;
+  background-color: #413b3e;
   width: 100%;
+  color: white;
+  padding: 10px 15px;
   /*position: fixed;
   bottom: 0px;
   */
+}
+
+.proposer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  margin-top: 15px;
+}
+
+.devenir {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+footer a {
+  text-decoration: none;
+  color: white;
 }
 /*# sourceMappingURL=accueil.css.map */
