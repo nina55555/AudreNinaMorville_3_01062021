@@ -15,24 +15,23 @@
 
 .loader{
     background-color:#99E2D0;
-    position: absolute;
-    width: 100%;
-    height: 100%;
+    position:absolute;
+    width: 100vw;
+    height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
-    z-index: 1;
-    /*opacity: 0;*/
-    animation: disapear 3.7s ;
+    z-index: -1000;
+    animation: disapear 4.7s ;
 }
 
 
 @keyframes disapear{
     from{
-        z-index: 0;
+        z-index: 1000;
     }
     to{
-        z-index: 10;
+        z-index: -1000;
     }
 }
 
