@@ -232,6 +232,7 @@ header .logo img {
 
 .restaurant-card a {
   background-color: #faf8f5;
+  text-decoration: none;
   margin: 0 auto 15px;
   width: 90%;
   height: 180px;
