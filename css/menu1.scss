@@ -58,4 +58,79 @@ header{
 .carte{
     background-color: darkseagreen;
     height: auto;
+    border-radius: 15px 15px 0px 0px;
+    display: flex;
+    flex-direction: column;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+footer{
+   
+    p{
+        margin-bottom: 7px;
+    }
+    background-color: rgb(65, 59, 62);
+    width: 100%;
+    height: 150px;
+    color: white;
+    padding: 30px 20px;
+  /*position: fixed;
+  bottom: 0px;
+  */
+}
+
+footer img{
+    width:150px;
+    color: white;
+}
+
+
+
+
+
+.proposer{
+    p{
+        margin-left: 15px;
+    }
+    //background-color: yellowgreen;
+    display: flex;
+    flex-direction: row;
+    margin-top: 15px;
+    margin-bottom: 7px;
+
+}
+
+.devenir{
+    p{
+        margin-left: 10px;
+        margin-bottom: 5px;
+    }
+    //background-color: yellowgreen;
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 7px;
+
+}
+
+
+footer a{
+    text-decoration: none;
+    color: white;
+}
+
+

@@ -11,27 +11,26 @@
 
 
 
-
-
 .loader{
     background-color:#99E2D0;
     position:absolute;
     width: 100vw;
-    height: 100vh;
-    display: flex;
+    height: 100%;
     justify-content: center;
     align-items: center;
-    z-index: -1000;
-    animation: disapear 4.7s ;
+    display: flex;
+    z-index: 2;
+    animation: disapear 4.7s ease-in;
 }
 
 
 @keyframes disapear{
     from{
-        z-index: 1000;
+        display:none;
+
     }
     to{
-        z-index: -1000;
+        display: flex;
     }
 }
 
@@ -80,9 +79,12 @@
     height:auto;
     padding-top: 35px;
     display: flex;
-    flex-direction: column;
     z-index: 1;
+    flex-direction: column;
+    
 }
+
+
 
 
 

@@ -7,36 +7,39 @@
   background-color: #99E2D0;
   position: absolute;
   width: 100vw;
-  height: 100vh;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
+  height: 100%;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  z-index: -1000;
-  -webkit-animation: disapear 4.7s;
-          animation: disapear 4.7s;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  z-index: 2;
+  -webkit-animation: disapear 4.7s ease-in;
+          animation: disapear 4.7s ease-in;
 }
 
 @-webkit-keyframes disapear {
   from {
-    z-index: 1000;
+    display: none;
   }
   to {
-    z-index: -1000;
+    display: -webkit-box;
+    display: flex;
   }
 }
 
 @keyframes disapear {
   from {
-    z-index: 1000;
+    display: none;
   }
   to {
-    z-index: -1000;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
   }
 }
 
@@ -100,11 +103,11 @@
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  z-index: 1;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  z-index: 1;
 }
 
 header {
