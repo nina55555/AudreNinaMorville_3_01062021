@@ -7,7 +7,21 @@
 
 
 
+body{
+    overflow: auto;
+    animation: scrolling 4.7s;
+}
 
+
+
+@keyframes scrolling{
+    from{
+        overflow: hidden;
+    }
+    to{
+        overflow: auto;
+    }
+}
 
 
 
@@ -19,18 +33,19 @@
     justify-content: center;
     align-items: center;
     display: flex;
-    z-index: 2;
+    z-index: -1000;
     animation: disapear 4.7s ease-in;
 }
 
 
 @keyframes disapear{
     from{
-        display:none;
-
+        display:flex;
+        z-index: 2;
     }
     to{
-        display: flex;
+        display: none;
+        z-index: -1;
     }
 }
 
@@ -78,12 +93,23 @@
     width: 100%;
     height:auto;
     padding-top: 35px;
+    flex-direction: column;
     display: flex;
     z-index: 1;
-    flex-direction: column;
+    animation: appears;
     
 }
 
+
+
+@keyframes appears {
+    from{
+        display: none;
+    }
+    to{
+        display: flex;
+    }
+}
 
 
 
