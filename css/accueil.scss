@@ -8,6 +8,8 @@
 
 
 body{
+    width: 100vw;
+    height: 100vh;
     overflow: auto;
     animation: scrolling 4.7s;
 }
@@ -90,7 +92,7 @@ body{
 .container{
     background-color: rgb(240, 243, 243);
     position: absolute;
-    width: 100%;
+    width: 100vw;
     height:auto;
     padding-top: 35px;
     flex-direction: column;
@@ -258,7 +260,7 @@ header .logo img{
 }
 
 
-.nouveau a{
+.nouveau {
     background-color: green;
     position: absolute;
     top: 0px;
