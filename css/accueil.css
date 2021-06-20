@@ -311,6 +311,8 @@ header .logo img {
 
 .all-restaurants {
   padding-top: 40px;
+  height: auto;
+  padding-bottom: 45px;
 }
 
 .all-restaurants h1 {
@@ -337,12 +339,14 @@ header .logo img {
 }
 
 .nouveau {
-  background-color: green;
+  background-color: #99E2D0;
   position: absolute;
   top: 0px;
-  left: 80%;
+  left: 75%;
   padding: 5px;
-  margin-top: 5px;
+  margin-top: 12px;
+  color: #4d746a;
+  font-weight: bold;
 }
 
 .restaurant-card img {
