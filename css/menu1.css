@@ -3,8 +3,12 @@
   padding: 0px;
 }
 
+body {
+  width: 100vw;
+  height: 100vh;
+}
+
 .container {
-  background-color: #034747;
   position: absolute;
   width: 100%;
   height: auto;
@@ -18,7 +22,7 @@
 }
 
 header {
-  background-color: #f7f5f3;
+  background-color: #fcfcfc;
   width: 100%;
   height: auto;
   padding: 5px;
@@ -26,10 +30,21 @@ header {
   position: fixed;
   top: 0px;
   z-index: 2;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 header .logo img {
   width: 135px;
+  margin: 0 auto;
+}
+
+.retour i {
+  margin-left: -58vw;
 }
 
 .photo {
@@ -54,6 +69,23 @@ header .logo img {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
+  -webkit-transform: translateY(-15px);
+          transform: translateY(-15px);
+}
+
+.nom-restaurant {
+  height: 100px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.aime i {
+  font-size: 25px;
+  color: black;
 }
 
 footer {

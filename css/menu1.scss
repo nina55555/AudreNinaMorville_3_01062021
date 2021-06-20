@@ -5,13 +5,14 @@
 }
 
 
-
-
-
+body{
+    width: 100vw;
+    height: 100vh;
+}
 
  
 .container{
-    background-color: rgb(3, 71, 71);
+    //background-color: rgb(3, 71, 71);
     position: absolute;
     width: 100%;
     height: auto;
@@ -21,14 +22,14 @@
 
 
 
-
-
 header{
     
     .logo img{
       width: 135px;
+      margin: 0 auto;
     }
-    background-color: rgb(247, 245, 243);
+    background-color: rgb(252, 252, 252);
+
     width: 100%;
     height: auto;
     padding: 5px;
@@ -36,9 +37,15 @@ header{
     position: fixed;
     top: 0px;
     z-index: 2;
+    display: flex;
+    justify-content: center;
   }
   
 
+
+  .retour i{
+      margin-left: -58vw;
+  }
 
 
 
@@ -55,21 +62,39 @@ header{
 
 
 
+
+
 .carte{
     background-color: darkseagreen;
     height: auto;
     border-radius: 15px 15px 0px 0px;
     display: flex;
     flex-direction: column;
+    transform: translateY(-15px);
+}
+
+
+
+.nom-restaurant{
+    //background-color:purple ;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+.aime i{
+    font-size: 25px;
+    color: black;
 }
 
 
 
 
-
-
-
-
+.entree{
+    
+}
 
 
 
