@@ -180,7 +180,9 @@ header .logo img {
 
 .localisation {
   background-color: #dfe2e2;
-  height: 30px;
+  -webkit-box-shadow: inset 0px 3px 3px #5f5e5f;
+          box-shadow: inset 0px 3px 3px #5f5e5f;
+  height: 38px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -207,7 +209,7 @@ header .logo img {
 
 .reservation p {
   padding-top: 15px;
-  color: #4d4c4c;
+  color: #838383;
 }
 
 .reservation button {
@@ -224,6 +226,7 @@ header .logo img {
 }
 
 .fonctionnement {
+  background-color: #f8f6f6;
   padding: 40px 10px;
 }
 
