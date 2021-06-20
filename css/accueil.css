@@ -167,17 +167,19 @@ header {
   background-color: #830f1e;
   width: 100%;
   height: auto;
-  margin: 0 auto;
   padding-top: 5px;
   padding-bottom: 5px;
   text-align: center;
   position: fixed;
   top: 0px;
+  left: 0px;
   z-index: 2;
 }
 
 header .logo img {
-  width: 135px;
+  width: 140px;
+  -webkit-transform: translateX(-20px);
+          transform: translateX(-20px);
 }
 
 .localisation {
