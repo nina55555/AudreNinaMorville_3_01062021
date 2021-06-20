@@ -7,8 +7,8 @@ body {
   width: 100vw;
   height: 100vh;
   overflow: auto;
-  -webkit-animation: scrolling 4.7s;
-          animation: scrolling 4.7s;
+  -webkit-animation: scrolling 7s;
+          animation: scrolling 7s;
 }
 
 @-webkit-keyframes scrolling {
@@ -164,7 +164,7 @@ body {
 }
 
 header {
-  background-color: #f7f5f3;
+  background-color: #fcfcfc;
   width: 100%;
   height: auto;
   padding: 5px;
@@ -179,7 +179,7 @@ header .logo img {
 }
 
 .localisation {
-  background-color: #c9caca;
+  background-color: #dfe2e2;
   height: 30px;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -199,7 +199,7 @@ header .logo img {
 }
 
 .reservation {
-  background-color: #ebeceb;
+  background-color: #f0f1f0;
   text-align: center;
   padding: 30px;
   height: 225px;
@@ -207,12 +207,13 @@ header .logo img {
 
 .reservation p {
   padding-top: 15px;
+  color: #4d4c4c;
 }
 
 .reservation button {
   background-color: #fa69ff;
   width: 59%;
-  height: 35px;
+  height: 45px;
   margin-top: 30px;
   border-radius: 20px;
 }

@@ -11,7 +11,7 @@ body{
     width: 100vw;
     height: 100vh;
     overflow: auto;
-    animation: scrolling 4.7s;
+    animation: scrolling 7s;
 }
 
 
@@ -118,7 +118,7 @@ body{
 
 
 header{
-  background-color: rgb(247, 245, 243);
+  background-color: rgb(252, 252, 252);
   width: 100%;
   height: auto;
   padding: 5px;
@@ -136,11 +136,12 @@ header .logo img{
 
 
 .localisation{
-    background-color: rgb(201, 202, 202);
+    background-color: rgb(223, 226, 226);
     height: 30px;
     display: flex;
     justify-content: center;
     align-items: center;
+
 }
 
 .localisation i{
@@ -152,7 +153,7 @@ header .logo img{
 
 
 .reservation{
-    background-color: rgb(235, 236, 235);
+    background-color: rgb(240, 241, 240);
     text-align: center;
     padding: 30px;
     height: 225px;
@@ -162,12 +163,13 @@ header .logo img{
 
 .reservation p{
     padding-top: 15px;
+    color: rgb(77, 76, 76);
 }
 
 .reservation button{
     background-color: rgb(250, 105, 255);
     width: 59%;
-    height: 35px;
+    height: 45px;
     margin-top: 30px;
     border-radius: 20px;
 }
