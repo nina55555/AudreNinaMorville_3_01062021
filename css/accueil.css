@@ -317,6 +317,8 @@ header .logo img {
 
 .all-restaurants h1 {
   margin-left: 20px;
+  font-size: 25px;
+  margin-bottom: 10px;
 }
 
 .restaurant-card a {
@@ -383,9 +385,23 @@ header .logo img {
           align-items: center;
 }
 
+.restaurant-infos h3 {
+  color: black;
+}
+
+.restaurant-infos p {
+  color: black;
+}
+
 .restaurant-infos i {
-  margin: 15px 10px;
+  margin: 15px 20px;
   padding: 0px;
+  font-size: 20px;
+  color: black;
+}
+
+.restaurant-infos i:hover {
+  background-color: #FF79DA;
 }
 
 footer {

@@ -278,6 +278,8 @@ header .logo img{
 
 .all-restaurants h1{
     margin-left: 20px;
+    font-size: 25px;
+    margin-bottom: 10px;
 }
 
 
@@ -338,6 +340,19 @@ header .logo img{
 
 
 .restaurant-infos{
+    h3{
+    //background-color: rgb(245, 169, 245);
+    color: black;
+}
+    p{
+        color: black;
+    }
+    i{
+        margin: 15px 20px;
+        padding: 0px;
+        font-size: 20px;
+        color: black;
+    }
     //background-color: fuchsia;
     display: flex;
     justify-content: space-between;
@@ -346,18 +361,11 @@ header .logo img{
 }
 
 
-.restaurant-infos h3{
-    //background-color: rgb(245, 169, 245);
-    
-   
-
+.restaurant-infos i:hover{
+    background-color: #FF79DA ;
 }
 
 
-.restaurant-infos i{
-    margin: 15px 10px;
-    padding: 0px;
-}
 
 
 
