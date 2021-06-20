@@ -309,6 +309,10 @@ header .logo img {
   color: #9356DC;
 }
 
+.all-restaurants {
+  padding-top: 40px;
+}
+
 .all-restaurants h1 {
   margin-left: 20px;
 }
@@ -318,7 +322,7 @@ header .logo img {
   text-decoration: none;
   margin: 0 auto 15px;
   width: 90%;
-  height: 180px;
+  height: 210px;
   border-radius: 15px;
   position: relative;
   display: -webkit-box;
