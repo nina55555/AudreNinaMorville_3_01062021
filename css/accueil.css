@@ -32,7 +32,7 @@ body {
 .loader {
   background-color: #99E2D0;
   position: absolute;
-  width: 100vw;
+  width: 100%;
   height: 100%;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
@@ -127,7 +127,7 @@ body {
 .container {
   background-color: #f0f3f3;
   position: absolute;
-  width: 100vw;
+  width: 100%;
   height: auto;
   padding-top: 35px;
   -webkit-box-orient: vertical;
@@ -164,10 +164,12 @@ body {
 }
 
 header {
-  background-color: #fcfcfc;
+  background-color: #830f1e;
   width: 100%;
   height: auto;
-  padding: 5px;
+  margin: 0 auto;
+  padding-top: 5px;
+  padding-bottom: 5px;
   text-align: center;
   position: fixed;
   top: 0px;
@@ -203,8 +205,8 @@ header .logo img {
 .reservation {
   background-color: #f0f1f0;
   text-align: center;
-  padding: 30px;
   height: 225px;
+  width: 100%;
 }
 
 .reservation p {
@@ -227,12 +229,15 @@ header .logo img {
 
 .fonctionnement {
   background-color: #f8f6f6;
-  padding: 40px 10px;
+  padding: 40px 0px;
+  width: 100%;
 }
 
 .fonctionnement .selection {
-  margin: 15px 5px;
+  background-color: #215179;
+  margin: 15px 0px;
   height: 59px;
+  width: 100%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -242,9 +247,9 @@ header .logo img {
 }
 
 .fonctionnement .selection .number {
-  background-color: #792151;
-  width: 25px;
-  height: 25px;
+  background-color: #9356DC;
+  width: 20px;
+  height: 20px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -254,7 +259,7 @@ header .logo img {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  border-radius: 10px;
+  border-radius: 15px;
   z-index: 1;
 }
 
@@ -278,6 +283,12 @@ header .logo img {
   border-radius: 15px;
   -webkit-transform: translateX(-10px);
           transform: translateX(-10px);
+}
+
+.fonctionnement-button .checkbox {
+  width: 100%;
+  height: 150px;
+  background: orange;
 }
 
 .fonctionnement-icon {
@@ -363,7 +374,7 @@ footer {
   width: 100%;
   height: 150px;
   color: white;
-  padding: 30px 20px;
+  padding: 30px 0px;
   /*position: fixed;
   bottom: 0px;
   */
