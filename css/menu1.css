@@ -81,11 +81,13 @@ header .logo img {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
+  margin: 25px 15px;
 }
 
 .aime i {
-  font-size: 25px;
+  font-size: 30px;
   color: black;
+  margin-top: 7px;
 }
 
 footer {
