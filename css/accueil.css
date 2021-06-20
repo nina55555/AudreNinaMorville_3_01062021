@@ -211,11 +211,11 @@ header .logo img {
 }
 
 .reservation button {
-  background-color: #fa69ff;
   width: 59%;
   height: 45px;
   margin-top: 30px;
   border-radius: 20px;
+  background: linear-gradient(175deg, #FF79DA 10%, #9356DC 100%);
 }
 
 .reservation button a {
