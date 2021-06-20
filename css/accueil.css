@@ -305,6 +305,10 @@ header .logo img {
           transform: translateX(-40px);
 }
 
+.fonctionnement-icon .violet {
+  color: #9356DC;
+}
+
 .all-restaurants h1 {
   margin-left: 20px;
 }
