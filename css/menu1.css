@@ -1,3 +1,4 @@
+@charset "UTF-8";
 * {
   margin: 0px;
   padding: 0px;
@@ -74,20 +75,43 @@ header .logo img {
 }
 
 .nom-restaurant {
-  height: 100px;
+  height: 70px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  margin: 25px 15px;
+  margin: 25px 15px 0px;
 }
 
 .aime i {
   font-size: 30px;
   color: black;
   margin-top: 7px;
+}
+
+.entrée {
+  background-color: brown;
+  text-transform: uppercase;
+  font-size: 9px;
+  margin-left: 15px;
+}
+
+.entrée h1 {
+  position: relative;
+  color: #353535;
+  padding-bottom: 15px;
+}
+
+.entrée h1::after {
+  content: " ";
+  height: 5px;
+  width: 55px;
+  background-color: #99E2D0;
+  position: absolute;
+  top: 90%;
+  left: 0px;
 }
 
 footer {
