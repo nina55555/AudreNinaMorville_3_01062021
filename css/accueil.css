@@ -387,10 +387,12 @@ header .logo img {
 
 .restaurant-infos h3 {
   color: black;
+  padding-left: 10px;
 }
 
 .restaurant-infos p {
   color: black;
+  padding-left: 10px;
 }
 
 .restaurant-infos i {
