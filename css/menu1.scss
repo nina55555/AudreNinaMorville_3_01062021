@@ -76,6 +76,11 @@ header{
 
 
 .nom-restaurant{
+    .aime i{
+    font-size: 30px;
+    color: black;
+    margin-top: 7px;
+    }
     //background-color:purple ;
     height: 70px;
     display: flex;
@@ -85,13 +90,9 @@ header{
 
 
 
-.aime i{
-    font-size: 30px;
-    color: black;
-    margin-top: 7px;
+
+.aime i:hover{
 }
-
-
 
 
 .entrée{
@@ -132,13 +133,24 @@ header{
         flex-direction: column;
         //align-items: end;
     }
-
-    .prix{
-       margin-right: 25px;
-       font-size: 15px;
-       font-weight: bold;
+    .tarif{
+        i{
+            font-size: 25px;
+            display: none;
+        }
+        background-color: wheat;
+        height: 70px;
+        width:20% ;
+        border-radius: 0px 10px 10px 0px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
-
+    .prix{
+        background-color: tomato;
+        font-size: 15px;
+        font-weight: bold;
+    }
     background-color: fuchsia;
     display: flex;
     justify-content: space-between;
@@ -147,9 +159,18 @@ header{
     width: 100%;
     height: 70px;
     border-radius: 10px;
-
 }
 
+
+
+.tarif:hover{
+    .prix{
+        display: none;
+    }
+    i{
+        display: flex;
+    }
+}
 
 
 .choix .text h2{

@@ -85,7 +85,7 @@ header .logo img {
   margin: 25px 15px 0px;
 }
 
-.aime i {
+.nom-restaurant .aime i {
   font-size: 30px;
   color: black;
   margin-top: 7px;
@@ -145,10 +145,41 @@ header .logo img {
           flex-direction: column;
 }
 
+.choix .tarif {
+  background-color: wheat;
+  height: 70px;
+  width: 20%;
+  border-radius: 0px 10px 10px 0px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.choix .tarif i {
+  font-size: 25px;
+  display: none;
+}
+
 .choix .prix {
-  margin-right: 25px;
+  background-color: tomato;
   font-size: 15px;
   font-weight: bold;
+}
+
+.tarif:hover .prix {
+  display: none;
+}
+
+.tarif:hover i {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
 }
 
 .choix .text h2 {
