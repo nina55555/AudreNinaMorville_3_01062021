@@ -111,7 +111,7 @@ header{
 
 .entrée h1::after{
     content: " ";
-    height: 5px;
+    height: 3px;
     width: 55px;
     background-color:#99E2D0;
     position: absolute;
@@ -175,6 +175,28 @@ header{
 
 
 
+
+
+
+.plat h1{
+    position: relative;
+    color: rgb(53, 53, 53);
+    padding-bottom: 15px;
+}
+
+.plat h1::after{
+    content: " ";
+    height: 3px;
+    width: 55px;
+    background-color:#99E2D0;
+    position: absolute;
+    top: 90%;
+    left: 0px;
+}
+
+
+
+
 .dessert{
     background-color: rgb(42, 165, 104);
     text-transform: uppercase;
@@ -184,6 +206,34 @@ header{
 
 
 
+
+.dessert h1{
+    position: relative;
+    color: rgb(53, 53, 53);
+    padding-bottom: 15px;
+}
+
+
+.dessert h1::after{
+    content: " ";
+    height: 3px;
+    width: 55px;
+    background-color:#99E2D0;
+    position: absolute;
+    top: 90%;
+    left: 0px;
+}
+
+
+
+
+
+.commande{
+    background-color: indigo;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
 
 
 
