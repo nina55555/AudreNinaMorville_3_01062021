@@ -159,6 +159,20 @@ header .logo img {
   font-size: 10px;
 }
 
+.plat {
+  background-color: #412aa5;
+  text-transform: uppercase;
+  font-size: 9px;
+  margin-left: 15px;
+}
+
+.dessert {
+  background-color: #2aa568;
+  text-transform: uppercase;
+  font-size: 9px;
+  margin-left: 15px;
+}
+
 footer {
   background-color: #413b3e;
   width: 100%;
