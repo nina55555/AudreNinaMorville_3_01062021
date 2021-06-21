@@ -226,14 +226,31 @@ header{
 
 
 
-
-
 .commande{
-    background-color: indigo;
+    a {
+        background: linear-gradient(175deg,#FF79DA 10%, #9356DC 100% );
+        border-radius: 25px;
+        height: 40px;
+        width: 155px;
+        text-decoration: none;
+        color: white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+    }
+    p{
+        color: rgb(248, 248, 247);
+        transform: translateY(-10%);
+
+    }
+    //background-color: indigo;
     width: 100%;
     display: flex;
     justify-content: center;
+    margin: 25px auto 50px;
 }
+
 
 
 
