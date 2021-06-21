@@ -151,6 +151,15 @@ header{
         font-size: 15px;
         font-weight: bold;
     }
+    .checkbox{
+        background-color: rgb(153, 153, 153);
+        width: 100%;
+        height: 70px;
+        position: absolute;
+        top: 0px;
+        left: 0px;
+        opacity: 1;
+    }
     background-color: fuchsia;
     display: flex;
     justify-content: space-between;
@@ -159,18 +168,44 @@ header{
     width: 100%;
     height: 70px;
     border-radius: 10px;
+    position: relative;
 }
 
 
 
-.tarif:hover{
-    .prix{
-        display: none;
-    }
-    i{
-        display: flex;
-    }
+
+.checkbox::after{
+    content: " \f058";
+    font-family:"Font Awesome 5 free" ;
+    width: 0%;
+    height: 70px;
+    border-radius: 0px 10px 10px 0px;
+    //background-color: yellow;
+    //display: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    transition: 0.8s;
+    opacity: 0;
 }
+
+
+.checkbox:checked::after{
+    background-color: red;
+    width: 20%;
+    display: flex;
+    opacity: 1;
+}
+
+
+.checkbox:checked{
+    //height: 1px;
+
+}
+
 
 
 .choix .text h2{
