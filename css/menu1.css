@@ -201,9 +201,20 @@ header .logo img {
 
 
 */
+.box {
+  background-color: #413b3e;
+  padding: 5px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  position: relative;
+}
+
 .button {
   background-color: #0d5f80;
   padding: 10px;
+  width: 100%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -216,10 +227,28 @@ header .logo img {
   position: relative;
 }
 
-.button::after {
-  content: " \f058";
-  font-family: "Font Awesome 5 free";
-  width: 0%;
+/*
+.button::after{
+    content: " \f058";
+    font-family:"Font Awesome 5 free" ;
+    width: 0%;
+    height: 70px;
+    border-radius: 0px 10px 10px 0px;
+    background-color: rgb(255, 145, 0);
+    //display: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    transition: 0.8s;
+    opacity: 0;
+}
+
+*/
+.coche {
+  width: 20%;
   height: 70px;
   border-radius: 0px 10px 10px 0px;
   background-color: #ff9100;
@@ -237,45 +266,20 @@ header .logo img {
   right: 0px;
   -webkit-transition: 0.8s;
   transition: 0.8s;
-  opacity: 0;
+  opacity: 1;
 }
 
-.button:checked::after {
-  /*background-color: red;
-    width: 20%;
-    display: flex;
-    opacity: 1;
-    */
-  -webkit-animation: appears 0.3s;
-          animation: appears 0.3s;
-}
-
-@-webkit-keyframes appears {
-  from {
-    width: 0%;
-    opacity: 0;
-  }
-  to {
-    width: 20%;
-    opacity: 1;
-    background-color: red;
-  }
-}
-
-@keyframes appears {
-  from {
-    width: 0%;
-    opacity: 0;
-  }
-  to {
-    width: 20%;
-    opacity: 1;
-    background-color: red;
-  }
+.button:checked ~ .coche {
+  background-color: red;
+  width: 20%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  opacity: 1;
 }
 
 #button {
-  width: 100%;
+  display: none;
 }
 
 .choix {
