@@ -11,6 +11,7 @@ body{
     width: 100vw;
     height: 100vh;
     overflow: auto;
+    overflow-x: hidden;
     animation: scrolling 7s;
 }
 
@@ -22,6 +23,7 @@ body{
     }
     to{
         overflow: auto;
+        overflow-x: hidden;
     }
 }
 
