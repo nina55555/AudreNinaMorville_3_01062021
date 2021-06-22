@@ -11,6 +11,7 @@ html {
 body {
   width: 100vw;
   height: 100vh;
+  overflow-x: hidden;
 }
 
 .container {
@@ -23,6 +24,9 @@ body {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 header {
@@ -66,6 +70,7 @@ header .logo img {
 .carte {
   background-color: #b0bc8f;
   height: auto;
+  width: 96%;
   border-radius: 15px 15px 0px 0px;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -79,6 +84,7 @@ header .logo img {
 }
 
 .nom-restaurant {
+  background-color: purple;
   height: 70px;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -86,20 +92,22 @@ header .logo img {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  margin: 25px 15px 0px;
+  margin-top: 25px;
+  padding-left: 15px;
 }
 
 .nom-restaurant .aime i {
   font-size: 30px;
   color: black;
   margin-top: 7px;
+  margin-right: 25px;
 }
 
 .entrée {
   background-color: brown;
+  width: 100%;
   text-transform: uppercase;
   font-size: 9px;
-  margin-left: 15px;
 }
 
 .entrée h1 {
@@ -202,7 +210,7 @@ header .logo img {
 
 */
 .box {
-  background-color: #413b3e;
+  background-color: #da0971;
   margin-bottom: 5px;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -293,9 +301,13 @@ header .logo img {
   z-index: 1700;
 }
 
+#button {
+  display: none;
+}
+
 .choix {
   background-color: #028802;
-  height: 90px;
+  height: 100px;
   width: 100%;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -319,11 +331,6 @@ header .logo img {
 }
 
 .choix .tarif {
-  /*i{
-        background-color: hotpink;
-        transform: translateX(-10px);
-    }
-    */
   background-color: gold;
   width: 20%;
   display: -webkit-box;
@@ -350,7 +357,6 @@ header .logo img {
   background-color: #412aa5;
   text-transform: uppercase;
   font-size: 9px;
-  margin-left: 15px;
 }
 
 .plat h1 {
@@ -373,7 +379,6 @@ header .logo img {
   background-color: #2aa568;
   text-transform: uppercase;
   font-size: 9px;
-  margin-left: 15px;
 }
 
 .dessert h1 {
@@ -432,19 +437,21 @@ footer {
   width: 100%;
   height: 150px;
   color: white;
-  padding: 30px 20px;
+  padding: 30px 0px;
   /*position: fixed;
-  bottom: 0px;
+    bottom: 0px;
   */
 }
 
 footer p {
   margin-bottom: 7px;
+  margin-left: 10px;
 }
 
 footer img {
   width: 150px;
   color: white;
+  padding: 0px 20px;
 }
 
 .proposer {
@@ -457,6 +464,10 @@ footer img {
           flex-direction: row;
   margin-top: 15px;
   margin-bottom: 7px;
+}
+
+.proposer i {
+  margin-left: 20px;
 }
 
 .proposer p {
@@ -474,6 +485,10 @@ footer img {
   margin-bottom: 7px;
 }
 
+.devenir i {
+  margin-left: 20px;
+}
+
 .devenir p {
   margin-left: 10px;
   margin-bottom: 5px;
@@ -482,5 +497,6 @@ footer img {
 footer a {
   text-decoration: none;
   color: white;
+  margin-left: 10px;
 }
 /*# sourceMappingURL=menu1.css.map */
