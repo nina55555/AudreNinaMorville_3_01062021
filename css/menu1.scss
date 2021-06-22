@@ -17,7 +17,7 @@ body{
  
 .container{
     //background-color: rgb(3, 71, 71);
-    position: absolute;
+    //position: absolute;
     width: 100%;
     height: auto;
     display: flex;
@@ -33,13 +33,13 @@ header{
       margin: 0 auto;
     }
     background-color: rgb(252, 252, 252);
-
     width: 100%;
     height: auto;
     padding: 5px;
     text-align: center;
     position: fixed;
     top: 0px;
+    left: 0px;
     z-index: 2;
     display: flex;
     justify-content: center;
