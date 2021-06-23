@@ -332,6 +332,7 @@ header .logo img {
 
 .fonctionnement-icon {
   /*background-color: rgb(224, 35, 60);*/
+  color: #777677;
   font-size: 20px;
   -webkit-transform: translateX(-40px);
           transform: translateX(-40px);
