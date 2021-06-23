@@ -53,7 +53,9 @@ header .logo img {
 }
 
 .retour i {
-  margin-left: -58vw;
+  position: absolute;
+  top: 10px;
+  left: 10px;
 }
 
 .photo {
