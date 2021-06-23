@@ -3,6 +3,10 @@
   padding: 0px;
 }
 
+html {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
 body {
   max-width: 100vw;
   height: 100vh;
@@ -231,20 +235,21 @@ header .logo img {
 }
 
 .reservation h1 {
-  width: 60%;
+  width: 70%;
   margin: 0 auto;
-  font-size: 30px;
+  font-size: 25px;
 }
 
 .reservation p {
-  width: 59%;
+  width: 70%;
   padding-top: 15px;
   color: #838383;
   margin: 0 auto;
+  font-size: 15px;
 }
 
 .reservation button {
-  width: 39%;
+  width: 53%;
   height: 45px;
   margin: 30px auto 0px;
   border-radius: 20px;
@@ -349,21 +354,22 @@ header .logo img {
 .all-restaurants {
   padding-top: 40px;
   height: auto;
+  width: 100%;
   padding-bottom: 45px;
 }
 
 .all-restaurants h1 {
   margin-left: 20px;
   font-size: 25px;
-  margin-bottom: 10px;
+  margin-bottom: 18px;
 }
 
 .restaurant-card a {
   background-color: #faf8f5;
   text-decoration: none;
   margin: 0 auto 15px;
-  width: 90%;
-  height: 210px;
+  max-width: 90%;
+  height: 280px;
   border-radius: 15px;
   position: relative;
   display: -webkit-box;
@@ -395,6 +401,7 @@ header .logo img {
   height: 70%;
   width: 100%;
   border-radius: 15px 15px 0px 0px;
+  background-position: center;
 }
 
 .restaurant-card i {
@@ -449,7 +456,7 @@ footer {
   width: 100%;
   height: 150px;
   color: white;
-  padding: 30px 30px;
+  padding: 30px 0px;
   /*position: fixed;
     bottom: 0px;
     */
@@ -457,11 +464,13 @@ footer {
 
 footer p {
   margin-bottom: 7px;
+  margin-left: 10px;
 }
 
 footer img {
   width: 150px;
   color: white;
+  padding: 0px 20px;
 }
 
 .proposer {
@@ -474,6 +483,10 @@ footer img {
           flex-direction: row;
   margin-top: 15px;
   margin-bottom: 7px;
+}
+
+.proposer i {
+  margin-left: 20px;
 }
 
 .proposer p {
@@ -491,6 +504,10 @@ footer img {
   margin-bottom: 7px;
 }
 
+.devenir i {
+  margin-left: 20px;
+}
+
 .devenir p {
   margin-left: 10px;
   margin-bottom: 5px;
@@ -499,5 +516,6 @@ footer img {
 footer a {
   text-decoration: none;
   color: white;
+  margin-left: 10px;
 }
 /*# sourceMappingURL=accueil.css.map */
