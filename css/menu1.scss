@@ -4,10 +4,12 @@
     padding: 0px;
 }
 
+
+
 html{
     font-family: Arial, Helvetica, sans-serif;
-
 }
+
 
 
 body{
@@ -17,6 +19,7 @@ body{
 }
 
  
+
 .container{
     //background-color: rgb(3, 71, 71);
     //position: absolute;
@@ -29,8 +32,8 @@ body{
 
 
 
+
 header{
-    
     .logo img{
       width: 135px;
       margin: 0 auto;
@@ -46,13 +49,14 @@ header{
     z-index: 2;
     display: flex;
     justify-content: center;
-  }
+}
   
 
 
-  .retour i{
-      margin-left: -58vw;
-  }
+
+.retour i{
+    margin-left: -58vw;
+}
 
 
 
@@ -88,10 +92,10 @@ header{
 
 .nom-restaurant{
     .aime i{
-    font-size: 30px;
-    color: black;
-    margin-top: 7px;
-    margin-right: 25px;
+        font-size: 30px;
+        color: black;
+        margin-top: 7px;
+        margin-right: 25px;
     }
     background-color:purple ;
     height: 70px;
@@ -136,67 +140,28 @@ header{
 }
 
 
+.box{
+    background-color: rgb(65, 59, 62);
+    width: 100%;
+    height: 50px;
+    margin-bottom: 10px;
+}
+
+.box1{
+    margin-top: 10px;
+}
 
 
-
-
-
-
-
-
-
-/*
-
-.button{
-    .text{
-        background-color: green;
-        width: 80%;
-        height: 70px;
-        border-radius: 10px 0px 0px 10px;
-        display: flex;
-        flex-direction: column;
-        //align-items: end;
-    }
-    .tarif{
-        i{
-            font-size: 25px;
-            display: none;
-        }
-        background-color: wheat;
-        height: 70px;
-        width:20% ;
-        border-radius: 0px 10px 10px 0px;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
-    .prix{
-        background-color: tomato;
-        font-size: 15px;
-        font-weight: bold;
-    }
-    
-           .checkbox{
-        background-color: rgb(153, 153, 153);
-        width: 100%;
-        height: 70px;
-        position: absolute;
-        top: 0px;
-        left: 0px;
-        opacity: 1;
-    }
-    
-    background-color: fuchsia;
+.choix{
+    background-color: salmon;
+    width: 100%;
+    height: 100%;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin: 10px 10px 15px 0px;
-    width: 100%;
-    height: 70px;
     border-radius: 10px;
     position: relative;
 }
-
 
 
 
@@ -204,9 +169,10 @@ header{
     content: " \f058";
     font-family:"Font Awesome 5 free" ;
     width: 0%;
-    height: 70px;
+    height: 45px;
     border-radius: 0px 10px 10px 0px;
-    //background-color: yellow;
+    background-color: #99E2D0;
+    color: white;
     //display: none;
     display: flex;
     justify-content: center;
@@ -217,175 +183,54 @@ header{
     transition: 0.8s;
     opacity: 0;
 }
+
 
 
 .choix:hover::after{
-    background-color: red;
     width: 20%;
     display: flex;
     opacity: 1;
 }
 
 
-*/
 
-
-
-
-
-
-
-
-
-
-
-
-/*
-.box{
-    background-color: rgb(218, 9, 113);
-    //padding: 5px;
-    margin-bottom: 5px;
-    display: flex;
-    width: 100%;
-    position: relative;
-}
-
-
-.button{
-    background-color: rgb(13, 95, 128);
-    //padding: 10px;
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    position: relative;
-    cursor: pointer;
-}
-
-/*
-.button::after{
-    content: " \f058";
-    font-family:"Font Awesome 5 free" ;
-    width: 0%;
-    height: 70px;
-    border-radius: 0px 10px 10px 0px;
-    background-color: rgb(255, 145, 0);
-    //display: none;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    position: absolute;
-    top: 0px;
-    right: 0px;
-    transition: 0.8s;
-    opacity: 0;
-}
-
-*/
-
-
-/*
-
-.coche{
-    width: 0%;
-    height: 70px;
-    border-radius: 0px 10px 10px 0px;
-    background-color: rgb(255, 145, 0);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    position: absolute;
-    top: 0px;
-    right: 0px;
-    transition: 0.8s;
-    opacity: 0;
-    //animation: appears 0.3s;
-    //display: none;
-}
-*/
-
-/*
-@keyframes appears{
-    from{
-        width: 0%;
-        opacity: 0;
-        display: none;
-    }
-    to{
-        width: 20%;
-        opacity: 1;
-        display: flex;
-    }
-}
-*/
-
-/*
-.button:checked ~ .coche{
-    background-color: red;
-    width: 20%;
-    display: flex;
-    opacity: 1;
-    z-index: 1700;
-}
-
-
-
-#button{
-    //width: 100%;
-    //height: 100%;
-    display: none;
-}
-
-
-.choix{
-    background-color: rgb(2, 136, 2);
-    height: 100px;
-    width: 100%;
-    display: flex;
-    //padding: 10px;
-}
 
 
 .choix .text{
-    background-color: dimgray;
+    h2{
+        padding-left: 15px;
+        padding-top: 2px;
+        font-size: 20px;
+    }
+    p{
+        padding-left: 15px;
+        padding-top: 2px;
+        font-size: 10px;
+    }
+    background-color: yellow;
     width: 80%;
+    height: 100%;
     display: flex;
+    justify-content: start;
     flex-direction: column;
-    justify-content: center;
-    border-radius:  10px 0px 0px 10px;
+    align-items: flex-start;
+    border-radius: 10px 0px 0px 10px;
 }
 
-
 .choix .tarif{
-    background-color: gold;
+    p{
+        padding-top: 15px;
+    }
+    background-color: steelblue;
     width: 20%;
+    height: 50px;
+    border-radius: 0px 10px 10px 0px;
     display: flex;
     justify-content: center;
     align-items: center;
-    border-radius: 0px 10px 10px 0px;
+
 }
 
-*/
-
-
-
-
-
-
-
-
-
-
-
-.choix .text h2{
-    font-size: 20px;
-}
-
-
-
-.choix .text p{
-    font-size: 10px;
-}
 
 
 
@@ -422,13 +267,14 @@ header{
 
 
 
+
+
 .dessert{
     background-color: rgb(42, 165, 104);
     text-transform: uppercase;
     font-size: 9px;
     //margin-left: 15px;
 }
-
 
 
 
@@ -448,6 +294,8 @@ header{
     top: 90%;
     left: 0px;
 }
+
+
 
 
 
@@ -478,6 +326,8 @@ header{
 
 
 
+
+
 footer{
     p{
         margin-bottom: 7px;
@@ -502,8 +352,6 @@ footer img{
 
 
 
-
-
 .proposer{
     i{
         margin-left: 20px;
@@ -516,8 +364,9 @@ footer img{
     flex-direction: row;
     margin-top: 15px;
     margin-bottom: 7px;
-
 }
+
+
 
 .devenir{
     i{
@@ -531,8 +380,8 @@ footer img{
     display: flex;
     flex-direction: row;
     margin-bottom: 7px;
-
 }
+
 
 
 footer a{
