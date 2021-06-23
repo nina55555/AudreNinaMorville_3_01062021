@@ -119,28 +119,33 @@ body{
 
 
 
+
+
+
+
 header{
-  background-color: rgb(252, 252, 252);
-  //background-color: rgb(131, 15, 30);
-  width: 100%;
-  height: auto;
-  padding-top: 5px;
-  padding-bottom: 5px;
-  text-align: center;
-  position: fixed;
-  top: 0px;
-  left: 0px;
-  z-index: 2;
+    .logo img{
+      width: 135px;
+      margin: 0 auto;
+    }
+    background-color: rgb(252, 252, 252);
+    width: 100%;
+    height: auto;
+    padding: 5px;
+    text-align: center;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    z-index: 2;
+    display: flex;
+    justify-content: center;
 }
 
 
 
-header .logo img{
-    width: 140px;
-    transform: translateX(-20px);
 
-    
-}
+
+
 
 
 
