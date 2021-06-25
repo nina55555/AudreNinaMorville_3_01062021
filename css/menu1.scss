@@ -80,7 +80,7 @@ header{
 
 
 .carte{
-    background-color: #b0bc8f;
+    background-color: #f4f5f1;
     height: auto;
     width: 100%;
     //width: 97%;
@@ -99,7 +99,7 @@ header{
         margin-top: 7px;
         margin-right: 25px;
     }
-    background-color:purple ;
+    background-color: #f4f5f1 ;
     height: 70px;
     //width: 100%;
     display: flex;
@@ -116,7 +116,7 @@ header{
 
 
 .entrée{
-    background-color: brown;
+    background-color: #f4f5f1;
     width: 100%;
     text-transform: uppercase;
     font-size: 9px;
@@ -143,7 +143,7 @@ header{
 
 
 .box{
-    background-color: rgb(65, 59, 62);
+    //background-color: rgb(65, 59, 62);
     width: 100%;
     height: 50px;
     margin-bottom: 10px;
@@ -164,7 +164,7 @@ header{
 
 
 .choix{
-    background-color: salmon;
+    //background-color: salmon;
     width: 100%;
     height: 100%;
     display: flex;
@@ -172,6 +172,7 @@ header{
     align-items: center;
     border-radius: 10px;
     position: relative;
+    
 }
 
 
@@ -218,7 +219,7 @@ header{
         padding-top: 2px;
         font-size: 10px;
     }
-    background-color: yellow;
+    background-color: #f4f5f1;
     width: 80%;
     height: 100%;
     display: flex;
@@ -232,9 +233,9 @@ header{
     p{
         padding-top: 15px;
     }
-    background-color: steelblue;
+    background-color: #f4f5f1;
     width: 20%;
-    height: 50px;
+    height: 45px;
     border-radius: 0px 10px 10px 0px;
     display: flex;
     justify-content: center;
@@ -248,7 +249,7 @@ header{
 
 
 .plat{
-    background-color: rgb(65, 42, 165);
+    background-color: #f4f5f1;
     text-transform: uppercase;
     font-size: 9px;
     //margin-left: 15px;
@@ -281,7 +282,7 @@ header{
 
 
 .dessert{
-    background-color: rgb(42, 165, 104);
+    background-color: #f4f5f1;
     text-transform: uppercase;
     font-size: 9px;
     //margin-left: 15px;

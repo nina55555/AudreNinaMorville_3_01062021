@@ -73,7 +73,7 @@ header .logo img {
 }
 
 .carte {
-  background-color: #b0bc8f;
+  background-color: #f4f5f1;
   height: auto;
   width: 100%;
   border-radius: 15px 15px 0px 0px;
@@ -89,7 +89,7 @@ header .logo img {
 }
 
 .nom-restaurant {
-  background-color: purple;
+  background-color: #f4f5f1;
   height: 70px;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -109,7 +109,7 @@ header .logo img {
 }
 
 .entrée {
-  background-color: brown;
+  background-color: #f4f5f1;
   width: 100%;
   text-transform: uppercase;
   font-size: 9px;
@@ -132,7 +132,6 @@ header .logo img {
 }
 
 .box {
-  background-color: #413b3e;
   width: 100%;
   height: 50px;
   margin-bottom: 10px;
@@ -151,7 +150,6 @@ header .logo img {
 }
 
 .choix {
-  background-color: salmon;
   width: 100%;
   height: 100%;
   display: -webkit-box;
@@ -201,7 +199,7 @@ header .logo img {
 }
 
 .choix .text {
-  background-color: yellow;
+  background-color: #f4f5f1;
   width: 80%;
   height: 100%;
   display: -webkit-box;
@@ -233,9 +231,9 @@ header .logo img {
 }
 
 .choix .tarif {
-  background-color: steelblue;
+  background-color: #f4f5f1;
   width: 20%;
-  height: 50px;
+  height: 45px;
   border-radius: 0px 10px 10px 0px;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -253,7 +251,7 @@ header .logo img {
 }
 
 .plat {
-  background-color: #412aa5;
+  background-color: #f4f5f1;
   text-transform: uppercase;
   font-size: 9px;
 }
@@ -275,7 +273,7 @@ header .logo img {
 }
 
 .dessert {
-  background-color: #2aa568;
+  background-color: #f4f5f1;
   text-transform: uppercase;
   font-size: 9px;
 }
