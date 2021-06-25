@@ -73,7 +73,7 @@ header .logo img {
 }
 
 .carte {
-  background-color: #f4f5f1;
+  background-color: #e2e2e0;
   height: auto;
   width: 100%;
   border-radius: 15px 15px 0px 0px;
@@ -89,7 +89,7 @@ header .logo img {
 }
 
 .nom-restaurant {
-  background-color: #f4f5f1;
+  background-color: #e2e2e0;
   height: 70px;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -109,10 +109,18 @@ header .logo img {
 }
 
 .entrée {
-  background-color: #f4f5f1;
-  width: 100%;
+  background-color: #e2e2e0;
   text-transform: uppercase;
   font-size: 9px;
+  width: 95%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin: 0 auto;
 }
 
 .entrée h1 {
@@ -133,7 +141,7 @@ header .logo img {
 
 .box {
   width: 100%;
-  height: 50px;
+  height: 70px;
   margin-bottom: 10px;
 }
 
@@ -162,6 +170,8 @@ header .logo img {
       -ms-flex-align: center;
           align-items: center;
   border-radius: 10px;
+  -webkit-box-shadow: 5px 5px 5px #b8b6b7;
+          box-shadow: 5px 5px 5px #b8b6b7;
   position: relative;
 }
 
@@ -169,7 +179,7 @@ header .logo img {
   content: " \f058";
   font-family: "Font Awesome 5 free";
   width: 0%;
-  height: 45px;
+  height: 100%;
   border-radius: 0px 10px 10px 0px;
   background-color: #99E2D0;
   color: white;
@@ -220,7 +230,7 @@ header .logo img {
 
 .choix .text h2 {
   padding-left: 15px;
-  padding-top: 2px;
+  padding-top: 15px;
   font-size: 20px;
 }
 
@@ -233,7 +243,7 @@ header .logo img {
 .choix .tarif {
   background-color: #f4f5f1;
   width: 20%;
-  height: 45px;
+  height: 100%;
   border-radius: 0px 10px 10px 0px;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -251,15 +261,25 @@ header .logo img {
 }
 
 .plat {
-  background-color: #f4f5f1;
+  background-color: #e2e2e0;
   text-transform: uppercase;
   font-size: 9px;
+  width: 95%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin: 0 auto;
 }
 
 .plat h1 {
   position: relative;
   color: #353535;
   padding-bottom: 15px;
+  padding-top: 15px;
 }
 
 .plat h1::after {
@@ -273,15 +293,25 @@ header .logo img {
 }
 
 .dessert {
-  background-color: #f4f5f1;
+  background-color: #e2e2e0;
   text-transform: uppercase;
   font-size: 9px;
+  width: 95%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin: 0 auto;
 }
 
 .dessert h1 {
   position: relative;
   color: #353535;
   padding-bottom: 15px;
+  padding-top: 15px;
 }
 
 .dessert h1::after {
