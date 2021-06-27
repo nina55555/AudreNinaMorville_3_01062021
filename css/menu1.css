@@ -123,6 +123,46 @@ header .logo img {
   margin: 0 auto;
 }
 
+.entrée .box1 {
+  -webkit-animation: slide 3s ease 0.3s forwards;
+          animation: slide 3s ease 0.3s forwards;
+  margin-top: 10px;
+}
+
+.entrée .box2 {
+  -webkit-animation: slide 3s ease 0.6s forwards;
+          animation: slide 3s ease 0.6s forwards;
+  margin-top: 10px;
+}
+
+.entrée .box3 {
+  -webkit-animation: slide 3s ease 0.9s forwards;
+          animation: slide 3s ease 0.9s forwards;
+  margin-top: 10px;
+}
+
+@-webkit-keyframes slide {
+  from {
+    -webkit-transform: translateX(-150%);
+            transform: translateX(-150%);
+  }
+  to {
+    -webkit-transform: translateX(0%);
+            transform: translateX(0%);
+  }
+}
+
+@keyframes slide {
+  from {
+    -webkit-transform: translateX(-150%);
+            transform: translateX(-150%);
+  }
+  to {
+    -webkit-transform: translateX(0%);
+            transform: translateX(0%);
+  }
+}
+
 .entrée h1 {
   position: relative;
   color: #353535;
@@ -142,19 +182,6 @@ header .logo img {
 .box {
   width: 100%;
   height: 70px;
-  margin-bottom: 10px;
-}
-
-.box1 {
-  margin-top: 10px;
-}
-
-.box1b {
-  margin-top: 10px;
-}
-
-.box1c {
-  margin-top: 10px;
 }
 
 .choix {
@@ -275,6 +302,46 @@ header .logo img {
   margin: 0 auto;
 }
 
+.plat .box1b {
+  -webkit-animation: slideB 3s ease 1.2s forwards;
+          animation: slideB 3s ease 1.2s forwards;
+  margin-top: 10px;
+}
+
+.plat .box2b {
+  -webkit-animation: slideB 3s ease 1.5s forwards;
+          animation: slideB 3s ease 1.5s forwards;
+  margin-top: 10px;
+}
+
+.plat .box3b {
+  -webkit-animation: slideB 3s ease 1.8s forwards;
+          animation: slideB 3s ease 1.8s forwards;
+  margin-top: 10px;
+}
+
+@-webkit-keyframes slideB {
+  from {
+    -webkit-transform: translateX(-150%);
+            transform: translateX(-150%);
+  }
+  to {
+    -webkit-transform: translateX(0%);
+            transform: translateX(0%);
+  }
+}
+
+@keyframes slideB {
+  from {
+    -webkit-transform: translateX(-150%);
+            transform: translateX(-150%);
+  }
+  to {
+    -webkit-transform: translateX(0%);
+            transform: translateX(0%);
+  }
+}
+
 .plat h1 {
   position: relative;
   color: #353535;
@@ -305,6 +372,24 @@ header .logo img {
       -ms-flex-direction: column;
           flex-direction: column;
   margin: 0 auto;
+}
+
+.dessert .box1c {
+  -webkit-animation: slide 3s ease 2.1s forwards;
+          animation: slide 3s ease 2.1s forwards;
+  margin-top: 10px;
+}
+
+.dessert .box2c {
+  -webkit-animation: slide 3s ease 2.4s forwards;
+          animation: slide 3s ease 2.4s forwards;
+  margin-top: 10px;
+}
+
+.dessert .box3c {
+  -webkit-animation: slide 3s ease 2.7s forwards;
+          animation: slide 3s ease 2.7s forwards;
+  margin-top: 10px;
 }
 
 .dessert h1 {
