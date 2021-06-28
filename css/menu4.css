@@ -1,0 +1,519 @@
+@charset "UTF-8";
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+html {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  max-width: 100vw;
+  height: 100vh;
+  overflow-x: hidden;
+}
+
+.container {
+  width: 100%;
+  height: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+header {
+  background-color: #fcfcfc;
+  width: 100%;
+  height: auto;
+  padding: 5px;
+  text-align: center;
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  z-index: 2;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+header .logo img {
+  width: 135px;
+  margin: 0 auto;
+}
+
+.retour i {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+}
+
+.photo {
+  background-color: darksalmon;
+  width: 100%;
+  height: 300px;
+}
+
+.photo img {
+  width: 100%;
+  height: 100%;
+  background-position: center;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.carte {
+  background-color: #e2e2e0;
+  height: auto;
+  width: 100%;
+  border-radius: 15px 15px 0px 0px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-transform: translateY(-15px);
+          transform: translateY(-15px);
+}
+
+.nom-restaurant {
+  background-color: #e2e2e0;
+  height: 70px;
+  font-size: 15px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-top: 25px;
+  padding-left: 12px;
+}
+
+.nom-restaurant .aime i {
+  font-size: 30px;
+  color: black;
+  margin-top: 7px;
+  margin-right: 25px;
+}
+
+.entrée {
+  background-color: #e2e2e0;
+  text-transform: uppercase;
+  font-size: 9px;
+  width: 95%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin: 0 auto;
+}
+
+.entrée .box1 {
+  -webkit-animation: slide 3s ease 0.3s forwards;
+          animation: slide 3s ease 0.3s forwards;
+  margin-top: 10px;
+}
+
+.entrée .box2 {
+  -webkit-animation: slide 3s ease 0.6s forwards;
+          animation: slide 3s ease 0.6s forwards;
+  margin-top: 10px;
+}
+
+.entrée .box3 {
+  -webkit-animation: slide 3s ease 0.9s forwards;
+          animation: slide 3s ease 0.9s forwards;
+  margin-top: 10px;
+}
+
+@-webkit-keyframes slide {
+  from {
+    -webkit-transform: translateX(-150%);
+            transform: translateX(-150%);
+  }
+  to {
+    -webkit-transform: translateX(0%);
+            transform: translateX(0%);
+  }
+}
+
+@keyframes slide {
+  from {
+    -webkit-transform: translateX(-150%);
+            transform: translateX(-150%);
+  }
+  to {
+    -webkit-transform: translateX(0%);
+            transform: translateX(0%);
+  }
+}
+
+.entrée h1 {
+  position: relative;
+  color: #353535;
+  padding-bottom: 15px;
+}
+
+.entrée h1::after {
+  content: " ";
+  height: 3px;
+  width: 55px;
+  background-color: #99E2D0;
+  position: absolute;
+  top: 90%;
+  left: 0px;
+}
+
+.box {
+  width: 100%;
+  height: 70px;
+}
+
+.choix {
+  width: 100%;
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border-radius: 10px;
+  -webkit-box-shadow: 5px 5px 5px #b8b6b7;
+          box-shadow: 5px 5px 5px #b8b6b7;
+  position: relative;
+}
+
+.choix::after {
+  content: " \f058";
+  font-family: "Font Awesome 5 free";
+  width: 0%;
+  height: 100%;
+  border-radius: 0px 10px 10px 0px;
+  background-color: #99E2D0;
+  color: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  -webkit-transition: 0.8s;
+  transition: 0.8s;
+  opacity: 0;
+}
+
+.choix:hover::after {
+  width: 20%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  opacity: 1;
+}
+
+.choix .text {
+  background-color: #f4f5f1;
+  width: 80%;
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: start;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  border-radius: 10px 0px 0px 10px;
+}
+
+.choix .text h2 {
+  padding-left: 15px;
+  padding-top: 15px;
+  font-size: 20px;
+  width: 255px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.choix .text p {
+  padding-left: 15px;
+  padding-top: 2px;
+  font-size: 10px;
+}
+
+.choix .tarif {
+  background-color: #f4f5f1;
+  width: 20%;
+  height: 100%;
+  border-radius: 0px 10px 10px 0px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.choix .tarif p {
+  padding-top: 15px;
+}
+
+.plat {
+  background-color: #e2e2e0;
+  text-transform: uppercase;
+  font-size: 9px;
+  width: 95%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin: 0 auto;
+}
+
+.plat .box1b {
+  -webkit-animation: slideB 3s ease 1.2s forwards;
+          animation: slideB 3s ease 1.2s forwards;
+  margin-top: 10px;
+}
+
+.plat .box2b {
+  -webkit-animation: slideB 3s ease 1.5s forwards;
+          animation: slideB 3s ease 1.5s forwards;
+  margin-top: 10px;
+}
+
+.plat .box3b {
+  -webkit-animation: slideB 3s ease 1.8s forwards;
+          animation: slideB 3s ease 1.8s forwards;
+  margin-top: 10px;
+}
+
+@-webkit-keyframes slideB {
+  from {
+    -webkit-transform: translateX(-150%);
+            transform: translateX(-150%);
+  }
+  to {
+    -webkit-transform: translateX(0%);
+            transform: translateX(0%);
+  }
+}
+
+@keyframes slideB {
+  from {
+    -webkit-transform: translateX(-150%);
+            transform: translateX(-150%);
+  }
+  to {
+    -webkit-transform: translateX(0%);
+            transform: translateX(0%);
+  }
+}
+
+.plat h1 {
+  position: relative;
+  color: #353535;
+  padding-bottom: 15px;
+  padding-top: 15px;
+}
+
+.plat h1::after {
+  content: " ";
+  height: 3px;
+  width: 55px;
+  background-color: #99E2D0;
+  position: absolute;
+  top: 90%;
+  left: 0px;
+}
+
+.dessert {
+  background-color: #e2e2e0;
+  text-transform: uppercase;
+  font-size: 9px;
+  width: 95%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin: 0 auto;
+}
+
+.dessert .box1c {
+  -webkit-animation: slide 3s ease 2.1s forwards;
+          animation: slide 3s ease 2.1s forwards;
+  margin-top: 10px;
+}
+
+.dessert .box2c {
+  -webkit-animation: slide 3s ease 2.4s forwards;
+          animation: slide 3s ease 2.4s forwards;
+  margin-top: 10px;
+}
+
+.dessert .box3c {
+  -webkit-animation: slide 3s ease 2.7s forwards;
+          animation: slide 3s ease 2.7s forwards;
+  margin-top: 10px;
+}
+
+.dessert h1 {
+  position: relative;
+  color: #353535;
+  padding-bottom: 15px;
+  padding-top: 15px;
+}
+
+.dessert h1::after {
+  content: " ";
+  height: 3px;
+  width: 55px;
+  background-color: #99E2D0;
+  position: absolute;
+  top: 90%;
+  left: 0px;
+}
+
+.commande {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin: 25px auto 50px;
+}
+
+.commande a {
+  background: linear-gradient(175deg, #FF79DA 10%, #9356DC 100%);
+  border-radius: 25px;
+  height: 40px;
+  width: 155px;
+  text-decoration: none;
+  color: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.commande p {
+  color: #f8f8f7;
+  -webkit-transform: translateY(-10%);
+          transform: translateY(-10%);
+}
+
+footer {
+  background-color: #413b3e;
+  width: 100%;
+  height: 150px;
+  color: white;
+  padding: 30px 0px;
+  /*position: fixed;
+    bottom: 0px;
+  */
+}
+
+footer p {
+  margin-bottom: 7px;
+  margin-left: 10px;
+}
+
+footer img {
+  width: 150px;
+  color: white;
+  padding: 0px 20px;
+}
+
+.proposer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  margin-top: 15px;
+  margin-bottom: 7px;
+}
+
+.proposer i {
+  margin-left: 20px;
+}
+
+.proposer p {
+  margin-left: 15px;
+}
+
+.devenir {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  margin-bottom: 7px;
+}
+
+.devenir i {
+  margin-left: 20px;
+}
+
+.devenir p {
+  margin-left: 10px;
+  margin-bottom: 5px;
+}
+
+footer a {
+  text-decoration: none;
+  color: white;
+  margin-left: 10px;
+}
+/*# sourceMappingURL=menu4.css.map */
