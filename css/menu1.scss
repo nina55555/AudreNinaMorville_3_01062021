@@ -94,7 +94,9 @@ header{
 
 
 .nom-restaurant{
-    .aime i{
+    .aime /*i*/{
+        //background-color: fuchsia;
+        width: 10%;
         font-size: 30px;
         color: black;
         margin-top: 7px;
@@ -111,7 +113,7 @@ header{
     padding-left: 15px;
 }
 
-
+/*
 
 .one::after{
     content: " ";
@@ -130,12 +132,47 @@ header{
 }
 
 
-
-
 .one:hover::after{
     transform: scaleX(1);
-
 }
+
+*/
+
+.svg-icon{
+    font-size: 30px;
+        color: black;
+        margin-top: 7px;
+        margin-right: 25px;
+        opacity: 1;
+        position: relative;
+        width: 100%;
+        height: 100%;
+        fill: transparent;
+        stroke:black ;
+}
+
+.svg-icon::after{
+    content: " ";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background-color: rgb(201, 5, 5);
+    //z-index: -1;
+    transform: scaleX(0);
+    transition: transform 0.3s ease;
+    transform-origin: left;
+}
+
+
+.svg-icon:hover::after{
+    transform: scaleX(1);
+}
+
+
 
 
 
@@ -183,6 +220,7 @@ header{
     position: relative;
     color: rgb(53, 53, 53);
     padding-bottom: 15px;
+
 }
 
 
@@ -259,6 +297,11 @@ header{
         padding-left: 15px;
         padding-top: 15px;
         font-size: 20px;
+        width: 250px;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+
     }
     p{
         padding-left: 15px;
