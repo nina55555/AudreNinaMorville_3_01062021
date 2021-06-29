@@ -380,13 +380,6 @@ header{
         color: black;
         padding-left: 10px;
     }
-    i{
-        margin: 15px 20px;
-        padding: 0px;
-        font-size: 20px;
-        color: black;
-    }
-    //background-color: fuchsia;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -395,9 +388,49 @@ header{
 
 
 
-.restaurant-infos i:hover{
-    background-color: #FF79DA ;
+
+
+
+
+.icon{
+        //background-color: midnightblue;
+        width: 50px;
+        height: 50px;
+        margin-top: 25px;
 }
+
+
+.icon path{
+    fill: transparent;
+    stroke-width: 1.5;
+    stroke: rgb(63, 63, 63);
+}
+
+
+
+.icon:hover path{
+    animation: animate-heartt 0.5s linear forwards;
+   
+}
+
+
+
+@keyframes animate-heartt{
+    0%{
+        fill: transparent;
+        stroke-width: 2;
+    }
+    100%{
+       fill: red;
+       stroke-width: 1;
+    }
+}
+
+
+
+
+
+
 
 
 

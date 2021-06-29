@@ -91,7 +91,6 @@ header .logo img {
 .nom-restaurant {
   background-color: #e2e2e0;
   height: 70px;
-  font-size: 15px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -99,68 +98,44 @@ header .logo img {
       -ms-flex-pack: justify;
           justify-content: space-between;
   margin-top: 25px;
-  padding-left: 12px;
+  padding-left: 15px;
 }
 
-.nom-restaurant .aime i {
-  font-size: 30px;
-  color: black;
-  margin-top: 7px;
-  margin-right: 25px;
+.aime .icon {
+  width: 50px;
+  height: 50px;
 }
 
-.entrée {
-  background-color: #e2e2e0;
-  text-transform: uppercase;
-  font-size: 9px;
-  width: 95%;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  margin: 0 auto;
+.aime .icon path {
+  fill: transparent;
+  stroke-width: 2;
+  stroke: black;
 }
 
-.entrée .box1 {
-  -webkit-animation: slide 3s ease 0.3s forwards;
-          animation: slide 3s ease 0.3s forwards;
-  margin-top: 10px;
+.aime .icon:hover path {
+  -webkit-animation: animate-heart 0.5s linear forwards;
+          animation: animate-heart 0.5s linear forwards;
 }
 
-.entrée .box2 {
-  -webkit-animation: slide 3s ease 0.6s forwards;
-          animation: slide 3s ease 0.6s forwards;
-  margin-top: 10px;
-}
-
-.entrée .box3 {
-  -webkit-animation: slide 3s ease 0.9s forwards;
-          animation: slide 3s ease 0.9s forwards;
-  margin-top: 10px;
-}
-
-@-webkit-keyframes slide {
-  from {
-    -webkit-transform: translateX(-150%);
-            transform: translateX(-150%);
+@-webkit-keyframes animate-heart {
+  0% {
+    fill: transparent;
+    stroke-width: 2;
   }
-  to {
-    -webkit-transform: translateX(0%);
-            transform: translateX(0%);
+  100% {
+    fill: red;
+    stroke-width: 1;
   }
 }
 
-@keyframes slide {
-  from {
-    -webkit-transform: translateX(-150%);
-            transform: translateX(-150%);
+@keyframes animate-heart {
+  0% {
+    fill: transparent;
+    stroke-width: 2;
   }
-  to {
-    -webkit-transform: translateX(0%);
-            transform: translateX(0%);
+  100% {
+    fill: red;
+    stroke-width: 1;
   }
 }
 

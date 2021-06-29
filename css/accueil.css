@@ -440,15 +440,43 @@ header .logo img {
   padding-left: 10px;
 }
 
-.restaurant-infos i {
-  margin: 15px 20px;
-  padding: 0px;
-  font-size: 20px;
-  color: black;
+.icon {
+  width: 50px;
+  height: 50px;
+  margin-top: 25px;
 }
 
-.restaurant-infos i:hover {
-  background-color: #FF79DA;
+.icon path {
+  fill: transparent;
+  stroke-width: 1.5;
+  stroke: #3f3f3f;
+}
+
+.icon:hover path {
+  -webkit-animation: animate-heartt 0.5s linear forwards;
+          animation: animate-heartt 0.5s linear forwards;
+}
+
+@-webkit-keyframes animate-heartt {
+  0% {
+    fill: transparent;
+    stroke-width: 2;
+  }
+  100% {
+    fill: red;
+    stroke-width: 1;
+  }
+}
+
+@keyframes animate-heartt {
+  0% {
+    fill: transparent;
+    stroke-width: 2;
+  }
+  100% {
+    fill: red;
+    stroke-width: 1;
+  }
 }
 
 footer {

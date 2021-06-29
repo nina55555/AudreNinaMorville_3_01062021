@@ -94,13 +94,8 @@ header{
 
 
 .nom-restaurant{
-    .aime i{
-        font-size: 30px;
-        color: black;
-        margin-top: 7px;
-        margin-right: 25px;
-    }
     background-color: #e2e2e0;
+    //background-color: green;
     height: 70px;
     //width: 100%;
     display: flex;
@@ -110,49 +105,39 @@ header{
 }
 
 
+.aime .icon{
+        //background-color: midnightblue;
+        width: 50px;
+        height: 50px;
+}
 
 
-.aime i:hover{
+.aime .icon path{
+    fill: transparent;
+    stroke-width: 2;
+    stroke: black;
 }
 
 
 
-.entrée{
-    .box1{
-        animation: slide 3s ease 0.3s forwards ;
-        margin-top: 10px;
-    }
-    .box2{
-        animation: slide 3s ease 0.6s forwards ;
-        margin-top: 10px;
-    }
-    .box3{
-        animation: slide 3s ease 0.9s forwards ;
-        margin-top: 10px;
-    }
-    background-color: #e2e2e0;
-    text-transform: uppercase;
-    font-size: 9px;
-    width: 95%;
-    display: flex;
-    flex-direction: column;
-    margin: 0 auto;
-    //margin-left: 15px;
-    
+.aime .icon:hover path{
+    animation: animate-heart 0.5s linear forwards;
+   
 }
 
 
 
-
-
-@keyframes slide {
-    from{
-        transform: translateX(-150%);
+@keyframes animate-heart{
+    0%{
+        fill: transparent;
+        stroke-width: 2;
     }
-    to{
-        transform: translateX(0%);
+    100%{
+       fill: red;
+       stroke-width: 1;
     }
 }
+
 
 
 
