@@ -77,8 +77,6 @@ header{
 
 
 
-
-
 .carte{
     background-color: #e2e2e0;
     height: auto;
@@ -93,18 +91,14 @@ header{
 
 
 
+
+
+
+
+
 .nom-restaurant{
-    .aime /*i*/{
-        //background-color: fuchsia;
-        width: 10%;
-        font-size: 30px;
-        color: black;
-        margin-top: 7px;
-        margin-right: 25px;
-        opacity: 1;
-        position: relative;
-    }
     background-color: #e2e2e0;
+    //background-color: green;
     height: 70px;
     //width: 100%;
     display: flex;
@@ -113,64 +107,42 @@ header{
     padding-left: 15px;
 }
 
-/*
 
-.one::after{
-    content: " ";
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    top: 0;
-    left: 0;
-    bottom: 0;
-    right: 0;
-    background-color: rgb(201, 5, 5);
-    //z-index: -1;
-    transform: scaleX(0);
-    transition: transform 0.3s ease;
-    transform-origin: left;
+.aime .icon{
+        //background-color: midnightblue;
+        width: 50px;
+        height: 50px;
 }
 
 
-.one:hover::after{
-    transform: scaleX(1);
+.aime .icon path{
+    fill: transparent;
+    stroke-width: 2;
+    stroke: black;
 }
 
-*/
 
-.svg-icon{
-    font-size: 30px;
-        color: black;
-        margin-top: 7px;
-        margin-right: 25px;
-        opacity: 1;
-        position: relative;
-        width: 100%;
-        height: 100%;
+
+.aime .icon path:hover path{
+    animation: animate-heart 3s linear forwards;
+}
+
+
+
+@keyframes animate-heart{
+    0%{
         fill: transparent;
-        stroke:black ;
-}
-
-.svg-icon::after{
-    content: " ";
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    top: 0;
-    left: 0;
-    bottom: 0;
-    right: 0;
-    background-color: rgb(201, 5, 5);
-    //z-index: -1;
-    transform: scaleX(0);
-    transition: transform 0.3s ease;
-    transform-origin: left;
+    }
+    100%{
+       fill: red;
+    }
 }
 
 
-.svg-icon:hover::after{
-    transform: scaleX(1);
-}
+
+
+
+
 
 
 
