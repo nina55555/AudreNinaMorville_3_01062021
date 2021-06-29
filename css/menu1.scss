@@ -123,8 +123,9 @@ header{
 
 
 
-.aime .icon path:hover path{
-    animation: animate-heart 3s linear forwards;
+.aime .icon:hover path{
+    animation: animate-heart 0.5s linear forwards;
+   
 }
 
 
@@ -132,9 +133,11 @@ header{
 @keyframes animate-heart{
     0%{
         fill: transparent;
+        stroke-width: 2;
     }
     100%{
        fill: red;
+       stroke-width: 1;
     }
 }
 

@@ -112,26 +112,30 @@ header .logo img {
   stroke: black;
 }
 
-.aime .icon path:hover path {
-  -webkit-animation: animate-heart 3s linear forwards;
-          animation: animate-heart 3s linear forwards;
+.aime .icon:hover path {
+  -webkit-animation: animate-heart 0.5s linear forwards;
+          animation: animate-heart 0.5s linear forwards;
 }
 
 @-webkit-keyframes animate-heart {
   0% {
     fill: transparent;
+    stroke-width: 2;
   }
   100% {
     fill: red;
+    stroke-width: 1;
   }
 }
 
 @keyframes animate-heart {
   0% {
     fill: transparent;
+    stroke-width: 2;
   }
   100% {
     fill: red;
+    stroke-width: 1;
   }
 }
 
