@@ -139,6 +139,67 @@ header .logo img {
   }
 }
 
+.entrée {
+  background-color: #e2e2e0;
+  text-transform: uppercase;
+  font-size: 9px;
+  width: 95%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin: 0 auto;
+}
+
+.entrée .box1 {
+  -webkit-animation: slide 3s ease 0.3s forwards;
+          animation: slide 3s ease 0.3s forwards;
+  margin-top: 10px;
+}
+
+.entrée .box2 {
+  -webkit-animation: slide 3s ease 0.6s forwards;
+          animation: slide 3s ease 0.6s forwards;
+  margin-top: 10px;
+}
+
+.entrée .box3 {
+  -webkit-animation: slide 3s ease 0.9s forwards;
+          animation: slide 3s ease 0.9s forwards;
+  margin-top: 10px;
+}
+
+.entrée .box4 {
+  -webkit-animation: slide 3s ease 1.2s forwards;
+          animation: slide 3s ease 1.2s forwards;
+  margin-top: 10px;
+}
+
+@-webkit-keyframes slide {
+  from {
+    -webkit-transform: translateX(-150%);
+            transform: translateX(-150%);
+  }
+  to {
+    -webkit-transform: translateX(0%);
+            transform: translateX(0%);
+  }
+}
+
+@keyframes slide {
+  from {
+    -webkit-transform: translateX(-150%);
+            transform: translateX(-150%);
+  }
+  to {
+    -webkit-transform: translateX(0%);
+            transform: translateX(0%);
+  }
+}
+
 .entrée h1 {
   position: relative;
   color: #353535;
