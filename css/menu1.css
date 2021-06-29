@@ -101,11 +101,42 @@ header .logo img {
   padding-left: 15px;
 }
 
-.nom-restaurant .aime i {
-  font-size: 30px;
-  color: black;
-  margin-top: 7px;
-  margin-right: 25px;
+.aime .icon {
+  width: 50px;
+  height: 50px;
+}
+
+.aime .icon path {
+  fill: transparent;
+  stroke-width: 2;
+  stroke: black;
+}
+
+.aime .icon:hover path {
+  -webkit-animation: animate-heart 0.5s linear forwards;
+          animation: animate-heart 0.5s linear forwards;
+}
+
+@-webkit-keyframes animate-heart {
+  0% {
+    fill: transparent;
+    stroke-width: 2;
+  }
+  100% {
+    fill: red;
+    stroke-width: 1;
+  }
+}
+
+@keyframes animate-heart {
+  0% {
+    fill: transparent;
+    stroke-width: 2;
+  }
+  100% {
+    fill: red;
+    stroke-width: 1;
+  }
 }
 
 .entrée {
@@ -259,7 +290,7 @@ header .logo img {
   padding-left: 15px;
   padding-top: 15px;
   font-size: 20px;
-  width: 255px;
+  width: 250px;
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
