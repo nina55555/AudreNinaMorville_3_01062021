@@ -525,8 +525,27 @@ footer a{
             text-overflow: ellipsis;
         }
     }
-
-    
 }
+
+
+
+
+/*--------------------*/ 
+
+
+@media screen and(min-width:768px)  {
+    .choix .text{
+        h2{
+            width: 500px;
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
+        }
+    }
+}
+
+
+
+
 
 
