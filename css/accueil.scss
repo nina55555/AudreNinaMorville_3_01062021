@@ -178,13 +178,16 @@ header{
         margin: 0 auto;
         font-size: 15px;
     }
-    button{
+    .button{
         width: 53%;
         height: 45px;
         margin: 30px auto 0px;
         border-radius: 20px;
         box-shadow: 2px 2px 5px rgb(87, 87, 87);
         background: linear-gradient(175deg,#FF79DA 10%, #9356DC 100% );
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
      a{
         text-decoration: none;

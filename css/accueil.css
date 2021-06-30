@@ -248,7 +248,7 @@ header .logo img {
   font-size: 15px;
 }
 
-.reservation button {
+.reservation .button {
   width: 53%;
   height: 45px;
   margin: 30px auto 0px;
@@ -256,6 +256,15 @@ header .logo img {
   -webkit-box-shadow: 2px 2px 5px #575757;
           box-shadow: 2px 2px 5px #575757;
   background: linear-gradient(175deg, #FF79DA 10%, #9356DC 100%);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 .reservation a {
