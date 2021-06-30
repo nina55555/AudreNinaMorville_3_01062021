@@ -558,4 +558,11 @@ footer a {
     left: 80%;
   }
 }
+
+/*--------------------*/
+@media screen and (min-width: 768px) {
+  .nouveau {
+    left: 87%;
+  }
+}
 /*# sourceMappingURL=accueil.css.map */
