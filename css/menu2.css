@@ -296,7 +296,7 @@ header .logo img {
   padding-left: 15px;
   padding-top: 15px;
   font-size: 20px;
-  width: 255px;
+  width: 270px;
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
@@ -536,5 +536,17 @@ footer p {
 footer a {
   text-decoration: none;
   color: white;
+}
+
+/*-------------------------------*/
+/*-------------------------------*/
+/*responsive part*/
+@media screen and (min-width: 555px) and (max-width: 768px) {
+  .choix .text h2 {
+    width: 400px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
 }
 /*# sourceMappingURL=menu2.css.map */

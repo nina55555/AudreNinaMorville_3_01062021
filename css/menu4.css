@@ -532,4 +532,16 @@ footer a {
   text-decoration: none;
   color: white;
 }
+
+/*-------------------------------*/
+/*-------------------------------*/
+/*responsive part*/
+@media screen and (min-width: 575px) and (max-width: 768px) {
+  .choix .text h2 {
+    width: 425px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+}
 /*# sourceMappingURL=menu4.css.map */

@@ -494,3 +494,30 @@ footer a{
 }
 
 
+
+
+
+
+
+/*-------------------------------*/ 
+/*-------------------------------*/ 
+
+
+
+/*responsive part*/ 
+
+
+
+
+@media screen and(min-width:555px) and (max-width:768px) {
+    .choix .text{
+        h2{
+            width: 400px;
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
+        }
+    }
+
+    
+}
