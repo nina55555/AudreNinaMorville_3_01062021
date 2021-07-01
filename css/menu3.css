@@ -259,7 +259,7 @@ header .logo img {
 }
 
 .choix:hover::after {
-  width: 20%;
+  width: 15%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -320,6 +320,13 @@ header .logo img {
 
 .choix .tarif p {
   padding-top: 15px;
+}
+
+.choix:hover .tarif p {
+  -webkit-transform: translateX(-50px);
+          transform: translateX(-50px);
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
 }
 
 .plat {
@@ -542,6 +549,9 @@ footer a {
     overflow: hidden;
     text-overflow: ellipsis;
   }
+  .choix:hover::after {
+    width: 15%;
+  }
 }
 
 /*--------------------*/
@@ -551,6 +561,9 @@ footer a {
     white-space: nowrap;
     overflow: hidden;
     text-overflow: ellipsis;
+  }
+  .choix:hover::after {
+    width: 10%;
   }
 }
 /*# sourceMappingURL=menu3.css.map */
