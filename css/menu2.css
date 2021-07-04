@@ -155,35 +155,37 @@ header .logo img {
 }
 
 .entrée .box1 {
-  -webkit-animation: slide 3s ease 0.3s forwards;
-          animation: slide 3s ease 0.3s forwards;
+  -webkit-animation: slide 3s ease;
+          animation: slide 3s ease;
   margin-top: 10px;
 }
 
 .entrée .box2 {
-  -webkit-animation: slide 3s ease 0.6s forwards;
-          animation: slide 3s ease 0.6s forwards;
+  -webkit-animation: slide 3s ease;
+          animation: slide 3s ease;
   margin-top: 10px;
 }
 
 .entrée .box3 {
-  -webkit-animation: slide 3s ease 0.9s forwards;
-          animation: slide 3s ease 0.9s forwards;
+  -webkit-animation: slide 3s ease;
+          animation: slide 3s ease;
   margin-top: 10px;
 }
 
 .entrée .box4 {
-  -webkit-animation: slide 3s ease 1.2s forwards;
-          animation: slide 3s ease 1.2s forwards;
+  -webkit-animation: slide 3s ease;
+          animation: slide 3s ease;
   margin-top: 10px;
 }
 
 @-webkit-keyframes slide {
   from {
+    opacity: 0;
     -webkit-transform: translateX(-150%);
             transform: translateX(-150%);
   }
   to {
+    opacity: 1;
     -webkit-transform: translateX(0%);
             transform: translateX(0%);
   }
@@ -191,10 +193,12 @@ header .logo img {
 
 @keyframes slide {
   from {
+    opacity: 0;
     -webkit-transform: translateX(-150%);
             transform: translateX(-150%);
   }
   to {
+    opacity: 1;
     -webkit-transform: translateX(0%);
             transform: translateX(0%);
   }
@@ -351,29 +355,31 @@ header .logo img {
 }
 
 .plat .box1b {
-  -webkit-animation: slideB 3s ease 1.2s forwards;
-          animation: slideB 3s ease 1.2s forwards;
+  -webkit-animation: slideB 6s ease;
+          animation: slideB 6s ease;
   margin-top: 10px;
 }
 
 .plat .box2b {
-  -webkit-animation: slideB 3s ease 1.5s forwards;
-          animation: slideB 3s ease 1.5s forwards;
+  -webkit-animation: slideB 6s ease;
+          animation: slideB 6s ease;
   margin-top: 10px;
 }
 
 .plat .box3b {
-  -webkit-animation: slideB 3s ease 1.8s forwards;
-          animation: slideB 3s ease 1.8s forwards;
+  -webkit-animation: slideB 6s ease;
+          animation: slideB 6s ease;
   margin-top: 10px;
 }
 
 @-webkit-keyframes slideB {
   from {
+    opacity: 0;
     -webkit-transform: translateX(-150%);
             transform: translateX(-150%);
   }
   to {
+    opacity: 1;
     -webkit-transform: translateX(0%);
             transform: translateX(0%);
   }
@@ -381,10 +387,12 @@ header .logo img {
 
 @keyframes slideB {
   from {
+    opacity: 0;
     -webkit-transform: translateX(-150%);
             transform: translateX(-150%);
   }
   to {
+    opacity: 1;
     -webkit-transform: translateX(0%);
             transform: translateX(0%);
   }
@@ -423,21 +431,47 @@ header .logo img {
 }
 
 .dessert .box1c {
-  -webkit-animation: slide 3s ease 2.1s forwards;
-          animation: slide 3s ease 2.1s forwards;
+  -webkit-animation: slide 9s ease;
+          animation: slide 9s ease;
   margin-top: 10px;
 }
 
 .dessert .box2c {
-  -webkit-animation: slide 3s ease 2.4s forwards;
-          animation: slide 3s ease 2.4s forwards;
+  -webkit-animation: slide 9s ease;
+          animation: slide 9s ease;
   margin-top: 10px;
 }
 
 .dessert .box3c {
-  -webkit-animation: slide 3s ease 2.7s forwards;
-          animation: slide 3s ease 2.7s forwards;
+  -webkit-animation: slide 9s ease;
+          animation: slide 9s ease;
   margin-top: 10px;
+}
+
+@-webkit-keyframes slideC {
+  from {
+    opacity: 0;
+    -webkit-transform: translateX(-150%);
+            transform: translateX(-150%);
+  }
+  to {
+    opacity: 1;
+    -webkit-transform: translateX(0%);
+            transform: translateX(0%);
+  }
+}
+
+@keyframes slideC {
+  from {
+    opacity: 0;
+    -webkit-transform: translateX(-150%);
+            transform: translateX(-150%);
+  }
+  to {
+    opacity: 1;
+    -webkit-transform: translateX(0%);
+            transform: translateX(0%);
+  }
 }
 
 .dessert h1 {
