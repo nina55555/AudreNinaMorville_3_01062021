@@ -144,15 +144,15 @@ header{
 
 .entrée{
     .box1{
-        animation: slide 3s ease 0.3s forwards ;
+        animation: slide 3s ease  ;
         margin-top: 10px;
     }
     .box2{
-        animation: slide 3s ease 0.6s forwards ;
+        animation: slide 3s ease  ;
         margin-top: 10px;
     }
     .box3{
-        animation: slide 3s ease 0.9s forwards ;
+        animation: slide 3s ease  ;
         margin-top: 10px;
     }
     background-color: #e2e2e0;
@@ -172,9 +172,11 @@ header{
 
 @keyframes slide {
     from{
+        opacity: 0;
         transform: translateX(-150%);
     }
     to{
+        opacity: 1;
         transform: translateX(0%);
     }
 }
@@ -315,15 +317,15 @@ header{
 
 .plat{
     .box1b{
-        animation: slideB 3s ease 1.2s forwards ;
+        animation: slideB 6s ease  ;
         margin-top: 10px;
     }
     .box2b{
-        animation: slideB 3s ease 1.5s forwards ;
+        animation: slideB 6s ease  ;
         margin-top: 10px;
     }
     .box3b{
-        animation: slideB 3s ease 1.8s forwards ;
+        animation: slideB 6s ease  ;
         margin-top: 10px;
     }
     background-color: #e2e2e0;
@@ -338,9 +340,11 @@ header{
 
 @keyframes slideB {
     from{
+        opacity: 0;
         transform: translateX(-150%);
     }
     to{
+        opacity: 1;
         transform: translateX(0%);
     }
 }
@@ -372,15 +376,15 @@ header{
 
 .dessert{
     .box1c{
-        animation: slide 3s ease 2.1s forwards ;
+        animation: slideC 9s ease  ;
         margin-top: 10px;
     }
     .box2c{
-        animation: slide 3s ease 2.4s forwards ;
+        animation: slideC 9s ease  ;
         margin-top: 10px;
     }
     .box3c{
-        animation: slide 3s ease 2.7s forwards ;
+        animation: slideC 9s ease  ;
         margin-top: 10px;
     }
     background-color: #e2e2e0;
@@ -392,6 +396,26 @@ header{
     margin: 0 auto;
     //margin-left: 15px;
 }
+
+
+
+
+
+@keyframes slideC {
+    from{
+        opacity: 0;
+        transform: translateX(-150%);
+    }
+    to{
+        opacity: 1;
+        transform: translateX(0%);
+    }
+}
+
+
+
+
+
 
 
 
