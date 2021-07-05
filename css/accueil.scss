@@ -541,22 +541,175 @@ footer a{
 
 
 
-@media screen and(min-width:555px) and (max-width:768px) {
-    .nouveau {
-        left: 80%;
-    }
-}
+@media screen and(min-width:608px) and (max-width:768px) {
 
+
+    .localisation{
+        height: 55px;
+    }
+    
+
+
+
+    .responsive{
+        display: flex;
+        width: 100%;
+        justify-content: space-between;
+    }
+
+    .reservation{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-top: 70px;
+        width: 50%;
+    }
+
+
+    .reservation .button{
+        width: 80%;
+    }
+
+
+
+    .fonctionnement{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 50%;
+        padding-top: 75px;
+    }
+
+
+
+    .fonctionnement h1{
+        margin-left: 0px;
+    }
+
+
+
+    .fonctionnement-button{
+        width: 90%;
+    }
+
+
+    .fonctionnement-icon{
+        transform: translateX(-10px);
+    }
+
+
+}
 
 
 
 /*--------------------*/ 
 
 
+
 @media screen and(min-width:768px)  {
-    .nouveau {
-        left: 87%;
+
+
+    .localisation{
+        height: 55px;
     }
+
+    .restaurant-card a{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+
+
+    .nouveau {
+        left:25%;
+        
+        width: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+
+    .responsive{
+        display: flex;
+        width: 100%;
+        justify-content: space-between;
+    }
+
+
+
+    .reservation{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        
+        width: 50%;
+        padding-top: 70px;
+    }
+
+
+
+    
+    .reservation .button{
+        width: 80%;
+    }
+
+
+    
+    .fonctionnement{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding-top: 70px;
+        width: 50%;
+    }
+
+
+
+    .fonctionnement h1{
+        margin-left: 0px;
+    }
+
+
+    
+    .fonctionnement-button{
+        width: 90%;
+    }
+    
+
+    
+
+    .all-restaurants{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .all-restaurants h1{
+        margin: 0 auto;
+        padding-bottom: 20px;
+    }
+
+
+
+
+
+    .all-restaurantsB{
+        display: flex;
+        width: 100%;
+        flex-direction: row;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+
+
+
+    .restaurant-card{
+        width: 20%;
+    }
+
 }
 
 
