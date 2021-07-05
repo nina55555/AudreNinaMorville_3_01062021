@@ -574,7 +574,7 @@ footer a {
 /*-----------------------------*/
 /*-----------------------------*/
 /*responsive part*/
-@media screen and (min-width: 608px) and (max-width: 768px) {
+@media screen and (min-width: 640px) and (max-width: 768px) {
   .localisation {
     height: 55px;
   }
