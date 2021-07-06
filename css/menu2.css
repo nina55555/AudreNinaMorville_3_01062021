@@ -155,26 +155,26 @@ header .logo img {
 }
 
 .entrée .box1 {
-  -webkit-animation: slide 3s ease;
-          animation: slide 3s ease;
+  -webkit-animation: slide 2s ease;
+          animation: slide 2s ease;
   margin-top: 10px;
 }
 
 .entrée .box2 {
-  -webkit-animation: slide 3s ease;
-          animation: slide 3s ease;
+  -webkit-animation: slide 2s ease;
+          animation: slide 2s ease;
   margin-top: 10px;
 }
 
 .entrée .box3 {
-  -webkit-animation: slide 3s ease;
-          animation: slide 3s ease;
+  -webkit-animation: slide 2s ease;
+          animation: slide 2s ease;
   margin-top: 10px;
 }
 
 .entrée .box4 {
-  -webkit-animation: slide 3s ease;
-          animation: slide 3s ease;
+  -webkit-animation: slide 2s ease;
+          animation: slide 2s ease;
   margin-top: 10px;
 }
 
@@ -355,20 +355,20 @@ header .logo img {
 }
 
 .plat .box1b {
-  -webkit-animation: slideB 6s ease;
-          animation: slideB 6s ease;
+  -webkit-animation: slideB 3s ease;
+          animation: slideB 3s ease;
   margin-top: 10px;
 }
 
 .plat .box2b {
-  -webkit-animation: slideB 6s ease;
-          animation: slideB 6s ease;
+  -webkit-animation: slideB 3s ease;
+          animation: slideB 3s ease;
   margin-top: 10px;
 }
 
 .plat .box3b {
-  -webkit-animation: slideB 6s ease;
-          animation: slideB 6s ease;
+  -webkit-animation: slideB 3s ease;
+          animation: slideB 3s ease;
   margin-top: 10px;
 }
 
@@ -431,20 +431,20 @@ header .logo img {
 }
 
 .dessert .box1c {
-  -webkit-animation: slide 9s ease;
-          animation: slide 9s ease;
+  -webkit-animation: slide 4s ease;
+          animation: slide 4s ease;
   margin-top: 10px;
 }
 
 .dessert .box2c {
-  -webkit-animation: slide 9s ease;
-          animation: slide 9s ease;
+  -webkit-animation: slide 4s ease;
+          animation: slide 4s ease;
   margin-top: 10px;
 }
 
 .dessert .box3c {
-  -webkit-animation: slide 9s ease;
-          animation: slide 9s ease;
+  -webkit-animation: slide 4s ease;
+          animation: slide 4s ease;
   margin-top: 10px;
 }
 
