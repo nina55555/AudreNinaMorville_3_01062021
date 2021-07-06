@@ -242,8 +242,7 @@ header .logo img {
 }
 
 .choix::after {
-  content: " \f058";
-  font-family: "Font Awesome 5 free";
+  content: " ";
   width: 0%;
   height: 100%;
   border-radius: 0px 10px 10px 0px;
@@ -264,23 +263,50 @@ header .logo img {
   -webkit-transition: 0.5s;
   transition: 0.5s;
   opacity: 0;
+}
+
+.choix::before {
+  content: " \f058";
+  font-family: "Font Awesome 5 free";
   font-size: 13px;
-  -webkit-animation: rot 5s ease 0.5s forwards;
-          animation: rot 5s ease 0.5s forwards;
+  position: absolute;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  top: 0px;
+  right: 0px;
+  width: 15%;
+  height: 100%;
+  opacity: 0;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.choix:hover::before {
+  z-index: 2;
+  -webkit-animation: rot 1.5s ease 0.2s forwards;
+          animation: rot 1.5s ease 0.2s forwards;
 }
 
 @-webkit-keyframes rot {
   0% {
-    border-radius: 0px 10px 10px 0px;
+    opacity: 0;
     -webkit-transform: rotateZ(0deg);
             transform: rotateZ(0deg);
   }
   50% {
-    -webkit-transform: translateZ(180deg);
-            transform: translateZ(180deg);
+    opacity: 0.5;
+    -webkit-transform: translateZ(320deg);
+            transform: translateZ(320deg);
   }
   100% {
-    border-radius: 0px 10px 10px 0px;
+    opacity: 1;
     -webkit-transform: rotateZ(360deg);
             transform: rotateZ(360deg);
   }
@@ -288,16 +314,17 @@ header .logo img {
 
 @keyframes rot {
   0% {
-    border-radius: 0px 10px 10px 0px;
+    opacity: 0;
     -webkit-transform: rotateZ(0deg);
             transform: rotateZ(0deg);
   }
   50% {
-    -webkit-transform: translateZ(180deg);
-            transform: translateZ(180deg);
+    opacity: 0.5;
+    -webkit-transform: translateZ(320deg);
+            transform: translateZ(320deg);
   }
   100% {
-    border-radius: 0px 10px 10px 0px;
+    opacity: 1;
     -webkit-transform: rotateZ(360deg);
             transform: rotateZ(360deg);
   }

@@ -248,14 +248,16 @@ header{
 
 
 .choix::after{
-    content: " \f058";
-    font-family:"Font Awesome 5 free" ;
+    //content: " \f058";
+    //font-family:"Font Awesome 5 free" ;
+    //font-size: 13px;
+    //animation: rot 5s ease 0.5s ;
+    content: " ";
     width: 0%;
     height: 100%;
     border-radius: 0px 10px 10px 0px;
     background-color: #99E2D0;
     color: white;
-    //display: none;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -264,25 +266,43 @@ header{
     right: 0px;
     transition: 0.5s;
     opacity: 0;
-    font-size: 13px;
-    animation: rot 5s ease 0.5s forwards;
 }
 
+
+.choix::before{
+    content: " \f058";
+    font-family:"Font Awesome 5 free" ;
+    font-size: 13px;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 0px;
+    right: 0px;
+    width: 15%;
+    height: 100%;
+    opacity: 0;
+    transition: 0.5s;
+}
+
+
+.choix:hover::before{
+    z-index: 2;
+    animation: rot 1.5s ease 0.2s forwards;
+}
 
 
 @keyframes rot{
     0%{
-        
-    border-radius: 0px 10px 10px 0px;
+        opacity: 0;
         transform: rotateZ(0deg);
     }
     50%{
-        
-        transform: translateZ(180deg);
+        opacity: 0.5;
+        transform: translateZ(320deg);
     }
     100%{
-        
-    border-radius: 0px 10px 10px 0px;
+        opacity: 1;
         transform: rotateZ(360deg);
     }
 }
