@@ -397,6 +397,7 @@ header .logo img {
           flex-direction: column;
   -webkit-box-shadow: 5px 5px 5px #a8a6a7;
           box-shadow: 5px 5px 5px #a8a6a7;
+  cursor: pointer;
 }
 
 .two .pic {
