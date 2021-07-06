@@ -269,6 +269,7 @@ header .logo img {
   content: " \f058";
   font-family: "Font Awesome 5 free";
   font-size: 13px;
+  color: white;
   position: absolute;
   display: -webkit-box;
   display: -ms-flexbox;
