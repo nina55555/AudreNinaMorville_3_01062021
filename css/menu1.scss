@@ -262,8 +262,29 @@ header{
     position: absolute;
     top: 0px;
     right: 0px;
-    transition: 0.8s;
+    transition: 0.5s;
     opacity: 0;
+    font-size: 13px;
+    animation: rot 5s ease 0.5s forwards;
+}
+
+
+
+@keyframes rot{
+    0%{
+        
+    border-radius: 0px 10px 10px 0px;
+        transform: rotateZ(0deg);
+    }
+    50%{
+        
+        transform: translateZ(180deg);
+    }
+    100%{
+        
+    border-radius: 0px 10px 10px 0px;
+        transform: rotateZ(360deg);
+    }
 }
 
 
@@ -311,8 +332,10 @@ header{
 .choix .tarif{
     p{
         padding-top: 15px;
+        font-size: 10px;
+        font-weight: bold;
     }
-    background-color: #f4f5f1;
+    background-color: #f5f3f1;
     width: 20%;
     height: 100%;
     border-radius: 0px 10px 10px 0px;
