@@ -546,7 +546,9 @@ footer a{
 
 
 
-@media screen and(min-width:640px) and (max-width:768px) {
+//@media screen and(min-width:640px) and (max-width:768px) {
+@media screen and (min-width:768px)  {
+    
 
 
     .localisation{
@@ -609,21 +611,6 @@ footer a{
     }
 
 
-}
-
-
-
-/*--------------------*/ 
-
-
-
-@media screen and(min-width:768px)  {
-
-
-    .localisation{
-        height: 55px;
-    }
-
     .restaurant-card a{
         display: flex;
         justify-content: center;
@@ -634,63 +621,12 @@ footer a{
 
     .nouveau {
         left:25%;
-        
         width: 50%;
         display: flex;
         justify-content: center;
         align-items: center;
     }
 
-
-    .responsive{
-        display: flex;
-        width: 100%;
-        justify-content: space-between;
-    }
-
-
-
-    .reservation{
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        width: 50%;
-        padding-top: 70px;
-        border: 20px solid #F8F6F6 ;
-    }
-
-
-
-    
-    .reservation .button{
-        width: 80%;
-    }
-
-
-    
-    .fonctionnement{
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        padding-top: 70px;
-        width: 50%;
-    }
-
-
-
-    .fonctionnement h1{
-        margin-left: 0px;
-    }
-
-
-    
-    .fonctionnement-button{
-        width: 90%;
-    }
-    
-
-    
 
     .all-restaurants{
         display: flex;
@@ -704,8 +640,6 @@ footer a{
 
 
 
-
-
     .all-restaurantsB{
         display: flex;
         width: 100%;
@@ -715,9 +649,20 @@ footer a{
     }
 
 
-
     .restaurant-card{
         width: 20%;
+    }
+
+
+
+    .restaurant-infos{
+        width: 100%;
+    }
+
+    .restaurant-infos .icon{
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
 
 }
