@@ -342,6 +342,7 @@ header .logo img {
           transform: translateX(-10px);
   -webkit-box-shadow: 2px 5px 8px #cfcdcd;
           box-shadow: 2px 5px 8px #cfcdcd;
+  cursor: pointer;
 }
 
 .fonctionnement-button p {
