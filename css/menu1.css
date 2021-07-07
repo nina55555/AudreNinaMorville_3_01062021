@@ -114,6 +114,7 @@ header .logo img {
   fill: transparent;
   stroke-width: 2;
   stroke: black;
+  cursor: pointer;
 }
 
 .aime .icon:hover path {
