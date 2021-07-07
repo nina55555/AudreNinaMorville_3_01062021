@@ -3,10 +3,6 @@
   padding: 0px;
 }
 
-html {
-  font-family: Arial, Helvetica, sans-serif;
-}
-
 body {
   max-width: 100vw;
   height: 100vh;
@@ -14,6 +10,7 @@ body {
   overflow-x: hidden;
   -webkit-animation: scrolling 7s;
           animation: scrolling 7s;
+  font-family: 'Roboto', sans-serif;
 }
 
 @-webkit-keyframes scrolling {
@@ -194,6 +191,7 @@ header {
 header .logo img {
   width: 135px;
   margin: 0 auto;
+  font-family: 'Shrikhand', cursive;
 }
 
 .localisation {
@@ -243,6 +241,7 @@ header .logo img {
   width: 75%;
   margin: 5px auto;
   font-size: 25px;
+  font-family: 'Roboto', sans-serif;
 }
 
 .reservation p {
@@ -540,7 +539,8 @@ footer p {
 }
 
 .foot path {
-  fill: white;
+  fill: #ce3939;
+  font-family: 'Shrikhand', cursive;
 }
 
 .proposer {

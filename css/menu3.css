@@ -159,18 +159,21 @@ header .logo img {
   -webkit-animation: slide 2s ease;
           animation: slide 2s ease;
   margin-top: 10px;
+  cursor: pointer;
 }
 
 .entrée .box2 {
   -webkit-animation: slide 2s ease;
           animation: slide 2s ease;
   margin-top: 10px;
+  cursor: pointer;
 }
 
 .entrée .box3 {
   -webkit-animation: slide 2s ease;
           animation: slide 2s ease;
   margin-top: 10px;
+  cursor: pointer;
 }
 
 @-webkit-keyframes slide {
@@ -353,18 +356,21 @@ header .logo img {
   -webkit-animation: slideB 3s ease;
           animation: slideB 3s ease;
   margin-top: 10px;
+  cursor: pointer;
 }
 
 .plat .box2b {
   -webkit-animation: slideB 3s ease;
           animation: slideB 3s ease;
   margin-top: 10px;
+  cursor: pointer;
 }
 
 .plat .box3b {
   -webkit-animation: slideB 3s ease;
           animation: slideB 3s ease;
   margin-top: 10px;
+  cursor: pointer;
 }
 
 @-webkit-keyframes slideB {
@@ -429,18 +435,21 @@ header .logo img {
   -webkit-animation: slideC 4s ease;
           animation: slideC 4s ease;
   margin-top: 10px;
+  cursor: pointer;
 }
 
 .dessert .box2c {
   -webkit-animation: slideC 4s ease;
           animation: slideC 4s ease;
   margin-top: 10px;
+  cursor: pointer;
 }
 
 .dessert .box3c {
   -webkit-animation: slideC 4s ease;
           animation: slideC 4s ease;
   margin-top: 10px;
+  cursor: pointer;
 }
 
 @-webkit-keyframes slideC {
