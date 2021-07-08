@@ -198,11 +198,11 @@ header{
 @keyframes slide {
     from{
         opacity: 0;
-        transform: translateX(-150%);
+        transform: translateY(50%);
     }
     to{
         opacity: 1;
-        transform: translateX(0%);
+        transform: translateY(0%);
     }
 }
 
@@ -383,19 +383,19 @@ header{
 
 .plat{
     .box1b{
-        animation: slideB 3s ease  ;
+        animation: slideB 6s ease  ;
         margin-top: 10px;
         
     cursor: pointer;
     }
     .box2b{
-        animation: slideB 3s ease  ;
+        animation: slideB 6s ease  ;
         margin-top: 10px;
         
     cursor: pointer;
     }
     .box3b{
-        animation: slideB 3s ease;
+        animation: slideB 6s ease;
         margin-top: 10px;
         
     cursor: pointer;
@@ -413,11 +413,11 @@ header{
 @keyframes slideB {
     from{
         opacity: 0;
-        transform: translateX(-150%);
+        transform: translateY(50%);
     }
     to{
         opacity: 1;
-        transform: translateX(0%);
+        transform: translateY(0%);
     }
 }
 
@@ -448,19 +448,19 @@ header{
 
 .dessert{
     .box1c{
-        animation: slideC 4s ease ;
+        animation: slideC 9s ease ;
         margin-top: 10px;
         
     cursor: pointer;
     }
     .box2c{
-        animation: slideC 4s ease  ;
+        animation: slideC 9s ease  ;
         margin-top: 10px;
         
     cursor: pointer;
     }
     .box3c{
-        animation: slideC 4s ease ;
+        animation: slideC 9s ease ;
         margin-top: 10px;
         
     cursor: pointer;
@@ -482,11 +482,11 @@ header{
 @keyframes slideC {
     from{
         opacity: 0;
-        transform: translateX(-150%);
+        transform: translateY(50%);
     }
     to{
         opacity: 1;
-        transform: translateX(0%);
+        transform: translateY(0%);
     }
 }
 

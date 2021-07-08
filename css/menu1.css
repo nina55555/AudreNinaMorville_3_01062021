@@ -183,26 +183,26 @@ header .logo img {
 @-webkit-keyframes slide {
   from {
     opacity: 0;
-    -webkit-transform: translateX(-150%);
-            transform: translateX(-150%);
+    -webkit-transform: translateY(50%);
+            transform: translateY(50%);
   }
   to {
     opacity: 1;
-    -webkit-transform: translateX(0%);
-            transform: translateX(0%);
+    -webkit-transform: translateY(0%);
+            transform: translateY(0%);
   }
 }
 
 @keyframes slide {
   from {
     opacity: 0;
-    -webkit-transform: translateX(-150%);
-            transform: translateX(-150%);
+    -webkit-transform: translateY(50%);
+            transform: translateY(50%);
   }
   to {
     opacity: 1;
-    -webkit-transform: translateX(0%);
-            transform: translateX(0%);
+    -webkit-transform: translateY(0%);
+            transform: translateY(0%);
   }
 }
 
@@ -425,22 +425,22 @@ header .logo img {
 }
 
 .plat .box1b {
-  -webkit-animation: slideB 3s ease;
-          animation: slideB 3s ease;
+  -webkit-animation: slideB 6s ease;
+          animation: slideB 6s ease;
   margin-top: 10px;
   cursor: pointer;
 }
 
 .plat .box2b {
-  -webkit-animation: slideB 3s ease;
-          animation: slideB 3s ease;
+  -webkit-animation: slideB 6s ease;
+          animation: slideB 6s ease;
   margin-top: 10px;
   cursor: pointer;
 }
 
 .plat .box3b {
-  -webkit-animation: slideB 3s ease;
-          animation: slideB 3s ease;
+  -webkit-animation: slideB 6s ease;
+          animation: slideB 6s ease;
   margin-top: 10px;
   cursor: pointer;
 }
@@ -448,26 +448,26 @@ header .logo img {
 @-webkit-keyframes slideB {
   from {
     opacity: 0;
-    -webkit-transform: translateX(-150%);
-            transform: translateX(-150%);
+    -webkit-transform: translateY(50%);
+            transform: translateY(50%);
   }
   to {
     opacity: 1;
-    -webkit-transform: translateX(0%);
-            transform: translateX(0%);
+    -webkit-transform: translateY(0%);
+            transform: translateY(0%);
   }
 }
 
 @keyframes slideB {
   from {
     opacity: 0;
-    -webkit-transform: translateX(-150%);
-            transform: translateX(-150%);
+    -webkit-transform: translateY(50%);
+            transform: translateY(50%);
   }
   to {
     opacity: 1;
-    -webkit-transform: translateX(0%);
-            transform: translateX(0%);
+    -webkit-transform: translateY(0%);
+            transform: translateY(0%);
   }
 }
 
@@ -505,22 +505,22 @@ header .logo img {
 }
 
 .dessert .box1c {
-  -webkit-animation: slideC 4s ease;
-          animation: slideC 4s ease;
+  -webkit-animation: slideC 9s ease;
+          animation: slideC 9s ease;
   margin-top: 10px;
   cursor: pointer;
 }
 
 .dessert .box2c {
-  -webkit-animation: slideC 4s ease;
-          animation: slideC 4s ease;
+  -webkit-animation: slideC 9s ease;
+          animation: slideC 9s ease;
   margin-top: 10px;
   cursor: pointer;
 }
 
 .dessert .box3c {
-  -webkit-animation: slideC 4s ease;
-          animation: slideC 4s ease;
+  -webkit-animation: slideC 9s ease;
+          animation: slideC 9s ease;
   margin-top: 10px;
   cursor: pointer;
 }
@@ -528,26 +528,26 @@ header .logo img {
 @-webkit-keyframes slideC {
   from {
     opacity: 0;
-    -webkit-transform: translateX(-150%);
-            transform: translateX(-150%);
+    -webkit-transform: translateY(50%);
+            transform: translateY(50%);
   }
   to {
     opacity: 1;
-    -webkit-transform: translateX(0%);
-            transform: translateX(0%);
+    -webkit-transform: translateY(0%);
+            transform: translateY(0%);
   }
 }
 
 @keyframes slideC {
   from {
     opacity: 0;
-    -webkit-transform: translateX(-150%);
-            transform: translateX(-150%);
+    -webkit-transform: translateY(50%);
+            transform: translateY(50%);
   }
   to {
     opacity: 1;
-    -webkit-transform: translateX(0%);
-            transform: translateX(0%);
+    -webkit-transform: translateY(0%);
+            transform: translateY(0%);
   }
 }
 
