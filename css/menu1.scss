@@ -623,89 +623,43 @@ footer a{
 /*-------------------------------*/ 
 /*-------------------------------*/ 
 
-
-
 /*responsive part*/
-
-
-@media screen and(min-width:735px) and (max-width:900px) {
-
-    
-    .responsive-box{
-        .box{
-            width: 48%;
-
-        }
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: space-between;
-    }
-
-
-    .choix .text{
-        h2{
-            width: 200px;
-            white-space: nowrap;
-            overflow: hidden;
-            text-overflow: ellipsis;
-        }
-        width: 320px;
-    }
-}
-
 
 
 @media screen and(min-width:735px) and (max-width:1100px) {
 
+
     .responsive-box{
         .box{
+            //background-color: violet;
             width: 48%;
-
         }
+        //background-color: yellowgreen;
         display: flex;
         flex-wrap: wrap;
         justify-content: space-between;
+        align-items: center;
+    }
+
+
+    .choix{
+        //background-color: orange;
+        width: 100%;
     }
 
 
     .choix .text{
         h2{
-            width: 300px;
+            //background-color: slateblue;
+            width: 100%;
             white-space: nowrap;
             overflow: hidden;
             text-overflow: ellipsis;
         }
-        width: 320px;
+        //background-color: salmon;
+        width:67%;
     }
 
-
-    /*
-    .responsive-box{
-        .box{
-            width: 48%;
-
-        }
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: space-between;
-    }
-    
-
-
-    .choix .text{
-        h2{
-            white-space: nowrap;
-            overflow: hidden;
-            text-overflow: ellipsis;
-        }
-
-
-        width: 220px;
-        white-space: nowrap;
-        overflow: hidden;
-        text-overflow: ellipsis;
-    }
-*/
 
     .choix:hover::after{
         width: 15%;
@@ -716,8 +670,15 @@ footer a{
         width:35%;
     }
 
+
+    
+.choix:hover .tarif p{
+    transform: translateX(-40px);
+    transition: 0.5s;
 }
 
+
+}
 
 
 
@@ -727,38 +688,50 @@ footer a{
 @media screen and(min-width:1100px)  {
 
 
+    .carte{
+        //background-color: yellow;
+        max-height: 70vh;
+    }
+
+
+
+    .responsive-flex-carte{
+        max-height: 43vh;
+        overflow: scroll;
+    }
+
     .responsive-box{
         .box{
-            width: 48%;
+            //background-color: palegreen;
+            width: 33%;
 
         }
+        //background-color: peru;
         display: flex;
-        flex-wrap: wrap;
+        flex-wrap: nowrap;
         justify-content: space-between;
+            height: 58px;
     }
 
 
     .choix .text{
         h2{
-            width: 400px;
+            //background-color: red;
+            width: 100%;
             white-space: nowrap;
             overflow: hidden;
             text-overflow: ellipsis;
         }
-        width: 320px;
+        //background-color: rgb(175, 111, 143);
+        width: 75%;
     }
-
-
 
 
 
     .choix:hover .tarif p{
-        transform: translateX(-55px);
+        transform: translateX(-30px);
         transition: 0.5s;
     }
-
-
-
 
 
     .choix:hover::after{
@@ -766,13 +739,16 @@ footer a{
     }
 
 
-
     .responsive-flex-carte h1::after{
         width:55%;
     }
 
 
-    
+    .commande{
+        padding-bottom: 0px;
+        margin-bottom: 20px;
+        
+    }
 }
 
 

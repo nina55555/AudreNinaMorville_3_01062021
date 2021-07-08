@@ -673,31 +673,6 @@ footer a {
 /*-------------------------------*/
 /*-------------------------------*/
 /*responsive part*/
-@media screen and (min-width: 735px) and (max-width: 900px) {
-  .responsive-box {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -ms-flex-wrap: wrap;
-        flex-wrap: wrap;
-    -webkit-box-pack: justify;
-        -ms-flex-pack: justify;
-            justify-content: space-between;
-  }
-  .responsive-box .box {
-    width: 48%;
-  }
-  .choix .text {
-    width: 320px;
-  }
-  .choix .text h2 {
-    width: 200px;
-    white-space: nowrap;
-    overflow: hidden;
-    text-overflow: ellipsis;
-  }
-}
-
 @media screen and (min-width: 735px) and (max-width: 1100px) {
   .responsive-box {
     display: -webkit-box;
@@ -708,81 +683,74 @@ footer a {
     -webkit-box-pack: justify;
         -ms-flex-pack: justify;
             justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
   }
   .responsive-box .box {
     width: 48%;
   }
+  .choix {
+    width: 100%;
+  }
   .choix .text {
-    width: 320px;
+    width: 67%;
   }
   .choix .text h2 {
-    width: 300px;
+    width: 100%;
     white-space: nowrap;
     overflow: hidden;
     text-overflow: ellipsis;
   }
-  /*
-    .responsive-box{
-        .box{
-            width: 48%;
-
-        }
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: space-between;
-    }
-    
-
-
-    .choix .text{
-        h2{
-            white-space: nowrap;
-            overflow: hidden;
-            text-overflow: ellipsis;
-        }
-
-
-        width: 220px;
-        white-space: nowrap;
-        overflow: hidden;
-        text-overflow: ellipsis;
-    }
-*/
   .choix:hover::after {
     width: 15%;
   }
   .responsive-flex-carte h1::after {
     width: 35%;
   }
+  .choix:hover .tarif p {
+    -webkit-transform: translateX(-40px);
+            transform: translateX(-40px);
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+  }
 }
 
 /*--------------------*/
 @media screen and (min-width: 1100px) {
+  .carte {
+    max-height: 70vh;
+  }
+  .responsive-flex-carte {
+    max-height: 43vh;
+    overflow: scroll;
+  }
   .responsive-box {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    -ms-flex-wrap: wrap;
-        flex-wrap: wrap;
+    -ms-flex-wrap: nowrap;
+        flex-wrap: nowrap;
     -webkit-box-pack: justify;
         -ms-flex-pack: justify;
             justify-content: space-between;
+    height: 58px;
   }
   .responsive-box .box {
-    width: 48%;
+    width: 33%;
   }
   .choix .text {
-    width: 320px;
+    width: 75%;
   }
   .choix .text h2 {
-    width: 400px;
+    width: 100%;
     white-space: nowrap;
     overflow: hidden;
     text-overflow: ellipsis;
   }
   .choix:hover .tarif p {
-    -webkit-transform: translateX(-55px);
-            transform: translateX(-55px);
+    -webkit-transform: translateX(-30px);
+            transform: translateX(-30px);
     -webkit-transition: 0.5s;
     transition: 0.5s;
   }
@@ -791,6 +759,10 @@ footer a {
   }
   .responsive-flex-carte h1::after {
     width: 55%;
+  }
+  .commande {
+    padding-bottom: 0px;
+    margin-bottom: 20px;
   }
 }
 /*# sourceMappingURL=menu1.css.map */
