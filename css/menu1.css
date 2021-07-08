@@ -246,9 +246,8 @@ header .logo img {
 }
 
 .choix::after {
-  content: " \f058";
-  font-family: "Font Awesome 5 free";
-  width: 0%;
+  content: " ";
+  width: 15%;
   height: 100%;
   border-radius: 0px 10px 10px 0px;
   background-color: #99E2D0;
@@ -265,13 +264,80 @@ header .logo img {
   position: absolute;
   top: 0px;
   right: 0px;
-  -webkit-transition: 0.8s;
-  transition: 0.8s;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
   opacity: 0;
+  -webkit-transform: translate(40px);
+          transform: translate(40px);
+}
+
+.choix::before {
+  content: " \f058";
+  font-family: "Font Awesome 5 free";
+  font-size: 24px;
+  color: white;
+  position: absolute;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  top: 0px;
+  bottom: 0px;
+  right: 0px;
+  width: 15%;
+  opacity: 0;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.choix:hover::before {
+  z-index: 2;
+  -webkit-animation: rot 0.5s ease 0.2s forwards;
+          animation: rot 0.5s ease 0.2s forwards;
+}
+
+@-webkit-keyframes rot {
+  from {
+    opacity: 0;
+    -webkit-transform: rotate(-180deg);
+            transform: rotate(-180deg);
+    -webkit-transform-origin: center center;
+            transform-origin: center center;
+  }
+  to {
+    opacity: 1;
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+    -webkit-transform-origin: center center;
+            transform-origin: center center;
+  }
+}
+
+@keyframes rot {
+  from {
+    opacity: 0;
+    -webkit-transform: rotate(-180deg);
+            transform: rotate(-180deg);
+    -webkit-transform-origin: center center;
+            transform-origin: center center;
+  }
+  to {
+    opacity: 1;
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+    -webkit-transform-origin: center center;
+            transform-origin: center center;
+  }
 }
 
 .choix:hover::after {
-  width: 15%;
+  -webkit-transform: translate(0px);
+          transform: translate(0px);
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -315,7 +381,7 @@ header .logo img {
 }
 
 .choix .tarif {
-  background-color: #f4f5f1;
+  background-color: #f5f3f1;
   width: 20%;
   height: 100%;
   border-radius: 0px 10px 10px 0px;
@@ -332,6 +398,8 @@ header .logo img {
 
 .choix .tarif p {
   padding-top: 15px;
+  font-size: 10px;
+  font-weight: bold;
 }
 
 .choix:hover .tarif p {

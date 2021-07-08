@@ -255,28 +255,70 @@ header{
 
 
 .choix::after{
-    content: " \f058";
-    font-family:"Font Awesome 5 free" ;
-    width: 0%;
+    //content: " \f058";
+    //font-family:"Font Awesome 5 free" ;
+    //font-size: 13px;
+    //animation: rot 5s ease 0.5s ;
+    content: " ";
+    width: 15%;
     height: 100%;
     border-radius: 0px 10px 10px 0px;
     background-color: #99E2D0;
     color: white;
-    //display: none;
     display: flex;
     justify-content: center;
     align-items: center;
     position: absolute;
     top: 0px;
     right: 0px;
-    transition: 0.8s;
+    transition: 0.5s;
     opacity: 0;
+    transform: translate(40px);
+}
+
+
+.choix::before{
+    content: " \f058";
+    font-family:"Font Awesome 5 free" ;
+    font-size: 24px;
+    color: white;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 0px;
+    bottom: 0px;
+    right: 0px;
+    width: 15%;
+    opacity: 0;
+    transition: 0.5s;
+}
+
+
+.choix:hover::before{
+    z-index: 2;
+    animation: rot 0.5s ease 0.2s forwards;
+}
+
+
+@keyframes rot{
+    from{
+        opacity: 0;
+        transform: rotate(-180deg);
+        transform-origin: center center;
+    }
+    to{
+        opacity: 1;
+        transform: rotate(0deg);
+        transform-origin: center center;
+
+    }
 }
 
 
 
 .choix:hover::after{
-    width: 15%;
+    transform: translate(0px);
     display: flex;
     opacity: 1;
 }
@@ -318,8 +360,10 @@ header{
 .choix .tarif{
     p{
         padding-top: 15px;
+        font-size: 10px;
+        font-weight: bold;
     }
-    background-color: #f4f5f1;
+    background-color: #f5f3f1;
     width: 20%;
     height: 100%;
     border-radius: 0px 10px 10px 0px;
