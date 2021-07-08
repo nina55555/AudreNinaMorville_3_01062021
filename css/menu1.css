@@ -160,22 +160,22 @@ header .logo img {
 }
 
 .entrée .box1 {
-  -webkit-animation: slide 2s ease;
-          animation: slide 2s ease;
+  -webkit-animation: slide 3s ease;
+          animation: slide 3s ease;
   margin-top: 10px;
   cursor: pointer;
 }
 
 .entrée .box2 {
-  -webkit-animation: slide 2s ease;
-          animation: slide 2s ease;
+  -webkit-animation: slide 3s ease;
+          animation: slide 3s ease;
   margin-top: 10px;
   cursor: pointer;
 }
 
 .entrée .box3 {
-  -webkit-animation: slide 2s ease;
-          animation: slide 2s ease;
+  -webkit-animation: slide 3s ease;
+          animation: slide 3s ease;
   margin-top: 10px;
   cursor: pointer;
 }
