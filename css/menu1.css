@@ -92,7 +92,8 @@ header .logo img {
 
 .nom-restaurant {
   background-color: #f3f3f2;
-  height: 70px;
+  min-height: 70px;
+  margin-bottom: 25px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;

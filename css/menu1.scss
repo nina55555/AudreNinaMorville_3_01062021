@@ -106,7 +106,8 @@ header{
 .nom-restaurant{
     background-color: #f3f3f2;
     //background-color: green;
-    height: 70px;
+    min-height: 70px;
+    margin-bottom: 25px;
     //width: 100%;
     display: flex;
     justify-content: space-between;
@@ -575,6 +576,12 @@ footer a{
 
 
 @media screen and(min-width:555px) and (max-width:768px) {
+
+
+
+    
+
+
     .choix .text{
         h2{
             width: 400px;
@@ -587,6 +594,8 @@ footer a{
     .choix:hover::after{
         width: 15%;
     }
+
+  
 
 }
 
