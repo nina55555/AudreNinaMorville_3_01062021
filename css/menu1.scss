@@ -616,30 +616,99 @@ footer a{
 /*responsive part*/
 
 
+@media screen and(min-width:735px) and (max-width:900px) {
+
+    
+    .responsive-box{
+        .box{
+            width: 48%;
+
+        }
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+
+    .choix .text{
+        h2{
+            width: 200px;
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
+        }
+        width: 320px;
+    }
+}
 
 
 
-@media screen and(min-width:555px) and (max-width:768px) {
+@media screen and(min-width:735px) and (max-width:1100px) {
 
 
 
+    .responsive-box{
+        .box{
+            width: 48%;
+
+        }
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+
+    .choix .text{
+        h2{
+            width: 300px;
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
+        }
+        width: 320px;
+    }
+
+
+    /*
+    .responsive-box{
+        .box{
+            width: 48%;
+
+        }
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
     
 
 
     .choix .text{
         h2{
-            width: 400px;
             white-space: nowrap;
             overflow: hidden;
             text-overflow: ellipsis;
         }
+
+
+        width: 220px;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
     }
+
+
+
+*/
 
     .choix:hover::after{
         width: 15%;
     }
 
   
+
+    .responsive-flex-carte h1::after{
+        width:35%;
+    }
 
 }
 
@@ -649,19 +718,53 @@ footer a{
 /*--------------------*/ 
 
 
-@media screen and(min-width:768px)  {
+@media screen and(min-width:1100px)  {
+
+
+    .responsive-box{
+        .box{
+            width: 48%;
+
+        }
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+
     .choix .text{
         h2{
-            width: 500px;
+            width: 400px;
             white-space: nowrap;
             overflow: hidden;
             text-overflow: ellipsis;
         }
+        width: 320px;
     }
 
-    .choix:hover::after{
-        width: 10%;
+
+
+
+
+    .choix:hover .tarif p{
+        transform: translateX(-55px);
+        transition: 0.5s;
     }
+
+
+
+
+
+    .choix:hover::after{
+        width: 15%;
+    }
+
+
+
+    .responsive-flex-carte h1::after{
+        width:55%;
+    }
+    
 }
 
 

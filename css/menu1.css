@@ -663,28 +663,127 @@ footer a {
 /*-------------------------------*/
 /*-------------------------------*/
 /*responsive part*/
-@media screen and (min-width: 555px) and (max-width: 768px) {
+@media screen and (min-width: 735px) and (max-width: 900px) {
+  .responsive-box {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  .responsive-box .box {
+    width: 48%;
+  }
+  .choix .text {
+    width: 320px;
+  }
+  .choix .text h2 {
+    width: 200px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+}
+
+@media screen and (min-width: 735px) and (max-width: 1100px) {
+  .responsive-box {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  .responsive-box .box {
+    width: 48%;
+  }
+  .choix .text {
+    width: 320px;
+  }
+  .choix .text h2 {
+    width: 300px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+  /*
+    .responsive-box{
+        .box{
+            width: 48%;
+
+        }
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+    
+
+
+    .choix .text{
+        h2{
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
+        }
+
+
+        width: 220px;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
+
+
+
+*/
+  .choix:hover::after {
+    width: 15%;
+  }
+  .responsive-flex-carte h1::after {
+    width: 35%;
+  }
+}
+
+/*--------------------*/
+@media screen and (min-width: 1100px) {
+  .responsive-box {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  .responsive-box .box {
+    width: 48%;
+  }
+  .choix .text {
+    width: 320px;
+  }
   .choix .text h2 {
     width: 400px;
     white-space: nowrap;
     overflow: hidden;
     text-overflow: ellipsis;
   }
+  .choix:hover .tarif p {
+    -webkit-transform: translateX(-55px);
+            transform: translateX(-55px);
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+  }
   .choix:hover::after {
     width: 15%;
   }
-}
-
-/*--------------------*/
-@media screen and (min-width: 768px) {
-  .choix .text h2 {
-    width: 500px;
-    white-space: nowrap;
-    overflow: hidden;
-    text-overflow: ellipsis;
-  }
-  .choix:hover::after {
-    width: 10%;
+  .responsive-flex-carte h1::after {
+    width: 55%;
   }
 }
 /*# sourceMappingURL=menu1.css.map */
