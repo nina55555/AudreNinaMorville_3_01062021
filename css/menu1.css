@@ -68,6 +68,8 @@ header .logo img {
   background-position: center;
   -o-object-fit: cover;
      object-fit: cover;
+  position: relative;
+  bottom: -20px;
 }
 
 .carte {
@@ -82,8 +84,11 @@ header .logo img {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  position: absolute;
-  top: 280px;
+  /*
+    position: absolute;
+    top: 280px;
+    */
+  z-index: 100;
 }
 
 .nom-restaurant {
@@ -611,8 +616,9 @@ footer {
   height: 150px;
   color: white;
   padding: 30px 20px;
-  position: absolute;
-  top: 1450px;
+  /*position: absolute;
+    top: 1450px;
+    */
   /*position: absolute;
     bottom: 0px;
     */
@@ -748,9 +754,6 @@ footer a {
   .responsive-flex-carte h1::after {
     width: 35%;
   }
-  footer {
-    top: 1200px;
-  }
 }
 
 /*--------------------*/
@@ -788,9 +791,6 @@ footer a {
   }
   .responsive-flex-carte h1::after {
     width: 55%;
-  }
-  footer {
-    top: 1200px;
   }
 }
 /*# sourceMappingURL=menu1.css.map */
