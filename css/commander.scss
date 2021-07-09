@@ -1,0 +1,36 @@
+
+
+.commande{
+    a {
+        background: linear-gradient(175deg,#FF79DA 10%, #9356DC 100% );
+        border-radius: 25px;
+        height: 50px;
+        width: 170px;
+        text-decoration: none;
+        color: white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    p{
+        color: rgb(248, 248, 247);
+        transform: translateY(-10%);
+    }
+    //background-color: rgb(26, 130, 0);
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 30px;
+    margin: 25px auto 50px ;
+    height: auto;
+}
+
+
+
+
+@media screen and(min-width:1100px)  {
+    .commande{
+        padding-bottom: 0px;
+        margin-bottom: 20px;
+    }
+}

@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAEA,AAAA,MAAM,CAAC,GAAG,CAAA;EACN,KAAK,EAAE,IAAI;EAEX,MAAM,EAAE,KAAK;EACb,mBAAmB,EAAE,MAAM;EAC3B,UAAU,EAAE,KAAK;EAEjB,QAAQ,EAAE,QAAQ;EAClB,MAAM,EAAE,KAAK;CAChB",
+    "sources": [
+        "pic-resto.scss"
+    ],
+    "names": [],
+    "file": "pic-resto.css"
+}
