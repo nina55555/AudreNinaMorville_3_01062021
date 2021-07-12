@@ -1,115 +1,49 @@
 
-*{
-    margin: 0px;
-    padding: 0px;
-}
+@import './layout.scss';
+@import './container.scss';
+@import './pic-resto.scss';
+@import './commander.scss';
 
 
-
-html{
-    font-family: Arial, Helvetica, sans-serif;
-}
-
-
-
-body{
-    max-width: 100vw;
-    height: 100vh;
-    overflow-x: hidden;
-}
-
- 
-
-.container{
-    //background-color: rgb(3, 71, 71);
-    //position: absolute;
-    width:100%;
-    height: auto;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-}
-
-
-
-
-header{
-    .logo img{
-      width: 135px;
-      margin: 0 auto;
-    }
-    background-color: rgb(252, 252, 252);
-    width: 100%;
-    height: auto;
-    padding: 5px;
-    text-align: center;
-    position: fixed;
-    top: 0px;
-    left: 0px;
-    z-index: 2;
-    display: flex;
-    justify-content: center;
-}
-  
-
-
-
-.retour i{
-    position: absolute;
-    top: 10px;
-    left: 10px;
-}
-
-
-
-
-.photo{
-    img{
-        width: 100%;
-        height: 100%;
-        background-position: center;
-        object-fit: cover;
-    }
-    background-color: darksalmon;
-    width:100%;
-    height: 300px;
-}
 
 
 
 
 
 .carte{
-    background-color: #e2e2e0;
+    background-color: #f3f3f2;
     height: auto;
     width: 100%;
-    //width: 97%;
     border-radius: 15px 15px 0px 0px;
     display: flex;
     flex-direction: column;
-    transform: translateY(-15px);
+    z-index: 100;
+    /*
+    position: absolute;
+    top: 280px;
+    */
 }
-
 
 
 
 .nom-restaurant{
-    background-color: #e2e2e0;
+    background-color: #f3f3f2;
     //background-color: green;
-    height: 70px;
+    min-height: 70px;
+    margin-bottom: 25px;
     //width: 100%;
-    font-size: 15px;
     display: flex;
     justify-content: space-between;
     margin-top: 25px;
     padding-left: 15px;
+    font-family: 'Shrikhand', cursive;
 }
 
 
 .aime .icon{
-        //background-color: midnightblue;
-        width: 50px;
-        height: 50px;
+    //background-color: midnightblue;
+    width: 50px;
+    height: 50px;
 }
 
 
@@ -124,7 +58,6 @@ header{
 
 .aime .icon:hover path{
     animation: animate-heart 0.5s linear forwards;
-   
 }
 
 
@@ -146,34 +79,43 @@ header{
 
 
 
+
+
+
+
+.responsive-flex-carte{
+    //background-color: red;
+    height: auto;
+}
+
+
+
 .entrée{
     .box1{
-        animation: slide 2s ease  ;
+        animation: slide 3s ease   ;
         margin-top: 10px;
         
     cursor: pointer;
     }
     .box2{
-        animation: slide 2s ease ;
+        animation: slide 3s ease   ;
         margin-top: 10px;
-        
+    
     cursor: pointer;
     }
     .box3{
-        animation: slide 2s ease  ;
+        animation: slide 3s ease   ;
         margin-top: 10px;
         
     cursor: pointer;
     }
-    background-color: #e2e2e0;
+    background-color: #f3f3f2;
     text-transform: uppercase;
     font-size: 9px;
     width: 95%;
     display: flex;
     flex-direction: column;
     margin: 0 auto;
-    //margin-left: 15px;
-    
 }
 
 
@@ -183,13 +125,14 @@ header{
 @keyframes slide {
     from{
         opacity: 0;
-        transform: translateX(-150%);
+        transform: translateY(50%);
     }
     to{
         opacity: 1;
-        transform: translateX(0%);
+        transform: translateY(0%);
     }
 }
+
 
 
 
@@ -231,35 +174,77 @@ header{
     justify-content: space-between;
     align-items: center;
     border-radius: 10px;
-    box-shadow: 5px 5px 5px rgb(184, 182, 183);
+    box-shadow: 1px 1px 11px rgb(184, 182, 183);
     position: relative;
 }
 
 
 
 .choix::after{
-    content: " \f058";
-    font-family:"Font Awesome 5 free" ;
-    width: 0%;
+    //content: " \f058";
+    //font-family:"Font Awesome 5 free" ;
+    //font-size: 13px;
+    //animation: rot 5s ease 0.5s ;
+    content: " ";
+    width: 15%;
     height: 100%;
     border-radius: 0px 10px 10px 0px;
     background-color: #99E2D0;
     color: white;
-    //display: none;
     display: flex;
     justify-content: center;
     align-items: center;
     position: absolute;
     top: 0px;
     right: 0px;
-    transition: 0.8s;
+    transition: 0.5s;
     opacity: 0;
+    transform: translate(40px);
+}
+
+
+.choix::before{
+    content: " \f058";
+    font-family:"Font Awesome 5 free" ;
+    font-size: 24px;
+    color: white;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 0px;
+    bottom: 0px;
+    right: 0px;
+    width: 15%;
+    opacity: 0;
+    transition: 0.5s;
+}
+
+
+.choix:hover::before{
+    z-index: 2;
+    animation: rot 0.5s ease 0.2s forwards;
+}
+
+
+@keyframes rot{
+    from{
+        opacity: 0;
+        transform: rotate(-180deg);
+        transform-origin: center center;
+    }
+    to{
+        opacity: 1;
+        transform: rotate(0deg);
+        transform-origin: center center;
+
+    }
 }
 
 
 
 .choix:hover::after{
-    width: 15%;
+    transform: translate(0px);
     display: flex;
     opacity: 1;
 }
@@ -273,7 +258,7 @@ header{
         padding-left: 15px;
         padding-top: 15px;
         font-size: 20px;
-        width: 255px;
+        width: 250px;
         white-space: nowrap;
         overflow: hidden;
         text-overflow: ellipsis;
@@ -301,8 +286,10 @@ header{
 .choix .tarif{
     p{
         padding-top: 15px;
+        font-size: 10px;
+        font-weight: bold;
     }
-    background-color: #f4f5f1;
+    background-color: #f5f3f1;
     width: 20%;
     height: 100%;
     border-radius: 0px 10px 10px 0px;
@@ -310,7 +297,6 @@ header{
     justify-content: center;
     align-items: center;
 }
-
 
 
 .choix:hover .tarif p{
@@ -323,24 +309,24 @@ header{
 
 .plat{
     .box1b{
-        animation: slideB 3s ease  ;
+        animation: slide 6s ease  ;
         margin-top: 10px;
         
     cursor: pointer;
     }
     .box2b{
-        animation: slideB 3s ease  ;
+        animation: slide 6s ease  ;
         margin-top: 10px;
         
     cursor: pointer;
     }
     .box3b{
-        animation: slideB 3s ease  ;
+        animation: slide 6s ease;
         margin-top: 10px;
         
     cursor: pointer;
     }
-    background-color: #e2e2e0;
+    background-color:#f3f3f2 ;
     text-transform: uppercase;
     font-size: 9px;
     width: 95%;
@@ -350,23 +336,14 @@ header{
 }
 
 
-@keyframes slideB {
-    from{
-        opacity: 0;
-        transform: translateX(-150%);
-    }
-    to{
-        opacity: 1;
-        transform: translateX(0%);
-    }
-}
+
 
 
 .plat h1{
     position: relative;
     color: rgb(53, 53, 53);
-    padding-bottom: 15px;
-    padding-top: 15px;
+    padding-bottom: 10px;
+    padding-top: 40px;
 }
 
 
@@ -374,7 +351,7 @@ header{
 .plat h1::after{
     content: " ";
     height: 3px;
-    width: 55px;
+    width: 40px;
     background-color:#99E2D0;
     position: absolute;
     top: 90%;
@@ -388,45 +365,36 @@ header{
 
 .dessert{
     .box1c{
-        animation: slideC 4s ease  ;
+        animation: slide 9s ease ;
         margin-top: 10px;
         
     cursor: pointer;
     }
     .box2c{
-        animation: slideC 4s ease  ;
+        animation: slide 9s ease  ;
         margin-top: 10px;
         
     cursor: pointer;
     }
     .box3c{
-        animation: slideC 4s ease  ;
+        animation: slide 9s ease ;
         margin-top: 10px;
         
     cursor: pointer;
     }
-    background-color: #e2e2e0;
+    background-color: #f3f3f2;
     text-transform: uppercase;
     font-size: 9px;
     width: 95%;
     display: flex;
     flex-direction: column;
     margin: 0 auto;
+    padding-bottom: 30px;
     //margin-left: 15px;
 }
 
 
 
-@keyframes slideC {
-    from{
-        opacity: 0;
-        transform: translateX(-150%);
-    }
-    to{
-        opacity: 1;
-        transform: translateX(0%);
-    }
-}
 
 
 
@@ -435,8 +403,8 @@ header{
 .dessert h1{
     position: relative;
     color: rgb(53, 53, 53);
-    padding-bottom: 15px;
-    padding-top: 15px;
+    padding-bottom: 10px;
+    padding-top: 40px;
 }
 
 
@@ -454,122 +422,69 @@ header{
 
 
 
-.commande{
-    a {
-        background: linear-gradient(175deg,#FF79DA 10%, #9356DC 100% );
-        border-radius: 25px;
-        height: 40px;
-        width: 155px;
-        text-decoration: none;
-        color: white;
+
+
+
+
+
+/*-------------------------------*/ 
+/*-------------------------------*/ 
+
+/*responsive part*/
+
+
+@media screen and(min-width:735px) and (max-width:1100px) {
+
+
+    .responsive-box{
+        .box{
+            //background-color: violet;
+            width: 48%;
+        }
+        //background-color: yellowgreen;
         display: flex;
-        justify-content: center;
+        flex-wrap: wrap;
+        justify-content: space-between;
         align-items: center;
     }
-    p{
-        color: rgb(248, 248, 247);
-        transform: translateY(-10%);
+
+
+    .choix{
+        //background-color: orange;
+        width: 100%;
     }
-    //background-color: rgb(26, 130, 0);
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    margin: 25px auto 50px;
-}
 
 
-
-
-
-footer{
-    p{
-        margin-bottom: 7px;
-    }
-    background-color: rgb(65, 59, 62);
-    width: 100%;
-    height: 150px;
-    color: white;
-    padding: 30px 20px;
-    
-}
-
-
-
-
-
-.foot path{
-    fill: white;
-}
-
-
-
-.proposer{
-    p{
-        margin-left: 15px;
-    }
-    //background-color: yellowgreen;
-    display: flex;
-    flex-direction: row;
-    margin-top: 15px;
-    margin-bottom: 7px;
-}
-
-
-
-.devenir{
-    p{
-        margin-left: 10px;
-        margin-bottom: 5px;
-    }
-    //background-color: yellowgreen;
-    display: flex;
-    flex-direction: row;
-    margin-bottom: 7px;
-}
-
-
-
-footer a{
-    text-decoration: none;
-    color: white;
-}
-
-
-
-
-
-
-/*-------------------------------*/ 
-/*-------------------------------*/ 
-
-
-
-/*responsive part*/ 
-
-
-
-
-@media screen and(min-width:575px) and (max-width:768px) {
-
-    
-
-
-
-    
-    
     .choix .text{
         h2{
-            width: 425px;
+            //background-color: slateblue;
+            width: 100%;
             white-space: nowrap;
             overflow: hidden;
             text-overflow: ellipsis;
         }
+        //background-color: salmon;
+        width:67%;
     }
 
 
     .choix:hover::after{
         width: 15%;
     }
+
+  
+    .responsive-flex-carte h1::after{
+        width:35%;
+    }
+
+
+    
+.choix:hover .tarif p{
+    transform: translateX(-40px);
+    transition: 0.5s;
+}
+
+
 }
 
 
@@ -577,17 +492,74 @@ footer a{
 /*--------------------*/ 
 
 
-@media screen and(min-width:768px)  {
+@media screen and(min-width:1100px)  {
+
+
+
+    .carte{
+        //background-color: yellow;
+        //max-height: 70vh;
+        max-height: 250vh;
+    }
+
+
+
+    .responsive-flex-carte{
+        //max-height: 43vh;
+        max-height: 100%;
+    }
+
+    .responsive-box{
+        .box{
+            //background-color: palegreen;
+            width: 33%;
+
+        }
+        //background-color: peru;
+        display: flex;
+        flex-wrap: nowrap;
+        justify-content: space-between;
+            height: 58px;
+    }
+
+
     .choix .text{
         h2{
-            width: 500px;
+            //background-color: red;
+            width: 100%;
             white-space: nowrap;
             overflow: hidden;
             text-overflow: ellipsis;
         }
+        //background-color: rgb(175, 111, 143);
+        width: 75%;
     }
 
-    .choix:hover::after{
-        width: 10%;
+
+
+    .choix:hover .tarif p{
+        transform: translateX(-30px);
+        transition: 0.5s;
     }
+
+
+    .choix:hover::after{
+        width: 15%;
+    }
+
+
+   
+
+    .responsive-flex-carte h1::after{
+        width:55%;
+    }
+
+
+  
 }
+
+
+
+
+
+
