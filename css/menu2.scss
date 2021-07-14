@@ -109,6 +109,12 @@
         
     cursor: pointer;
     }
+    .box4{
+        animation: slide 3s ease   ;
+        margin-top: 10px;
+        
+    cursor: pointer;
+    }
     background-color: #f3f3f2;
     text-transform: uppercase;
     font-size: 9px;
@@ -512,8 +518,9 @@
     .responsive-box{
         .box{
             //background-color: palegreen;
+    
+            //width:25%;
             width: 33%;
-
         }
         //background-color: peru;
         display: flex;
@@ -544,7 +551,8 @@
 
 
     .choix:hover::after{
-        width: 15%;
+        //width: 15%;
+        width: 5%;
     }
 
 
