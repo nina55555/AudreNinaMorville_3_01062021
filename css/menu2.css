@@ -289,6 +289,13 @@ footer a {
   cursor: pointer;
 }
 
+.entrée .box4 {
+  -webkit-animation: slide 3s ease;
+          animation: slide 3s ease;
+  margin-top: 10px;
+  cursor: pointer;
+}
+
 @-webkit-keyframes slide {
   from {
     opacity: 0;
@@ -628,7 +635,7 @@ footer a {
 /*-------------------------------*/
 /*-------------------------------*/
 /*responsive part*/
-@media screen and (min-width: 735px) and (max-width: 1100px) {
+@media screen and (min-width: 735px) and (max-width: 800px) {
   .responsive-box {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -672,7 +679,7 @@ footer a {
 }
 
 /*--------------------*/
-@media screen and (min-width: 1100px) {
+@media screen and (min-width: 800px) {
   .carte {
     max-height: 250vh;
   }
@@ -691,7 +698,8 @@ footer a {
     height: 58px;
   }
   .responsive-box .box {
-    width: 33%;
+    background-color: #f8be3f;
+    width: 300px;
   }
   .choix .text {
     width: 75%;
@@ -709,7 +717,7 @@ footer a {
     transition: 0.5s;
   }
   .choix:hover::after {
-    width: 15%;
+    width: 5%;
   }
   .responsive-flex-carte h1::after {
     width: 55%;

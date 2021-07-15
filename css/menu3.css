@@ -709,7 +709,7 @@ footer a {
     transition: 0.5s;
   }
   .choix:hover::after {
-    width: 15%;
+    width: 5%;
   }
   .responsive-flex-carte h1::after {
     width: 55%;
