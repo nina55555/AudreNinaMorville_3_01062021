@@ -512,14 +512,14 @@
     .responsive-box{
         .box{
             //background-color: palegreen;
-            width: 33%;
+            
+            width: 300px;
+            margin: 20px;
 
         }
         //background-color: peru;
         display: flex;
-        flex-wrap: nowrap;
-        justify-content: space-between;
-            height: 58px;
+        flex-wrap: wrap;
     }
 
 

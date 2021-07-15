@@ -691,7 +691,9 @@ footer a {
     height: 58px;
   }
   .responsive-box .box {
-    width: 33%;
+    
+    width: 300px;
+    margin: 20px;
   }
   .choix .text {
     width: 75%;
