@@ -291,7 +291,7 @@ header .logo img {
   margin: 0 auto;
 }
 
-.fonctionnement h1 {
+.fonctionnement h2 {
   font-size: 25px;
   margin-left: 30px;
   padding-bottom: 10px;
@@ -374,7 +374,7 @@ header .logo img {
   padding-bottom: 45px;
 }
 
-.all-restaurants h1 {
+.all-restaurants h2 {
   margin-left: 20px;
   font-size: 25px;
   margin-bottom: 18px;
@@ -632,7 +632,7 @@ footer a {
     width: 50%;
     padding-top: 75px;
   }
-  .fonctionnement h1 {
+  .fonctionnement h2 {
     font-size: 25px;
     margin-left: 0px;
   }
@@ -676,7 +676,7 @@ footer a {
         -ms-flex-direction: column;
             flex-direction: column;
   }
-  .all-restaurants h1 {
+  .all-restaurants h2 {
     margin: 0 auto;
     padding-bottom: 20px;
   }
