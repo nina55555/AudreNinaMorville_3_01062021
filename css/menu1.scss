@@ -3,157 +3,11 @@
 @import './container.scss';
 @import './pic-resto.scss';
 @import './commander.scss';
-
-
-
-
-
-
-
-.carte{
-    background-color: #f3f3f2;
-    height: auto;
-    width: 100%;
-    border-radius: 15px 15px 0px 0px;
-    display: flex;
-    flex-direction: column;
-    z-index: 100;
-    /*
-    position: absolute;
-    top: 280px;
-    */
-}
-
-
-
-.nom-restaurant{
-    background-color: #f3f3f2;
-    //background-color: green;
-    min-height: 70px;
-    margin-bottom: 25px;
-    //width: 100%;
-    display: flex;
-    justify-content: space-between;
-    margin-top: 25px;
-    padding-left: 15px;
-    font-family: 'Shrikhand', cursive;
-}
-
-
-.aime .icon{
-    //background-color: midnightblue;
-    width: 50px;
-    height: 50px;
-}
-
-
-.aime .icon path{
-    fill: transparent;
-    stroke-width: 2;
-    stroke: black;
-    cursor: pointer;
-}
-
-
-
-.aime .icon:hover path{
-    animation: animate-heart 0.5s linear forwards;
-}
-
-
-
-@keyframes animate-heart{
-    0%{
-        fill: transparent;
-        stroke-width: 2;
-    }
-    100%{
-       fill: red;
-       stroke-width: 1;
-    }
-}
-
-
-
-
-
-
-
-
-
-
-
-.responsive-flex-carte{
-    //background-color: red;
-    height: auto;
-}
-
-
-
-.entrée{
-    .box1{
-        animation: slide 3s ease   ;
-        margin-top: 10px;
-        
-    cursor: pointer;
-    }
-    .box2{
-        animation: slide 3s ease   ;
-        margin-top: 10px;
-    
-    cursor: pointer;
-    }
-    .box3{
-        animation: slide 3s ease   ;
-        margin-top: 10px;
-        
-    cursor: pointer;
-    }
-    background-color: #f3f3f2;
-    text-transform: uppercase;
-    font-size: 9px;
-    width: 95%;
-    display: flex;
-    flex-direction: column;
-    margin: 0 auto;
-}
-
-
-
-
-
-@keyframes slide {
-    from{
-        opacity: 0;
-        transform: translateY(50%);
-    }
-    to{
-        opacity: 1;
-        transform: translateY(0%);
-    }
-}
-
-
-
-
-.entrée h1{
-    position: relative;
-    color: rgb(53, 53, 53);
-    padding-bottom: 15px;
-}
-
-
-
-
-.entrée h1::after{
-    content: " ";
-    height: 3px;
-    width: 55px;
-    background-color:#99E2D0;
-    position: absolute;
-    top: 90%;
-    left: 0px;
-}
+@import './heart-anim.scss';
+@import './carte.scss';
+@import './nom-resto.scss';
+@import './responsive-flex-carte.scss';
+@import './entrees.scss';
 
 
 
@@ -162,8 +16,6 @@
     width: 100%;
     height: 70px;
 }
-
-
 
 
 .choix{
@@ -179,12 +31,7 @@
 }
 
 
-
 .choix::after{
-    //content: " \f058";
-    //font-family:"Font Awesome 5 free" ;
-    //font-size: 13px;
-    //animation: rot 5s ease 0.5s ;
     content: " ";
     width: 15%;
     height: 100%;
@@ -237,10 +84,8 @@
         opacity: 1;
         transform: rotate(0deg);
         transform-origin: center center;
-
     }
 }
-
 
 
 .choix:hover::after{
@@ -250,19 +95,16 @@
 }
 
 
-
-
-
 .choix .text{
     h2{
         padding-left: 15px;
         padding-top: 15px;
         font-size: 20px;
         width: 250px;
+
         white-space: nowrap;
         overflow: hidden;
         text-overflow: ellipsis;
-
     }
     p{
         padding-left: 15px;
@@ -279,8 +121,6 @@
     align-items: flex-start;
     border-radius: 10px 0px 0px 10px;
 }
-
-
 
 
 .choix .tarif{
@@ -305,26 +145,21 @@
 }
 
 
-
-
 .plat{
     .box1b{
         animation: slide 6s ease  ;
         margin-top: 10px;
-        
-    cursor: pointer;
+        cursor: pointer;
     }
     .box2b{
         animation: slide 6s ease  ;
         margin-top: 10px;
-        
-    cursor: pointer;
+        cursor: pointer;
     }
     .box3b{
         animation: slide 6s ease;
         margin-top: 10px;
-        
-    cursor: pointer;
+        cursor: pointer;
     }
     background-color:#f3f3f2 ;
     text-transform: uppercase;
@@ -336,16 +171,12 @@
 }
 
 
-
-
-
 .plat h1{
     position: relative;
     color: rgb(53, 53, 53);
     padding-bottom: 10px;
     padding-top: 40px;
 }
-
 
 
 .plat h1::after{
@@ -359,28 +190,21 @@
 }
 
 
-
-
-
-
 .dessert{
     .box1c{
         animation: slide 9s ease ;
         margin-top: 10px;
-        
-    cursor: pointer;
+        cursor: pointer;
     }
     .box2c{
         animation: slide 9s ease  ;
         margin-top: 10px;
-        
-    cursor: pointer;
+        cursor: pointer;
     }
     .box3c{
         animation: slide 9s ease ;
         margin-top: 10px;
-        
-    cursor: pointer;
+        cursor: pointer;
     }
     background-color: #f3f3f2;
     text-transform: uppercase;
@@ -390,13 +214,7 @@
     flex-direction: column;
     margin: 0 auto;
     padding-bottom: 30px;
-    //margin-left: 15px;
 }
-
-
-
-
-
 
 
 
@@ -417,10 +235,6 @@
     top: 90%;
     left: 0px;
 }
-
-
-
-
 
 
 
@@ -459,7 +273,7 @@
         h2{
             //background-color: slateblue;
             width: 100%;
-            white-space: nowrap;
+            //white-space: nowrap;
             overflow: hidden;
             text-overflow: ellipsis;
         }
@@ -476,15 +290,11 @@
     .responsive-flex-carte h1::after{
         width:35%;
     }
-
-
     
-.choix:hover .tarif p{
-    transform: translateX(-40px);
-    transition: 0.5s;
-}
-
-
+    .choix:hover .tarif p{
+        transform: translateX(-40px);
+        transition: 0.5s;
+    }
 }
 
 
@@ -494,8 +304,6 @@
 
 @media screen and(min-width:1100px)  {
 
-
-
     .carte{
         //background-color: yellow;
         //max-height: 70vh;
@@ -503,14 +311,9 @@
     }
 
 
-
     .responsive-flex-carte{
-        //max-height: 43vh;
         max-height: 100%;
     }
-
-
-
 
 
     .responsive-box{
@@ -519,7 +322,6 @@
             //width:25%;
             width: 300px;
             margin: 20px;
-
         }
         //background-color: peru;
         display: flex;
@@ -527,22 +329,11 @@
     }
 
 
-
-
-
-
-
-
-
-
-
-
-
     .choix .text{
         h2{
             //background-color: red;
             width: 100%;
-            white-space: nowrap;
+            //white-space: nowrap;
             overflow: hidden;
             text-overflow: ellipsis;
         }
@@ -551,27 +342,19 @@
     }
 
 
-
     .choix:hover .tarif p{
         transform: translateX(-30px);
         transition: 0.5s;
     }
-
 
     
     .choix:hover::after{
         width: 5%;
    }
    
-
-    
-
     .responsive-flex-carte h1::after{
         width:55%;
     }
-
-
-  
 }
 
 

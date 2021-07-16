@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAGA,AAAA,sBAAsB,CAAA;EAElB,MAAM,EAAE,IAAI;CACf",
+    "sources": [
+        "responsive-flex-carte.scss"
+    ],
+    "names": [],
+    "file": "responsive-flex-carte.css"
+}

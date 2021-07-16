@@ -176,40 +176,6 @@ footer a {
   }
 }
 
-.carte {
-  background-color: #f3f3f2;
-  height: auto;
-  width: 100%;
-  border-radius: 15px 15px 0px 0px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  z-index: 100;
-  /*
-    position: absolute;
-    top: 280px;
-    */
-}
-
-.nom-restaurant {
-  background-color: #f3f3f2;
-  min-height: 70px;
-  margin-bottom: 25px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  margin-top: 25px;
-  padding-left: 15px;
-  font-family: 'Shrikhand', cursive;
-}
-
 .aime .icon {
   width: 50px;
   height: 50px;
@@ -247,6 +213,40 @@ footer a {
     fill: red;
     stroke-width: 1;
   }
+}
+
+.carte {
+  background-color: #f3f3f2;
+  height: auto;
+  width: 100%;
+  border-radius: 15px 15px 0px 0px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  z-index: 100;
+  /*
+    position: absolute;
+    top: 280px;
+    */
+}
+
+.nom-restaurant {
+  background-color: #f3f3f2;
+  min-height: 70px;
+  margin-bottom: 25px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-top: 25px;
+  padding-left: 15px;
+  font-family: 'Shrikhand', cursive;
 }
 
 .responsive-flex-carte {
@@ -635,7 +635,7 @@ footer a {
 /*-------------------------------*/
 /*-------------------------------*/
 /*responsive part*/
-@media screen and (min-width: 735px) and (max-width: 800px) {
+@media screen and (min-width: 735px) and (max-width: 1100px) {
   .responsive-box {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -660,7 +660,6 @@ footer a {
   }
   .choix .text h2 {
     width: 100%;
-    white-space: nowrap;
     overflow: hidden;
     text-overflow: ellipsis;
   }
@@ -679,7 +678,7 @@ footer a {
 }
 
 /*--------------------*/
-@media screen and (min-width: 800px) {
+@media screen and (min-width: 1100px) {
   .carte {
     max-height: 250vh;
   }
@@ -692,9 +691,6 @@ footer a {
     display: flex;
     -ms-flex-wrap: wrap;
         flex-wrap: wrap;
-    -webkit-box-pack: justify;
-        -ms-flex-pack: justify;
-            justify-content: space-between;
   }
   .responsive-box .box {
     width: 300px;
@@ -705,8 +701,6 @@ footer a {
   }
   .choix .text h2 {
     width: 100%;
-    white-space: nowrap;
-    overflow: hidden;
     text-overflow: ellipsis;
   }
   .choix:hover .tarif p {

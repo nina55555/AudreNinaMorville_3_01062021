@@ -190,6 +190,7 @@ header{
         display: flex;
         justify-content: center;
         align-items: center;
+        cursor: pointer;
     }
      a{
         text-decoration: none;
@@ -207,6 +208,10 @@ header{
 
 
 
+.reservation .button:hover{
+    background: linear-gradient(175deg,#fc84da 10%, #af6dff 100% );
+    box-shadow: 5px 8px 10px rgb(65, 59, 62);
+}
 
 
 .fonctionnement{
@@ -268,10 +273,6 @@ header{
 
 
 
-.fonctionnement-button:hover{
-    background-color: rgb(243, 242, 242);
-    box-shadow: 5px 8px 10px rgb(65, 59, 62);
-}
 
 
 

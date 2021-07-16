@@ -269,11 +269,18 @@ header .logo img {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  cursor: pointer;
 }
 
 .reservation a {
   text-decoration: none;
   color: white;
+}
+
+.reservation .button:hover {
+  background: linear-gradient(175deg, #fc84da 10%, #af6dff 100%);
+  -webkit-box-shadow: 5px 8px 10px #413b3e;
+          box-shadow: 5px 8px 10px #413b3e;
 }
 
 .fonctionnement {
@@ -346,12 +353,6 @@ header .logo img {
 
 .fonctionnement-button p {
   font-weight: bold;
-}
-
-.fonctionnement-button:hover {
-  background-color: #f3f2f2;
-  -webkit-box-shadow: 5px 8px 10px #413b3e;
-          box-shadow: 5px 8px 10px #413b3e;
 }
 
 .fonctionnement-icon {

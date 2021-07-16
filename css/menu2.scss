@@ -3,163 +3,17 @@
 @import './container.scss';
 @import './pic-resto.scss';
 @import './commander.scss';
+@import './heart-anim.scss';
+@import './carte.scss';
+@import './nom-resto.scss';
+@import './responsive-flex-carte.scss';
+@import './entrees.scss';
 
 
 
 
 
 
-
-.carte{
-    background-color: #f3f3f2;
-    height: auto;
-    width: 100%;
-    border-radius: 15px 15px 0px 0px;
-    display: flex;
-    flex-direction: column;
-    z-index: 100;
-    /*
-    position: absolute;
-    top: 280px;
-    */
-}
-
-
-
-.nom-restaurant{
-    background-color: #f3f3f2;
-    //background-color: green;
-    min-height: 70px;
-    margin-bottom: 25px;
-    //width: 100%;
-    display: flex;
-    justify-content: space-between;
-    margin-top: 25px;
-    padding-left: 15px;
-    font-family: 'Shrikhand', cursive;
-}
-
-
-.aime .icon{
-    //background-color: midnightblue;
-    width: 50px;
-    height: 50px;
-}
-
-
-.aime .icon path{
-    fill: transparent;
-    stroke-width: 2;
-    stroke: black;
-    cursor: pointer;
-}
-
-
-
-.aime .icon:hover path{
-    animation: animate-heart 0.5s linear forwards;
-}
-
-
-
-@keyframes animate-heart{
-    0%{
-        fill: transparent;
-        stroke-width: 2;
-    }
-    100%{
-       fill: red;
-       stroke-width: 1;
-    }
-}
-
-
-
-
-
-
-
-
-
-
-
-.responsive-flex-carte{
-    //background-color: red;
-    height: auto;
-}
-
-
-
-.entrée{
-    .box1{
-        animation: slide 3s ease   ;
-        margin-top: 10px;
-        
-    cursor: pointer;
-    }
-    .box2{
-        animation: slide 3s ease   ;
-        margin-top: 10px;
-    
-    cursor: pointer;
-    }
-    .box3{
-        animation: slide 3s ease   ;
-        margin-top: 10px;
-        
-    cursor: pointer;
-    }
-    .box4{
-        animation: slide 3s ease   ;
-        margin-top: 10px;
-        
-    cursor: pointer;
-    }
-    background-color: #f3f3f2;
-    text-transform: uppercase;
-    font-size: 9px;
-    width: 95%;
-    display: flex;
-    flex-direction: column;
-    margin: 0 auto;
-}
-
-
-
-
-
-@keyframes slide {
-    from{
-        opacity: 0;
-        transform: translateY(50%);
-    }
-    to{
-        opacity: 1;
-        transform: translateY(0%);
-    }
-}
-
-
-
-
-.entrée h1{
-    position: relative;
-    color: rgb(53, 53, 53);
-    padding-bottom: 15px;
-}
-
-
-
-
-.entrée h1::after{
-    content: " ";
-    height: 3px;
-    width: 55px;
-    background-color:#99E2D0;
-    position: absolute;
-    top: 90%;
-    left: 0px;
-}
 
 
 
@@ -465,7 +319,7 @@
         h2{
             //background-color: slateblue;
             width: 100%;
-            white-space: nowrap;
+            //white-space: nowrap;
             overflow: hidden;
             text-overflow: ellipsis;
         }
@@ -534,8 +388,9 @@
         h2{
             //background-color: red;
             width: 100%;
-            white-space: nowrap;
-            overflow: hidden;
+            
+            //white-space: nowrap;
+            //overflow: hidden;
             text-overflow: ellipsis;
         }
         //background-color: rgb(175, 111, 143);

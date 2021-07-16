@@ -176,40 +176,6 @@ footer a {
   }
 }
 
-.carte {
-  background-color: #f3f3f2;
-  height: auto;
-  width: 100%;
-  border-radius: 15px 15px 0px 0px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  z-index: 100;
-  /*
-    position: absolute;
-    top: 280px;
-    */
-}
-
-.nom-restaurant {
-  background-color: #f3f3f2;
-  min-height: 70px;
-  margin-bottom: 25px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  margin-top: 25px;
-  padding-left: 15px;
-  font-family: 'Shrikhand', cursive;
-}
-
 .aime .icon {
   width: 50px;
   height: 50px;
@@ -249,6 +215,40 @@ footer a {
   }
 }
 
+.carte {
+  background-color: #f3f3f2;
+  height: auto;
+  width: 100%;
+  border-radius: 15px 15px 0px 0px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  z-index: 100;
+  /*
+    position: absolute;
+    top: 280px;
+    */
+}
+
+.nom-restaurant {
+  background-color: #f3f3f2;
+  min-height: 70px;
+  margin-bottom: 25px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-top: 25px;
+  padding-left: 15px;
+  font-family: 'Shrikhand', cursive;
+}
+
 .responsive-flex-carte {
   height: auto;
 }
@@ -283,6 +283,13 @@ footer a {
 }
 
 .entrée .box3 {
+  -webkit-animation: slide 3s ease;
+          animation: slide 3s ease;
+  margin-top: 10px;
+  cursor: pointer;
+}
+
+.entrée .box4 {
   -webkit-animation: slide 3s ease;
           animation: slide 3s ease;
   margin-top: 10px;
@@ -683,15 +690,10 @@ footer a {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    -ms-flex-wrap: nowrap;
-        flex-wrap: nowrap;
-    -webkit-box-pack: justify;
-        -ms-flex-pack: justify;
-            justify-content: space-between;
-    height: 58px;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
   }
   .responsive-box .box {
-    
     width: 300px;
     margin: 20px;
   }

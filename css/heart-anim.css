@@ -1,0 +1,39 @@
+.aime .icon {
+  width: 50px;
+  height: 50px;
+}
+
+.aime .icon path {
+  fill: transparent;
+  stroke-width: 2;
+  stroke: black;
+  cursor: pointer;
+}
+
+.aime .icon:hover path {
+  -webkit-animation: animate-heart 0.5s linear forwards;
+          animation: animate-heart 0.5s linear forwards;
+}
+
+@-webkit-keyframes animate-heart {
+  0% {
+    fill: transparent;
+    stroke-width: 2;
+  }
+  100% {
+    fill: red;
+    stroke-width: 1;
+  }
+}
+
+@keyframes animate-heart {
+  0% {
+    fill: transparent;
+    stroke-width: 2;
+  }
+  100% {
+    fill: red;
+    stroke-width: 1;
+  }
+}
+/*# sourceMappingURL=heart-anim.css.map */
