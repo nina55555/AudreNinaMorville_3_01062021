@@ -52,7 +52,7 @@
 
 
 
-.entrée h1{
+.entrée h2{
     position: relative;
     color: rgb(53, 53, 53);
     padding-bottom: 15px;
@@ -61,7 +61,7 @@
 
 
 
-.entrée h1::after{
+.entrée h2::after{
     content: " ";
     height: 3px;
     width: 55px;

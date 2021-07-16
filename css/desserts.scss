@@ -1,0 +1,48 @@
+
+
+.dessert{
+    .box1c{
+        animation: slide 9s ease ;
+        margin-top: 10px;
+        cursor: pointer;
+    }
+    .box2c{
+        animation: slide 9s ease  ;
+        margin-top: 10px;
+        cursor: pointer;
+    }
+    .box3c{
+        animation: slide 9s ease ;
+        margin-top: 10px;
+        cursor: pointer;
+    }
+    background-color: #f3f3f2;
+    text-transform: uppercase;
+    font-size: 9px;
+    width: 95%;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    padding-bottom: 30px;
+}
+
+
+
+.dessert h2{
+    position: relative;
+    color: rgb(53, 53, 53);
+    padding-bottom: 10px;
+    padding-top: 40px;
+}
+
+
+.dessert h2::after{
+    content: " ";
+    height: 3px;
+    width: 55px;
+    background-color:#99E2D0;
+    position: absolute;
+    top: 90%;
+    left: 0px;
+}
+

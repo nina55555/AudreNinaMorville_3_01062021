@@ -68,13 +68,13 @@
   }
 }
 
-.entrée h1 {
+.entrée h2 {
   position: relative;
   color: #353535;
   padding-bottom: 15px;
 }
 
-.entrée h1::after {
+.entrée h2::after {
   content: " ";
   height: 3px;
   width: 55px;

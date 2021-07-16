@@ -1,0 +1,218 @@
+
+.box{
+    //background-color: rgb(158, 22, 90);
+    width: 100%;
+    height: 70px;
+}
+
+
+.choix{
+    //background-color: salmon;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 10px;
+    box-shadow: 1px 1px 11px rgb(184, 182, 183);
+    position: relative;
+}
+
+
+.choix::after{
+    //content: " \f058";
+    //font-family:"Font Awesome 5 free" ;
+    //font-size: 13px;
+    //animation: rot 5s ease 0.5s ;
+    content: " ";
+    width: 15%;
+    height: 100%;
+    border-radius: 0px 10px 10px 0px;
+    background-color: #99E2D0;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    transition: 0.5s;
+    opacity: 0;
+    transform: translate(40px);
+}
+
+
+.choix::before{
+    content: " \f058";
+    font-family:"Font Awesome 5 free" ;
+    font-size: 24px;
+    color: white;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 0px;
+    bottom: 0px;
+    right: 0px;
+    width: 15%;
+    opacity: 0;
+    transition: 0.5s;
+}
+
+
+.choix:hover::before{
+    z-index: 2;
+    animation: rot 0.5s ease 0.2s forwards;
+}
+
+
+@keyframes rot{
+    from{
+        opacity: 0;
+        transform: rotate(-180deg);
+        transform-origin: center center;
+    }
+    to{
+        opacity: 1;
+        transform: rotate(0deg);
+        transform-origin: center center;
+    }
+}
+
+
+.choix:hover::after{
+    transform: translate(0px);
+    display: flex;
+    opacity: 1;
+}
+
+
+.choix .text{
+    h2{
+        padding-left: 15px;
+        padding-top: 15px;
+        font-size: 20px;
+        width: 250px;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
+    p{
+        padding-left: 15px;
+        padding-top: 2px;
+        font-size: 10px;
+    }
+    background-color: #f4f5f1;
+    width: 80%;
+    height: 100%;
+    display: flex;
+    //flex-wrap: nowrap;
+    justify-content: start;
+    flex-direction: column;
+    align-items: flex-start;
+    border-radius: 10px 0px 0px 10px;
+}
+
+
+.choix .tarif{
+    p{
+        padding-top: 15px;
+        font-size: 10px;
+        font-weight: bold;
+    }
+    background-color: #f5f3f1;
+    width: 20%;
+    height: 100%;
+    border-radius: 0px 10px 10px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.choix:hover .tarif p{
+    transform: translateX(-50px);
+    transition: 0.5s;
+}
+
+
+
+
+@media screen and(min-width:735px) and (max-width:1100px) {
+
+    .responsive-box{
+        .box{
+            //background-color: violet;
+            width: 48%;
+        }
+        //background-color: yellowgreen;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .choix{
+        //background-color: orange;
+        width: 100%;
+    }
+
+    .choix .text{
+        h2{
+            //background-color: slateblue;
+            width: 100%;
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
+        }
+        //background-color: salmon;
+        width:67%;
+    }
+
+    .choix:hover::after{
+        width: 15%;
+    }
+        
+    .choix:hover .tarif p{
+        transform: translateX(-40px);
+        transition: 0.5s;
+    }
+}
+
+
+
+@media screen and(min-width:1100px)  {
+
+    .responsive-box{
+        .box{
+            //background-color: palegreen;
+            width: 300px;
+            margin: 20px;
+        }
+        //background-color: peru;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+
+    .choix .text{
+        h2{
+            //background-color: red;
+            width: 100%;
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
+        }
+        //background-color: rgb(175, 111, 143);
+        width: 75%;
+    }
+
+    .choix:hover .tarif p{
+        transform: translateX(-30px);
+        transition: 0.5s;
+    }
+
+    .choix:hover::after{
+        //width: 15%;
+        width: 5%;
+    }
+}

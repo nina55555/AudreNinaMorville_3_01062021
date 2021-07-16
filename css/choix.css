@@ -1,0 +1,187 @@
+.box {
+  width: 100%;
+  height: 70px;
+}
+
+.choix {
+  width: 100%;
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border-radius: 10px;
+  -webkit-box-shadow: 1px 1px 11px #b8b6b7;
+          box-shadow: 1px 1px 11px #b8b6b7;
+  position: relative;
+}
+
+.choix::after {
+  content: " ";
+  width: 15%;
+  height: 100%;
+  border-radius: 0px 10px 10px 0px;
+  background-color: #99E2D0;
+  color: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  opacity: 0;
+  -webkit-transform: translate(40px);
+          transform: translate(40px);
+}
+
+.choix::before {
+  content: " \f058";
+  font-family: "Font Awesome 5 free";
+  font-size: 24px;
+  color: white;
+  position: absolute;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  top: 0px;
+  bottom: 0px;
+  right: 0px;
+  width: 15%;
+  opacity: 0;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.choix:hover::before {
+  z-index: 2;
+  -webkit-animation: rot 0.5s ease 0.2s forwards;
+          animation: rot 0.5s ease 0.2s forwards;
+}
+
+@-webkit-keyframes rot {
+  from {
+    opacity: 0;
+    -webkit-transform: rotate(-180deg);
+            transform: rotate(-180deg);
+    -webkit-transform-origin: center center;
+            transform-origin: center center;
+  }
+  to {
+    opacity: 1;
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+    -webkit-transform-origin: center center;
+            transform-origin: center center;
+  }
+}
+
+@keyframes rot {
+  from {
+    opacity: 0;
+    -webkit-transform: rotate(-180deg);
+            transform: rotate(-180deg);
+    -webkit-transform-origin: center center;
+            transform-origin: center center;
+  }
+  to {
+    opacity: 1;
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+    -webkit-transform-origin: center center;
+            transform-origin: center center;
+  }
+}
+
+.choix:hover::after {
+  -webkit-transform: translate(0px);
+          transform: translate(0px);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  opacity: 1;
+}
+
+.choix .text {
+  background-color: #f4f5f1;
+  width: 80%;
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: start;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  border-radius: 10px 0px 0px 10px;
+}
+
+.choix .text h2 {
+  padding-left: 15px;
+  padding-top: 15px;
+  font-size: 20px;
+  width: 250px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.choix .text p {
+  padding-left: 15px;
+  padding-top: 2px;
+  font-size: 10px;
+}
+
+.choix .tarif {
+  background-color: #f5f3f1;
+  width: 20%;
+  height: 100%;
+  border-radius: 0px 10px 10px 0px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.choix .tarif p {
+  padding-top: 15px;
+  font-size: 10px;
+  font-weight: bold;
+}
+
+.choix:hover .tarif p {
+  -webkit-transform: translateX(-50px);
+          transform: translateX(-50px);
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+/*# sourceMappingURL=choix.css.map */

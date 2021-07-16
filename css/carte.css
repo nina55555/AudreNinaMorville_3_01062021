@@ -16,4 +16,10 @@
     top: 280px;
     */
 }
+
+@media screen and (min-width: 1100px) {
+  .carte {
+    max-height: 250vh;
+  }
+}
 /*# sourceMappingURL=carte.css.map */
