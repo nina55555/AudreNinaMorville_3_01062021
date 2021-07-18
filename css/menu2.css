@@ -51,12 +51,6 @@ footer {
   height: 150px;
   color: white;
   padding: 30px 20px;
-  /*position: absolute;
-    top: 1450px;
-    */
-  /*position: absolute;
-    bottom: 0px;
-    */
 }
 
 footer p {
@@ -199,7 +193,7 @@ footer a {
     stroke-width: 2;
   }
   100% {
-    fill: red;
+    fill: #FF79DA;
     stroke-width: 1;
   }
 }
@@ -210,13 +204,13 @@ footer a {
     stroke-width: 2;
   }
   100% {
-    fill: red;
+    fill: #FF79DA;
     stroke-width: 1;
   }
 }
 
 .carte {
-  background-color: #f3f3f2;
+  background-color: greenyellow;
   height: auto;
   width: 100%;
   border-radius: 15px 15px 0px 0px;
@@ -256,10 +250,14 @@ footer a {
 }
 
 .responsive-flex-carte {
+  background-color: #101f17;
   height: auto;
 }
 
 @media screen and (min-width: 735px) and (max-width: 1100px) {
+  .responsive-flex-carte {
+    height: auto;
+  }
   .responsive-flex-carte h2::after {
     width: 35%;
   }
@@ -275,7 +273,7 @@ footer a {
 }
 
 .entrée {
-  background-color: #f3f3f2;
+  background-color: #0004ff;
   text-transform: uppercase;
   font-size: 9px;
   width: 95%;
@@ -360,7 +358,7 @@ footer a {
 }
 
 .plat {
-  background-color: #f3f3f2;
+  background-color: #968941;
   text-transform: uppercase;
   font-size: 9px;
   width: 95%;
@@ -413,7 +411,7 @@ footer a {
 }
 
 .dessert {
-  background-color: #f3f3f2;
+  background-color: #f76227;
   text-transform: uppercase;
   font-size: 9px;
   width: 95%;
@@ -467,11 +465,13 @@ footer a {
 }
 
 .box {
+  background-color: #9e165a;
   width: 100%;
   height: 70px;
 }
 
 .choix {
+  background-color: #666665;
   width: 100%;
   height: 100%;
   display: -webkit-box;
@@ -589,8 +589,8 @@ footer a {
 }
 
 .choix .text {
-  background-color: #f4f5f1;
-  width: 80%;
+  background-color: #9ac41c;
+  width: 65%;
   height: 100%;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -609,13 +609,16 @@ footer a {
 }
 
 .choix .text h3 {
+  background-color: indianred;
   padding-left: 15px;
   padding-top: 15px;
-  font-size: 20px;
-  width: 250px;
+  /*font-size: 20px;
+        width: 250px;*/
+  width: 100%;
+  font-size: 11px;
   white-space: nowrap;
-  overflow: hidden;
-  text-overflow: ellipsis;
+  /*overflow: hidden;
+        text-overflow: ellipsis;*/
 }
 
 .choix .text p {
@@ -624,8 +627,18 @@ footer a {
   font-size: 10px;
 }
 
+/*
+.choix :hover{
+    .text h3{
+        width: ;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
+}
+*/
 .choix .tarif {
-  background-color: #f5f3f1;
+  background-color: #07b664;
   width: 20%;
   height: 100%;
   border-radius: 0px 10px 10px 0px;
@@ -655,6 +668,66 @@ footer a {
 
 @media screen and (min-width: 735px) and (max-width: 1100px) {
   .responsive-box {
+    background-color: yellowgreen;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .responsive-box .box {
+    background-color: violet;
+    width: 285px;
+    margin: 5px;
+  }
+  .choix {
+    width: 100%;
+  }
+  .choix:hover .text h3 {
+    background-color: slateblue;
+    width: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+  /*
+    .choix .text{
+        h3{
+            background-color: slateblue;
+            width: 100%;
+
+            //white-space: nowrap;
+            //overflow: hidden;
+            //text-overflow: ellipsis;
+        }
+        background-color: salmon;
+        width:67%;
+    }
+
+    .choix:hover::after{
+        width: 15%;
+    }
+        
+    .choix:hover .tarif p{
+        transform: translateX(-40px);
+        transition: 0.5s;
+    }
+
+    /*
+    .choix:hover .text h3{
+        width: ;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
+  */
+}
+
+@media screen and (min-width: 1100px) {
+  .responsive-box {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -668,61 +741,40 @@ footer a {
             align-items: center;
   }
   .responsive-box .box {
-    width: 48%;
-  }
-  .choix {
-    width: 100%;
-  }
-  .choix .text {
-    width: 67%;
-  }
-  .choix .text h3 {
-    width: 100%;
-    white-space: nowrap;
-    overflow: hidden;
-    text-overflow: ellipsis;
-  }
-  .choix:hover::after {
-    width: 15%;
-  }
-  .choix:hover .tarif p {
-    -webkit-transform: translateX(-40px);
-            transform: translateX(-40px);
-    -webkit-transition: 0.5s;
-    transition: 0.5s;
-  }
-}
-
-@media screen and (min-width: 1100px) {
-  .responsive-box {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -ms-flex-wrap: wrap;
-        flex-wrap: wrap;
-  }
-  .responsive-box .box {
-    width: 300px;
+    width: 350px;
     margin: 20px;
   }
-  .choix .text {
-    width: 75%;
-  }
-  .choix .text h3 {
-    width: 100%;
-    white-space: nowrap;
-    overflow: hidden;
-    text-overflow: ellipsis;
-  }
-  .choix:hover .tarif p {
-    -webkit-transform: translateX(-30px);
-            transform: translateX(-30px);
-    -webkit-transition: 0.5s;
-    transition: 0.5s;
-  }
-  .choix:hover::after {
-    width: 5%;
-  }
+  /*
+
+    .choix .text{
+        h3{
+            //background-color: red;
+            width: 100%;
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            //text-transform: lowercase;
+        }
+        //background-color: rgb(175, 111, 143);
+        width: 75%;
+    }
+
+    .choix:hover .tarif p{
+        transform: translateX(-30px);
+        transition: 0.5s;
+    }
+
+    .choix:hover::after{
+        //width: 15%;
+        width: 5%;
+    }
+
+    .choix:hover .text h3{
+        width: ;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }*/
 }
 
 /*-------------------------------*/
