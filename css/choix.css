@@ -214,8 +214,8 @@
   }
   .responsive-box .box {
     background-color: violet;
-    width: 285px;
-    margin: 5px;
+    width: 280px;
+    margin-left: 30vw;
   }
   .choix {
     width: 100%;
