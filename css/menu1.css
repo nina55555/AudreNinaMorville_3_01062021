@@ -405,7 +405,7 @@ footer a {
 .plat h2::after {
   content: " ";
   height: 3px;
-  width: 40px;
+  width: 55px;
   background-color: #99E2D0;
   position: absolute;
   top: 90%;
@@ -608,7 +608,7 @@ footer a {
   border-radius: 10px 0px 0px 10px;
 }
 
-.choix .text h2 {
+.choix .text h3 {
   padding-left: 15px;
   padding-top: 15px;
   font-size: 20px;
@@ -653,9 +653,6 @@ footer a {
   transition: 0.5s;
 }
 
-/*-------------------------------*/
-/*-------------------------------*/
-/*responsive part*/
 @media screen and (min-width: 735px) and (max-width: 1100px) {
   .responsive-box {
     display: -webkit-box;
@@ -679,8 +676,9 @@ footer a {
   .choix .text {
     width: 67%;
   }
-  .choix .text h2 {
+  .choix .text h3 {
     width: 100%;
+    white-space: nowrap;
     overflow: hidden;
     text-overflow: ellipsis;
   }
@@ -695,7 +693,6 @@ footer a {
   }
 }
 
-/*--------------------*/
 @media screen and (min-width: 1100px) {
   .responsive-box {
     display: -webkit-box;
@@ -711,8 +708,9 @@ footer a {
   .choix .text {
     width: 75%;
   }
-  .choix .text h2 {
+  .choix .text h3 {
     width: 100%;
+    white-space: nowrap;
     overflow: hidden;
     text-overflow: ellipsis;
   }
@@ -726,4 +724,9 @@ footer a {
     width: 5%;
   }
 }
+
+/*-------------------------------*/
+/*-------------------------------*/
+/*responsive part*/
+/*--------------------*/
 /*# sourceMappingURL=menu1.css.map */

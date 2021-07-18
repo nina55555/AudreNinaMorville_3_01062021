@@ -15,16 +15,12 @@ body{
 }
 
 
-
-
-
 header{
     .logo img{
       width: 135px;
       margin: 0 auto;
       font-family: 'Shrikhand', cursive;
     }
-
     background-color: rgb(252, 252, 252);
     width: 100%;
     height: auto;
@@ -40,19 +36,12 @@ header{
 }
 
 
-
-
-
 .retour i{
     position: absolute;
     top: 20px;
     left: 10px;
     font-size: 18px;
 }
-
-
-
-
 
 
 footer{
@@ -64,26 +53,13 @@ footer{
     height: 150px;
     color: white;
     padding: 30px 20px;
-
-    /*position: absolute;
-    top: 1450px;
-    */
-    
-    /*position: absolute;
-    bottom: 0px;
-    */
-    
 }
-
-
-
 
 
 .foot path{
     fill: white;
     font-family: 'Shrikhand', cursive;
 }
-
 
 
 .proposer{
@@ -95,9 +71,7 @@ footer{
     flex-direction: row;
     margin-top: 15px;
     margin-bottom: 7px;
-    
 }
-
 
 
 .devenir{
@@ -110,7 +84,6 @@ footer{
     flex-direction: row;
     margin-bottom: 7px;
 }
-
 
 
 footer a{
