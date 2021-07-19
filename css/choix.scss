@@ -67,13 +67,12 @@
     width: 15%;
     height: 100%;
     opacity: 0;
-    transition: 0.5s;
+    transition: 0.2s;
 }
 
 
 .choix .coche i{
     opacity: 0;
-    transition: 0.7s;
 }
 
 .choix:hover{
@@ -101,74 +100,9 @@
     color: white;
     font-size: 25px;
     z-index: 501;
-    animation: rot 0.5s ease 0.2s forwards;
+    animation: rot 0.4s ease 0.1s forwards;
     
 }
-
-/*
-.choix::after{
-    content: " ";
-    width: 15%;
-    height: 100%;
-    border-radius: 0px 10px 10px 0px;
-    background-color: #99E2D0;
-    color: white;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    position: absolute;
-    top: 0px;
-    right: 0px;
-    transition: 0.5s;
-    opacity: 0;
-    transform: translate(40px);
-}
-
-*/
-
-
-
-/*
-.choix::before{
-    content: " \f058";
-    font-family:"Font Awesome 5 free" ;
-    font-size: 24px;
-    color: white;
-    position: absolute;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    top: 0px;
-    bottom: 0px;
-    right: 0px;
-    width: 15%;
-    opacity: 0;
-    transition: 0.5s;
-}
-*/
-
-
-
-
-
-/*
-.choix:hover::after{
-    transform: translate(0px);
-    display: flex;
-    opacity: 1;
-}
-*/
-
-/*
-.choix:hover::before{
-    z-index: 2;
-    animation: rot 0.5s ease 0.2s forwards;
-}
-*/
-
-
-
-
 
 
 
