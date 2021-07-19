@@ -34,12 +34,32 @@
 }
 
 
+
+
 .plat h2::after{
     content: " ";
     height: 3px;
-    width: 55px;
+    width: 12%;
     background-color:#99E2D0;
     position: absolute;
     top: 90%;
     left: 0px;
+}
+
+
+
+@media screen and  (min-width:765px) and (max-width:1100px) {
+    
+    .plat h2::after{
+        width: 55%;
+    }
+}
+
+
+
+@media screen and  (min-width:1100px){
+    
+    .plat h2::after{
+        width: 85%;
+    }
 }
