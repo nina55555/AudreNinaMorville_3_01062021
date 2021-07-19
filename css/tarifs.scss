@@ -1,0 +1,27 @@
+
+
+.choix .tarif{
+    p{
+        padding-top: 15px;
+        font-size: 10px;
+        font-weight: bold;
+    }
+    //background-color: #07b664;
+    width: 20%;
+    height: 100%;
+    border-radius: 0px 10px 10px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.choix:hover .tarif {
+   //transform: translateX(-50px);
+
+    transform: translateX(-30px);
+    transition: 0.5s;
+}
+
+
+

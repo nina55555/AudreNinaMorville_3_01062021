@@ -1,0 +1,33 @@
+@-webkit-keyframes rot {
+  from {
+    opacity: 0;
+    -webkit-transform: rotate(-180deg);
+            transform: rotate(-180deg);
+    -webkit-transform-origin: center center;
+            transform-origin: center center;
+  }
+  to {
+    opacity: 1;
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+    -webkit-transform-origin: center center;
+            transform-origin: center center;
+  }
+}
+@keyframes rot {
+  from {
+    opacity: 0;
+    -webkit-transform: rotate(-180deg);
+            transform: rotate(-180deg);
+    -webkit-transform-origin: center center;
+            transform-origin: center center;
+  }
+  to {
+    opacity: 1;
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+    -webkit-transform-origin: center center;
+            transform-origin: center center;
+  }
+}
+/*# sourceMappingURL=coche-rotation.css.map */

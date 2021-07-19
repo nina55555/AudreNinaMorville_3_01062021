@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAEA,UAAU,CAAV,KAAU;EACN,IAAI;IACA,OAAO,EAAE,CAAC;IACV,SAAS,EAAE,eAAe;;EAE9B,EAAE;IACE,OAAO,EAAE,CAAC;IACV,SAAS,EAAE,cAAc",
+    "sources": [
+        "boxes-sliding.scss"
+    ],
+    "names": [],
+    "file": "boxes-sliding.css"
+}

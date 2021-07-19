@@ -323,32 +323,6 @@ footer a {
   cursor: pointer;
 }
 
-@-webkit-keyframes slide {
-  from {
-    opacity: 0;
-    -webkit-transform: translateY(50%);
-            transform: translateY(50%);
-  }
-  to {
-    opacity: 1;
-    -webkit-transform: translateY(0%);
-            transform: translateY(0%);
-  }
-}
-
-@keyframes slide {
-  from {
-    opacity: 0;
-    -webkit-transform: translateY(50%);
-            transform: translateY(50%);
-  }
-  to {
-    opacity: 1;
-    -webkit-transform: translateY(0%);
-            transform: translateY(0%);
-  }
-}
-
 .entrée h2 {
   position: relative;
   color: #353535;
@@ -537,105 +511,6 @@ footer a {
   position: relative;
 }
 
-.choix::after {
-  content: " ";
-  width: 15%;
-  height: 100%;
-  border-radius: 0px 10px 10px 0px;
-  background-color: #99E2D0;
-  color: white;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  position: absolute;
-  top: 0px;
-  right: 0px;
-  -webkit-transition: 0.5s;
-  transition: 0.5s;
-  opacity: 0;
-  -webkit-transform: translate(40px);
-          transform: translate(40px);
-}
-
-.choix::before {
-  content: " \f058";
-  font-family: "Font Awesome 5 free";
-  font-size: 24px;
-  color: white;
-  position: absolute;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  top: 0px;
-  bottom: 0px;
-  right: 0px;
-  width: 15%;
-  opacity: 0;
-  -webkit-transition: 0.5s;
-  transition: 0.5s;
-}
-
-.choix:hover::after {
-  -webkit-transform: translate(0px);
-          transform: translate(0px);
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  opacity: 1;
-}
-
-.choix:hover::before {
-  z-index: 2;
-  -webkit-animation: rot 0.5s ease 0.2s forwards;
-          animation: rot 0.5s ease 0.2s forwards;
-}
-
-@-webkit-keyframes rot {
-  from {
-    opacity: 0;
-    -webkit-transform: rotate(-180deg);
-            transform: rotate(-180deg);
-    -webkit-transform-origin: center center;
-            transform-origin: center center;
-  }
-  to {
-    opacity: 1;
-    -webkit-transform: rotate(0deg);
-            transform: rotate(0deg);
-    -webkit-transform-origin: center center;
-            transform-origin: center center;
-  }
-}
-
-@keyframes rot {
-  from {
-    opacity: 0;
-    -webkit-transform: rotate(-180deg);
-            transform: rotate(-180deg);
-    -webkit-transform-origin: center center;
-            transform-origin: center center;
-  }
-  to {
-    opacity: 1;
-    -webkit-transform: rotate(0deg);
-            transform: rotate(0deg);
-    -webkit-transform-origin: center center;
-            transform-origin: center center;
-  }
-}
-
 .choix .text {
   width: 65%;
   height: 100%;
@@ -671,17 +546,9 @@ footer a {
   font-size: 10px;
 }
 
-.choix:hover .text h3, .choix:hover p {
-  width: 68%;
-  white-space: nowrap;
-  overflow: hidden;
-  text-overflow: ellipsis;
-}
-
-.choix .tarif {
-  width: 20%;
-  height: 100%;
-  border-radius: 0px 10px 10px 0px;
+.choix .coche {
+  background-color: #99E2D0;
+  position: absolute;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -691,21 +558,100 @@ footer a {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-}
-
-.choix .tarif p {
-  padding-top: 15px;
-  font-size: 10px;
-  font-weight: bold;
-}
-
-.choix:hover .tarif p {
-  -webkit-transform: translateX(-50px);
-          transform: translateX(-50px);
+  border-radius: 0px 10px 10px 0px;
+  top: 0px;
+  bottom: 0px;
+  right: -20px;
+  width: 15%;
+  height: 100%;
+  opacity: 0;
   -webkit-transition: 0.5s;
   transition: 0.5s;
 }
 
+.choix .coche i {
+  opacity: 0;
+  -webkit-transition: 0.7s;
+  transition: 0.7s;
+}
+
+.choix:hover .text h3, .choix:hover p {
+  width: 68%;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.choix:hover .coche {
+  opacity: 1;
+  z-index: 500;
+  border-radius: 0px 10px 10px 0px;
+  -webkit-transform: translateX(-20px);
+          transform: translateX(-20px);
+}
+
+.choix:hover .coche i {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  color: white;
+  font-size: 25px;
+  z-index: 501;
+  -webkit-animation: rot 0.5s ease 0.2s forwards;
+          animation: rot 0.5s ease 0.2s forwards;
+}
+
+/*
+.choix::after{
+    content: " ";
+    width: 15%;
+    height: 100%;
+    border-radius: 0px 10px 10px 0px;
+    background-color: #99E2D0;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    transition: 0.5s;
+    opacity: 0;
+    transform: translate(40px);
+}
+
+*/
+/*
+.choix::before{
+    content: " \f058";
+    font-family:"Font Awesome 5 free" ;
+    font-size: 24px;
+    color: white;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 0px;
+    bottom: 0px;
+    right: 0px;
+    width: 15%;
+    opacity: 0;
+    transition: 0.5s;
+}
+*/
+/*
+.choix:hover::after{
+    transform: translate(0px);
+    display: flex;
+    opacity: 1;
+}
+*/
+/*
+.choix:hover::before{
+    z-index: 2;
+    animation: rot 0.5s ease 0.2s forwards;
+}
+*/
 @media screen and (min-width: 735px) and (max-width: 1100px) {
   .responsive-box {
     display: -webkit-box;
@@ -750,5 +696,93 @@ footer a {
     width: 350px;
     margin: 20px;
   }
+}
+
+@-webkit-keyframes slide {
+  from {
+    opacity: 0;
+    -webkit-transform: translateY(50%);
+            transform: translateY(50%);
+  }
+  to {
+    opacity: 1;
+    -webkit-transform: translateY(0%);
+            transform: translateY(0%);
+  }
+}
+
+@keyframes slide {
+  from {
+    opacity: 0;
+    -webkit-transform: translateY(50%);
+            transform: translateY(50%);
+  }
+  to {
+    opacity: 1;
+    -webkit-transform: translateY(0%);
+            transform: translateY(0%);
+  }
+}
+
+@-webkit-keyframes rot {
+  from {
+    opacity: 0;
+    -webkit-transform: rotate(-180deg);
+            transform: rotate(-180deg);
+    -webkit-transform-origin: center center;
+            transform-origin: center center;
+  }
+  to {
+    opacity: 1;
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+    -webkit-transform-origin: center center;
+            transform-origin: center center;
+  }
+}
+
+@keyframes rot {
+  from {
+    opacity: 0;
+    -webkit-transform: rotate(-180deg);
+            transform: rotate(-180deg);
+    -webkit-transform-origin: center center;
+            transform-origin: center center;
+  }
+  to {
+    opacity: 1;
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+    -webkit-transform-origin: center center;
+            transform-origin: center center;
+  }
+}
+
+.choix .tarif {
+  width: 20%;
+  height: 100%;
+  border-radius: 0px 10px 10px 0px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.choix .tarif p {
+  padding-top: 15px;
+  font-size: 10px;
+  font-weight: bold;
+}
+
+.choix:hover .tarif {
+  -webkit-transform: translateX(-30px);
+          transform: translateX(-30px);
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
 }
 /*# sourceMappingURL=menu1.css.map */

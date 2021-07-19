@@ -1,0 +1,28 @@
+.choix .tarif {
+  width: 20%;
+  height: 100%;
+  border-radius: 0px 10px 10px 0px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.choix .tarif p {
+  padding-top: 15px;
+  font-size: 10px;
+  font-weight: bold;
+}
+
+.choix:hover .tarif {
+  -webkit-transform: translateX(-30px);
+          transform: translateX(-30px);
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+/*# sourceMappingURL=tarifs.css.map */

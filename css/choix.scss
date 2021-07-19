@@ -23,67 +23,6 @@
 }
 
 
-.choix::after{
-    content: " ";
-    width: 15%;
-    height: 100%;
-    border-radius: 0px 10px 10px 0px;
-    background-color: #99E2D0;
-    color: white;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    position: absolute;
-    top: 0px;
-    right: 0px;
-    transition: 0.5s;
-    opacity: 0;
-    transform: translate(40px);
-}
-
-
-.choix::before{
-    content: " \f058";
-    font-family:"Font Awesome 5 free" ;
-    font-size: 24px;
-    color: white;
-    position: absolute;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    top: 0px;
-    bottom: 0px;
-    right: 0px;
-    width: 15%;
-    opacity: 0;
-    transition: 0.5s;
-}
-
-
-.choix:hover::after{
-    transform: translate(0px);
-    display: flex;
-    opacity: 1;
-}
-
-.choix:hover::before{
-    z-index: 2;
-    animation: rot 0.5s ease 0.2s forwards;
-}
-
-
-@keyframes rot{
-    from{
-        opacity: 0;
-        transform: rotate(-180deg);
-        transform-origin: center center;
-    }
-    to{
-        opacity: 1;
-        transform: rotate(0deg);
-        transform-origin: center center;
-    }
-}
 
 
 .choix .text{
@@ -115,6 +54,27 @@
 }
 
 
+.choix .coche{
+    background-color: #99E2D0;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 0px 10px 10px 0px;
+    top: 0px;
+    bottom: 0px;
+    right: -20px;
+    width: 15%;
+    height: 100%;
+    opacity: 0;
+    transition: 0.5s;
+}
+
+
+.choix .coche i{
+    opacity: 0;
+    transition: 0.7s;
+}
 
 .choix:hover{
     .text h3, p{
@@ -127,25 +87,87 @@
 }
 
 
-.choix .tarif{
-    p{
-        padding-top: 15px;
-        font-size: 10px;
-        font-weight: bold;
-    }
-    //background-color: #07b664;
-    width: 20%;
+.choix:hover .coche {
+    //background-color: brown;
+    opacity: 1;
+    z-index: 500;
+    border-radius: 0px 10px 10px 0px;
+    transform: translateX(-20px);
+}
+
+
+.choix:hover .coche i{
+    display: flex;
+    color: white;
+    font-size: 25px;
+    z-index: 501;
+    animation: rot 0.5s ease 0.2s forwards;
+    
+}
+
+/*
+.choix::after{
+    content: " ";
+    width: 15%;
     height: 100%;
     border-radius: 0px 10px 10px 0px;
+    background-color: #99E2D0;
+    color: white;
     display: flex;
     justify-content: center;
     align-items: center;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    transition: 0.5s;
+    opacity: 0;
+    transform: translate(40px);
 }
 
-.choix:hover .tarif p{
-    transform: translateX(-50px);
+*/
+
+
+
+/*
+.choix::before{
+    content: " \f058";
+    font-family:"Font Awesome 5 free" ;
+    font-size: 24px;
+    color: white;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 0px;
+    bottom: 0px;
+    right: 0px;
+    width: 15%;
+    opacity: 0;
     transition: 0.5s;
 }
+*/
+
+
+
+
+
+/*
+.choix:hover::after{
+    transform: translate(0px);
+    display: flex;
+    opacity: 1;
+}
+*/
+
+/*
+.choix:hover::before{
+    z-index: 2;
+    animation: rot 0.5s ease 0.2s forwards;
+}
+*/
+
+
+
 
 
 
