@@ -107,7 +107,7 @@
     p{
         padding-left: 15px;
         padding-top: 2px;
-        font-size: 10px;
+        font-size: 9px;
     }
     //background-color: #9ac41c;
     width: 65%;
@@ -124,16 +124,15 @@
 
 
 .choix:hover{
-    .text h3{
+    .text h3, p{
         //background-color: slateblue;
-        //width: 100%;
         width: 58%;
-
         white-space: nowrap;
         overflow: hidden;
         text-overflow: ellipsis;
     }
 }
+
 
 
 

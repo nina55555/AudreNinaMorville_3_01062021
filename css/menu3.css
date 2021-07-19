@@ -656,10 +656,10 @@ footer a {
 .choix .text p {
   padding-left: 15px;
   padding-top: 2px;
-  font-size: 10px;
+  font-size: 9px;
 }
 
-.choix:hover .text h3 {
+.choix:hover .text h3, .choix:hover p {
   width: 58%;
   white-space: nowrap;
   overflow: hidden;
