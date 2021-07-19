@@ -13,22 +13,22 @@
 }
 
 .plat .box1b {
-  -webkit-animation: slide 6s ease;
-          animation: slide 6s ease;
+  -webkit-animation: slide 1s ease  0.2s;
+          animation: slide 1s ease  0.2s;
   margin-top: 10px;
   cursor: pointer;
 }
 
 .plat .box2b {
-  -webkit-animation: slide 6s ease;
-          animation: slide 6s ease;
+  -webkit-animation: slide 2s ease  0.2s;
+          animation: slide 2s ease  0.2s;
   margin-top: 10px;
   cursor: pointer;
 }
 
 .plat .box3b {
-  -webkit-animation: slide 6s ease;
-          animation: slide 6s ease;
+  -webkit-animation: slide 3s ease 0.2s;
+          animation: slide 3s ease 0.2s;
   margin-top: 10px;
   cursor: pointer;
 }

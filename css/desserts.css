@@ -14,22 +14,22 @@
 }
 
 .dessert .box1c {
-  -webkit-animation: slide 9s ease;
-          animation: slide 9s ease;
+  -webkit-animation: slide 1s ease 0.2s;
+          animation: slide 1s ease 0.2s;
   margin-top: 10px;
   cursor: pointer;
 }
 
 .dessert .box2c {
-  -webkit-animation: slide 9s ease;
-          animation: slide 9s ease;
+  -webkit-animation: slide 2s ease  0.2s;
+          animation: slide 2s ease  0.2s;
   margin-top: 10px;
   cursor: pointer;
 }
 
 .dessert .box3c {
-  -webkit-animation: slide 9s ease;
-          animation: slide 9s ease;
+  -webkit-animation: slide 3s ease 0.2s;
+          animation: slide 3s ease 0.2s;
   margin-top: 10px;
   cursor: pointer;
 }

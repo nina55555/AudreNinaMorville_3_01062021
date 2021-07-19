@@ -317,8 +317,8 @@ footer a {
 }
 
 .entrée .box4 {
-  -webkit-animation: slide 1s ease  0.2s;
-          animation: slide 1s ease  0.2s;
+  -webkit-animation: slide 4s ease  0.2s;
+          animation: slide 4s ease  0.2s;
   margin-top: 10px;
   cursor: pointer;
 }
@@ -367,22 +367,22 @@ footer a {
 }
 
 .plat .box1b {
-  -webkit-animation: slide 6s ease;
-          animation: slide 6s ease;
+  -webkit-animation: slide 1s ease  0.2s;
+          animation: slide 1s ease  0.2s;
   margin-top: 10px;
   cursor: pointer;
 }
 
 .plat .box2b {
-  -webkit-animation: slide 6s ease;
-          animation: slide 6s ease;
+  -webkit-animation: slide 2s ease  0.2s;
+          animation: slide 2s ease  0.2s;
   margin-top: 10px;
   cursor: pointer;
 }
 
 .plat .box3b {
-  -webkit-animation: slide 6s ease;
-          animation: slide 6s ease;
+  -webkit-animation: slide 3s ease 0.2s;
+          animation: slide 3s ease 0.2s;
   margin-top: 10px;
   cursor: pointer;
 }
@@ -433,22 +433,22 @@ footer a {
 }
 
 .dessert .box1c {
-  -webkit-animation: slide 9s ease;
-          animation: slide 9s ease;
+  -webkit-animation: slide 1s ease 0.2s;
+          animation: slide 1s ease 0.2s;
   margin-top: 10px;
   cursor: pointer;
 }
 
 .dessert .box2c {
-  -webkit-animation: slide 9s ease;
-          animation: slide 9s ease;
+  -webkit-animation: slide 2s ease  0.2s;
+          animation: slide 2s ease  0.2s;
   margin-top: 10px;
   cursor: pointer;
 }
 
 .dessert .box3c {
-  -webkit-animation: slide 9s ease;
-          animation: slide 9s ease;
+  -webkit-animation: slide 3s ease 0.2s;
+          animation: slide 3s ease 0.2s;
   margin-top: 10px;
   cursor: pointer;
 }

@@ -35,8 +35,8 @@
 }
 
 .entrée .box4 {
-  -webkit-animation: slide 1s ease  0.2s;
-          animation: slide 1s ease  0.2s;
+  -webkit-animation: slide 4s ease  0.2s;
+          animation: slide 4s ease  0.2s;
   margin-top: 10px;
   cursor: pointer;
 }
