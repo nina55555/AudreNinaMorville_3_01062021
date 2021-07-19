@@ -7,6 +7,7 @@
 
 .choix{
     //background-color: rgb(102, 102, 101);
+    //padding: 5px;
     width: 100%;
     height: 100%;
     display: flex;
@@ -15,15 +16,10 @@
     border-radius: 10px;
     box-shadow: 1px 1px 11px rgb(184, 182, 183);
     position: relative;
-    //padding: 5px;
 }
 
 
 .choix::after{
-    //content: " \f058";
-    //font-family:"Font Awesome 5 free" ;
-    //font-size: 13px;
-    //animation: rot 5s ease 0.5s ;
     content: " ";
     width: 15%;
     height: 100%;
@@ -60,6 +56,12 @@
 }
 
 
+.choix:hover::after{
+    transform: translate(0px);
+    display: flex;
+    opacity: 1;
+}
+
 .choix:hover::before{
     z-index: 2;
     animation: rot 0.5s ease 0.2s forwards;
@@ -80,26 +82,13 @@
 }
 
 
-.choix:hover::after{
-    transform: translate(0px);
-    display: flex;
-    opacity: 1;
-}
-
-
 .choix .text{
     h3{
         //background-color: indianred;
         padding-left: 15px;
         padding-top: 15px;
-
-        /*font-size: 20px;
-        width: 250px;*/
-
         width:100%;
         font-size: 11px;
-
-
         white-space: nowrap;
         /*overflow: hidden;
         text-overflow: ellipsis;*/
@@ -134,8 +123,6 @@
 }
 
 
-
-
 .choix .tarif{
     p{
         padding-top: 15px;
@@ -160,8 +147,6 @@
 
 
 
-
-
 @media screen and(min-width:735px) and (max-width:1100px) {
 
     .responsive-box{
@@ -170,7 +155,6 @@
             width: 280px;
             //margin: 5px;
             margin-left: 30vw;
-            
         }
         //background-color: yellowgreen;
         display: flex;
@@ -178,6 +162,7 @@
         //justify-content: space-between;
         align-items: center;
     }
+
 
     .choix{
         //background-color: orange;
@@ -195,37 +180,6 @@
             text-overflow: ellipsis;
         }
     }
-/*
-    .choix .text{
-        h3{
-            background-color: slateblue;
-            width: 100%;
-
-            //white-space: nowrap;
-            //overflow: hidden;
-            //text-overflow: ellipsis;
-        }
-        background-color: salmon;
-        width:67%;
-    }
-
-    .choix:hover::after{
-        width: 15%;
-    }
-        
-    .choix:hover .tarif p{
-        transform: translateX(-40px);
-        transition: 0.5s;
-    }
-
-    /*
-    .choix:hover .text h3{
-        width: ;
-        white-space: nowrap;
-        overflow: hidden;
-        text-overflow: ellipsis;
-    }
-  */  
 }
 
 
@@ -244,36 +198,4 @@
         justify-content: space-between;
         align-items: center;
     }
-/*
-
-    .choix .text{
-        h3{
-            //background-color: red;
-            width: 100%;
-            white-space: nowrap;
-            overflow: hidden;
-            text-overflow: ellipsis;
-            //text-transform: lowercase;
-        }
-        //background-color: rgb(175, 111, 143);
-        width: 75%;
-    }
-
-    .choix:hover .tarif p{
-        transform: translateX(-30px);
-        transition: 0.5s;
-    }
-
-    .choix:hover::after{
-        //width: 15%;
-        width: 5%;
-    }
-
-    .choix:hover .text h3{
-        width: ;
-        white-space: nowrap;
-        overflow: hidden;
-        text-overflow: ellipsis;
-    }*/
-    
 }

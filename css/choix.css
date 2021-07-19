@@ -71,6 +71,15 @@
   transition: 0.5s;
 }
 
+.choix:hover::after {
+  -webkit-transform: translate(0px);
+          transform: translate(0px);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  opacity: 1;
+}
+
 .choix:hover::before {
   z-index: 2;
   -webkit-animation: rot 0.5s ease 0.2s forwards;
@@ -111,15 +120,6 @@
   }
 }
 
-.choix:hover::after {
-  -webkit-transform: translate(0px);
-          transform: translate(0px);
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  opacity: 1;
-}
-
 .choix .text {
   width: 65%;
   height: 100%;
@@ -142,8 +142,6 @@
 .choix .text h3 {
   padding-left: 15px;
   padding-top: 15px;
-  /*font-size: 20px;
-        width: 250px;*/
   width: 100%;
   font-size: 11px;
   white-space: nowrap;
@@ -216,37 +214,6 @@
     overflow: hidden;
     text-overflow: ellipsis;
   }
-  /*
-    .choix .text{
-        h3{
-            background-color: slateblue;
-            width: 100%;
-
-            //white-space: nowrap;
-            //overflow: hidden;
-            //text-overflow: ellipsis;
-        }
-        background-color: salmon;
-        width:67%;
-    }
-
-    .choix:hover::after{
-        width: 15%;
-    }
-        
-    .choix:hover .tarif p{
-        transform: translateX(-40px);
-        transition: 0.5s;
-    }
-
-    /*
-    .choix:hover .text h3{
-        width: ;
-        white-space: nowrap;
-        overflow: hidden;
-        text-overflow: ellipsis;
-    }
-  */
 }
 
 @media screen and (min-width: 1100px) {
@@ -267,36 +234,5 @@
     width: 350px;
     margin: 20px;
   }
-  /*
-
-    .choix .text{
-        h3{
-            //background-color: red;
-            width: 100%;
-            white-space: nowrap;
-            overflow: hidden;
-            text-overflow: ellipsis;
-            //text-transform: lowercase;
-        }
-        //background-color: rgb(175, 111, 143);
-        width: 75%;
-    }
-
-    .choix:hover .tarif p{
-        transform: translateX(-30px);
-        transition: 0.5s;
-    }
-
-    .choix:hover::after{
-        //width: 15%;
-        width: 5%;
-    }
-
-    .choix:hover .text h3{
-        width: ;
-        white-space: nowrap;
-        overflow: hidden;
-        text-overflow: ellipsis;
-    }*/
 }
 /*# sourceMappingURL=choix.css.map */
