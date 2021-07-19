@@ -1,12 +1,12 @@
 .box{
-    background-color: rgb(158, 22, 90);
+    //background-color: rgb(158, 22, 90);
     width: 100%;
     height: 70px;
 }
 
 
 .choix{
-    background-color: rgb(102, 102, 101);
+    //background-color: rgb(102, 102, 101);
     width: 100%;
     height: 100%;
     display: flex;
@@ -89,7 +89,7 @@
 
 .choix .text{
     h3{
-        background-color: indianred;
+        //background-color: indianred;
         padding-left: 15px;
         padding-top: 15px;
 
@@ -109,8 +109,9 @@
         padding-top: 2px;
         font-size: 10px;
     }
-    background-color: #9ac41c;
+    //background-color: #9ac41c;
     width: 65%;
+    //width: 100%;
     height: 100%;
     display: flex;
     //flex-wrap: nowrap;
@@ -121,16 +122,20 @@
 }
 
 
-/*
-.choix :hover{
+
+.choix:hover{
     .text h3{
-        width: ;
+        //background-color: slateblue;
+        //width: 100%;
+        width: 58%;
+
         white-space: nowrap;
         overflow: hidden;
         text-overflow: ellipsis;
     }
 }
-*/
+
+
 
 .choix .tarif{
     p{
@@ -138,7 +143,7 @@
         font-size: 10px;
         font-weight: bold;
     }
-    background-color: #07b664;
+    //background-color: #07b664;
     width: 20%;
     height: 100%;
     border-radius: 0px 10px 10px 0px;
@@ -162,13 +167,13 @@
 
     .responsive-box{
         .box{ 
-            background-color: violet;
+            //background-color: violet;
             width: 280px;
             //margin: 5px;
             margin-left: 30vw;
             
         }
-        background-color: yellowgreen;
+        //background-color: yellowgreen;
         display: flex;
         flex-wrap: wrap;
         //justify-content: space-between;
@@ -183,7 +188,7 @@
 
     .choix:hover{
         .text h3{
-            background-color: slateblue;
+            //background-color: slateblue;
             width: 100%;
 
             white-space: nowrap;

@@ -1,11 +1,9 @@
 .box {
-  background-color: #9e165a;
   width: 100%;
   height: 70px;
 }
 
 .choix {
-  background-color: #666665;
   width: 100%;
   height: 100%;
   display: -webkit-box;
@@ -123,7 +121,6 @@
 }
 
 .choix .text {
-  background-color: #9ac41c;
   width: 65%;
   height: 100%;
   display: -webkit-box;
@@ -143,7 +140,6 @@
 }
 
 .choix .text h3 {
-  background-color: indianred;
   padding-left: 15px;
   padding-top: 15px;
   /*font-size: 20px;
@@ -161,18 +157,14 @@
   font-size: 10px;
 }
 
-/*
-.choix :hover{
-    .text h3{
-        width: ;
-        white-space: nowrap;
-        overflow: hidden;
-        text-overflow: ellipsis;
-    }
+.choix:hover .text h3 {
+  width: 58%;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
-*/
+
 .choix .tarif {
-  background-color: #07b664;
   width: 20%;
   height: 100%;
   border-radius: 0px 10px 10px 0px;
@@ -202,7 +194,6 @@
 
 @media screen and (min-width: 735px) and (max-width: 1100px) {
   .responsive-box {
-    background-color: yellowgreen;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -213,7 +204,6 @@
             align-items: center;
   }
   .responsive-box .box {
-    background-color: violet;
     width: 280px;
     margin-left: 30vw;
   }
@@ -221,7 +211,6 @@
     width: 100%;
   }
   .choix:hover .text h3 {
-    background-color: slateblue;
     width: 100%;
     white-space: nowrap;
     overflow: hidden;

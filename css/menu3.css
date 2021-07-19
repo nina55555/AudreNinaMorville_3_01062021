@@ -210,7 +210,7 @@ footer a {
 }
 
 .carte {
-  background-color: greenyellow;
+  background-color: #f3f3f2;
   height: auto;
   width: 100%;
   border-radius: 15px 15px 0px 0px;
@@ -250,7 +250,7 @@ footer a {
 }
 
 .responsive-flex-carte {
-  background-color: #101f17;
+  background-color: #f3f3f2;
   height: auto;
 }
 
@@ -273,7 +273,7 @@ footer a {
 }
 
 .entrée {
-  background-color: #0004ff;
+  background-color: #f3f3f2;
   text-transform: uppercase;
   font-size: 9px;
   width: 95%;
@@ -358,7 +358,7 @@ footer a {
 }
 
 .plat {
-  background-color: #968941;
+  background-color: #f3f3f2;
   text-transform: uppercase;
   font-size: 9px;
   width: 95%;
@@ -411,7 +411,7 @@ footer a {
 }
 
 .dessert {
-  background-color: #f76227;
+  background-color: #f3f3f2;
   text-transform: uppercase;
   font-size: 9px;
   width: 95%;
@@ -465,13 +465,11 @@ footer a {
 }
 
 .box {
-  background-color: #9e165a;
   width: 100%;
   height: 70px;
 }
 
 .choix {
-  background-color: #666665;
   width: 100%;
   height: 100%;
   display: -webkit-box;
@@ -589,7 +587,6 @@ footer a {
 }
 
 .choix .text {
-  background-color: #9ac41c;
   width: 65%;
   height: 100%;
   display: -webkit-box;
@@ -609,7 +606,6 @@ footer a {
 }
 
 .choix .text h3 {
-  background-color: indianred;
   padding-left: 15px;
   padding-top: 15px;
   /*font-size: 20px;
@@ -627,18 +623,14 @@ footer a {
   font-size: 10px;
 }
 
-/*
-.choix :hover{
-    .text h3{
-        width: ;
-        white-space: nowrap;
-        overflow: hidden;
-        text-overflow: ellipsis;
-    }
+.choix:hover .text h3 {
+  width: 58%;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
-*/
+
 .choix .tarif {
-  background-color: #07b664;
   width: 20%;
   height: 100%;
   border-radius: 0px 10px 10px 0px;
@@ -668,7 +660,6 @@ footer a {
 
 @media screen and (min-width: 735px) and (max-width: 1100px) {
   .responsive-box {
-    background-color: yellowgreen;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -679,7 +670,6 @@ footer a {
             align-items: center;
   }
   .responsive-box .box {
-    background-color: violet;
     width: 280px;
     margin-left: 30vw;
   }
@@ -687,7 +677,6 @@ footer a {
     width: 100%;
   }
   .choix:hover .text h3 {
-    background-color: slateblue;
     width: 100%;
     white-space: nowrap;
     overflow: hidden;
