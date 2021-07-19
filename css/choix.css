@@ -133,7 +133,7 @@
     width: 100%;
   }
   .choix:hover .text h3, .choix:hover p {
-    width: 75%;
+    width: 73%;
     white-space: nowrap;
     overflow: hidden;
     text-overflow: ellipsis;
