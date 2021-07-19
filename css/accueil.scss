@@ -115,7 +115,7 @@ body{
 }
 
 
-
+/*
 
 header{
     .logo img{
@@ -137,6 +137,39 @@ header{
     align-items: center;
 }
 
+
+*/
+
+header{
+    .logo{
+        //background-color: chartreuse;
+        margin: 0 auto;
+        width: 140px;
+        position: absolute;
+        left: 50vw;
+        transform: translateX(-50%);
+    }
+    .logo img{
+        //background-color: blueviolet;
+        width: 100%;
+        height: 100%;
+        font-family: 'Shrikhand', cursive;
+    }
+
+    background-color: rgb(252, 252, 252);
+    width: 100%;
+    height: auto;
+    padding: 30px;
+    text-align: center;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    //z-index: 2;
+    z-index: 105;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
 
 
