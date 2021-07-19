@@ -170,16 +170,17 @@
     }
 
 
-    .choix:hover{
-        .text h3{
-            //background-color: slateblue;
-            width: 100%;
-
-            white-space: nowrap;
-            overflow: hidden;
-            text-overflow: ellipsis;
-        }
+   
+.choix:hover{
+    .text h3, p{
+        //background-color: slateblue;
+        width: 75%;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
     }
+}
+
 }
 
 

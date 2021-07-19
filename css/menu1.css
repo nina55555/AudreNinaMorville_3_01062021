@@ -711,8 +711,8 @@ footer a {
   .choix {
     width: 100%;
   }
-  .choix:hover .text h3 {
-    width: 100%;
+  .choix:hover .text h3, .choix:hover p {
+    width: 75%;
     white-space: nowrap;
     overflow: hidden;
     text-overflow: ellipsis;

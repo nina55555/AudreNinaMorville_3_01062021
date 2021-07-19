@@ -511,7 +511,7 @@ header .logo img {
     stroke-width: 2;
   }
   100% {
-    fill: red;
+    fill: #FF79DA;
     stroke-width: 1;
   }
 }
@@ -522,7 +522,7 @@ header .logo img {
     stroke-width: 2;
   }
   100% {
-    fill: red;
+    fill: #FF79DA;
     stroke-width: 1;
   }
 }
