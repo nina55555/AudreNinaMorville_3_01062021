@@ -2,7 +2,6 @@
 .entrée {
   background-color: #f3f3f2;
   text-transform: uppercase;
-  font-size: 9px;
   width: 95%;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -71,7 +70,8 @@
 .entrée h2 {
   position: relative;
   color: #353535;
-  padding-bottom: 15px;
+  padding-bottom: 10px;
+  font-size: 17px;
 }
 
 .entrée h2::after {

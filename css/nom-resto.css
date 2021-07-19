@@ -1,15 +1,18 @@
 .nom-restaurant {
   background-color: #f3f3f2;
   min-height: 70px;
-  margin-bottom: 25px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  margin-top: 25px;
+  margin-top: 30px;
   padding-left: 15px;
+}
+
+.nom-restaurant h1 {
   font-family: 'Shrikhand', cursive;
+  font-size: 26px;
 }
 /*# sourceMappingURL=nom-resto.css.map */

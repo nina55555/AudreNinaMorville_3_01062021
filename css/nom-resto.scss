@@ -3,14 +3,17 @@
 
 
 .nom-restaurant{
+    h1{
+        font-family: 'Shrikhand', cursive;
+        font-size: 26px;
+    }
     background-color: #f3f3f2;
     //background-color: green;
     min-height: 70px;
-    margin-bottom: 25px;
     //width: 100%;
     display: flex;
     justify-content: space-between;
-    margin-top: 25px;
+    margin-top: 30px;
     padding-left: 15px;
-    font-family: 'Shrikhand', cursive;
+
 }

@@ -4,15 +4,24 @@
     //background-color:greenyellow;
     height: auto;
     width: 100%;
-    border-radius: 15px 15px 0px 0px;
+    border-radius: 25px 25px 0px 0px;
     display: flex;
     flex-direction: column;
     z-index: 100;
-    /*
+
     position: absolute;
     top: 280px;
-    */
+    
 }
+
+
+@media screen and (min-width:735px) and (max-width:1100px)  {
+
+    .carte{
+        top: 310px;
+    }
+}
+
 
 
 
@@ -23,5 +32,6 @@
         //background-color: yellow;
         //max-height: 70vh;
         max-height: 250vh;
+        top: 310px;
     }
 }
