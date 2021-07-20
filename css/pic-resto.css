@@ -10,7 +10,7 @@
   -o-object-fit: cover;
      object-fit: cover;
   position: relative;
-  bottom: -45px;
+  bottom: -39px;
   -webkit-transform: scaleY(1.03);
           transform: scaleY(1.03);
 }

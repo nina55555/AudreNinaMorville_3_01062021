@@ -14,7 +14,7 @@ header {
   background-color: #fcfcfc;
   width: 100%;
   height: auto;
-  padding: 40px;
+  padding: 35px;
   text-align: center;
   position: fixed;
   top: 0px;
@@ -48,7 +48,7 @@ header .logo img {
 
 .retour i {
   position: absolute;
-  top: 20px;
+  top: 50%;
   left: 10px;
   font-size: 18px;
 }
