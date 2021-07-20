@@ -46,19 +46,19 @@
 }
 
 .choix .text h3 {
-  padding-left: 15px;
+  padding-left: 10px;
   padding-top: 15px;
   width: 100%;
-  font-size: 13px;
+  font-size: 14px;
   white-space: nowrap;
   /*overflow: hidden;
         text-overflow: ellipsis;*/
 }
 
 .choix .text p {
-  padding-left: 15px;
-  padding-top: 2px;
-  font-size: 10px;
+  padding-left: 10px;
+  padding-top: 8px;
+  font-size: 11px;
 }
 
 .choix .coche {
@@ -89,7 +89,7 @@
 }
 
 .choix:hover .text h3, .choix:hover p {
-  width: 68%;
+  width: 76%;
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
