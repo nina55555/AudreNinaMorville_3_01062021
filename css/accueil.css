@@ -648,11 +648,22 @@ body {
     padding-top: 75px;
     border: 20px solid #f7f6f6;
   }
+  .fonctionnement {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
   .fonctionnement h2 {
     font-size: 25px;
-    margin-top: 15px;
-    margin-left: 0px;
     padding-bottom: 0px;
+    margin-left: 0px;
   }
   .fonctionnement .selection {
     margin: 10px auto;
