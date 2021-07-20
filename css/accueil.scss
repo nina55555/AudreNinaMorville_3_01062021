@@ -140,11 +140,13 @@ header{
 
 */
 
+
 header{
     .logo{
         //background-color: chartreuse;
-        margin: 0 auto;
-        width: 140px;
+        //margin: 0 auto;
+        margin: 35px auto 7px;
+        width: 173px;
         position: absolute;
         left: 50vw;
         transform: translateX(-50%);
@@ -159,7 +161,7 @@ header{
     background-color: rgb(252, 252, 252);
     width: 100%;
     height: auto;
-    padding: 30px;
+    padding: 35px;
     text-align: center;
     position: fixed;
     top: 0px;
@@ -178,16 +180,16 @@ header{
 .localisation{
     i{
         padding-right: 10px;
-        font-size: 12px;
+        font-size: 14px;
         color: rgb(71, 71, 71);
     }
     background-color: rgb(223, 226, 226);
-    box-shadow: inset 0px 3px 3px rgb(95, 94, 95);
+    box-shadow: inset 0px 3px 5px rgb(146, 146, 146);
     height: 38px;
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 25px;
+    margin-top: 33px;
     padding: 5px;
 }
 
@@ -233,7 +235,9 @@ header{
     flex-wrap: wrap;
     justify-content: center;
     flex-direction: column;
-    height: 295px;
+    //height: 295px;
+
+    height: 270px;
     padding-bottom: 10px;
 }
 

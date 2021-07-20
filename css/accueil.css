@@ -195,7 +195,7 @@ header {
   background-color: #fcfcfc;
   width: 100%;
   height: auto;
-  padding: 30px;
+  padding: 35px;
   text-align: center;
   position: fixed;
   top: 0px;
@@ -213,8 +213,8 @@ header {
 }
 
 header .logo {
-  margin: 0 auto;
-  width: 140px;
+  margin: 35px auto 7px;
+  width: 173px;
   position: absolute;
   left: 50vw;
   -webkit-transform: translateX(-50%);
@@ -229,8 +229,8 @@ header .logo img {
 
 .localisation {
   background-color: #dfe2e2;
-  -webkit-box-shadow: inset 0px 3px 3px #5f5e5f;
-          box-shadow: inset 0px 3px 3px #5f5e5f;
+  -webkit-box-shadow: inset 0px 3px 5px #929292;
+          box-shadow: inset 0px 3px 5px #929292;
   height: 38px;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -241,13 +241,13 @@ header .logo img {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  margin-top: 25px;
+  margin-top: 33px;
   padding: 5px;
 }
 
 .localisation i {
   padding-right: 10px;
-  font-size: 12px;
+  font-size: 14px;
   color: #474747;
 }
 
@@ -266,7 +266,7 @@ header .logo img {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  height: 295px;
+  height: 270px;
   padding-bottom: 10px;
 }
 
