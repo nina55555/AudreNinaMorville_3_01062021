@@ -58,9 +58,16 @@
 
 
 .choix:hover{
-    .text h3, p{
+    .text h3{
         //background-color: slateblue;
-        width: 76%;
+        //width: 76%;
+        width: 70%;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
+    p{
+        width: 74%;
         white-space: nowrap;
         overflow: hidden;
         text-overflow: ellipsis;

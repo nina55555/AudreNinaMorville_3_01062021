@@ -617,8 +617,15 @@
   }
 }
 
-.choix:hover .text h3, .choix:hover p {
-  width: 76%;
+.choix:hover .text h3 {
+  width: 70%;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.choix:hover p {
+  width: 74%;
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
