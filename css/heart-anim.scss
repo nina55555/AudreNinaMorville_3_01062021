@@ -23,12 +23,12 @@ animation: animate-heart 0.5s linear forwards;
 
 
 @keyframes animate-heart{
-0%{
-    fill: transparent;
-    stroke-width: 2;
-}
-100%{
-   fill: #FF79DA ;
-   stroke-width: 1;
-}
+    0%{
+        fill: transparent;
+        stroke-width: 2;
+    }
+    100%{
+        fill: #FF79DA ;
+        stroke-width: 1;
+    }
 }

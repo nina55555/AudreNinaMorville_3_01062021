@@ -1,14 +1,21 @@
 .choix .coche{
     background-color: #99E2D0;
-    position: absolute;
+    //position: absolute;
+    position: relative;
+
+
     display: flex;
     justify-content: center;
     align-items: center;
     border-radius: 0px 10px 10px 0px;
-    top: 0px;
+    /*top: 0px;
     bottom: 0px;
     right: -20px;
     width: 15%;
+    */
+    
+    width: 0%;
+
     height: 100%;
     opacity: 0;
     transition: 0.2s;
@@ -21,25 +28,13 @@
 
 
 
-
-
-.choix:hover{
-    .text h3, p{
-        //background-color: slateblue;
-        width: 76%;
-        white-space: nowrap;
-        overflow: hidden;
-        text-overflow: ellipsis;
-    }
-}
-
-
 .choix:hover .coche {
     //background-color: brown;
+    width: 15%;
     opacity: 1;
     z-index: 500;
     border-radius: 0px 10px 10px 0px;
-    transform: translateX(-20px);
+    //transform: translateX(-20px);
 }
 
 
@@ -66,6 +61,15 @@
 }
 
 
+.choix:hover{
+    .text h3, p{
+        //background-color: slateblue;
+        width: 76%;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
+}
 
 
 
