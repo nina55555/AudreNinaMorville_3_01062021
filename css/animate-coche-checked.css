@@ -19,8 +19,8 @@
   width: 0%;
   height: 100%;
   opacity: 0;
-  -webkit-transition: 0.2s;
-  transition: 0.2s;
+  -webkit-transition: 0.7s;
+  transition: 0.7s;
 }
 
 .choix .coche i {

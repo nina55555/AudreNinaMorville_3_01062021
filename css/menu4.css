@@ -557,8 +557,8 @@
   width: 0%;
   height: 100%;
   opacity: 0;
-  -webkit-transition: 0.2s;
-  transition: 0.2s;
+  -webkit-transition: 0.7s;
+  transition: 0.7s;
 }
 
 .choix .coche i {
@@ -634,7 +634,10 @@
 }
 
 .choix .tarif {
-  width: 20%;
+  position: absolute;
+  right: 0px;
+  top: 0px;
+  width: 25%;
   height: 100%;
   border-radius: 0px 10px 10px 0px;
   display: -webkit-box;
@@ -646,19 +649,18 @@
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
 }
 
 .choix .tarif p {
-  padding-top: 15px;
+  padding-top: 20px;
   font-size: 14px;
   font-weight: bold;
 }
 
 .choix:hover .tarif {
-  -webkit-transform: translateX(-30px);
-          transform: translateX(-30px);
-  -webkit-transition: 0.5s;
-  transition: 0.5s;
+  right: 30px;
 }
 
 * {
