@@ -1,4 +1,3 @@
-@import './layout.scss';
 @import './container.scss';
 @import './pic-resto.scss';
 @import './commander.scss';
@@ -11,24 +10,9 @@
 @import './desserts.scss';
 @import './choix.scss';
 @import './boxes-sliding.scss';
-@import './coche-rotation.scss';
+@import './animate-coche-checked.scss';
 @import './tarifs.scss';
-
-
-
-
-/*-------------------------------*/ 
-/*-------------------------------*/ 
-
-/*responsive part*/
-
-
-
-
-/*--------------------*/ 
-
-
-
-
-
-
+@import './body.scss';
+@import './header.scss';
+@import './back-arrow.scss';
+@import './footer.scss';

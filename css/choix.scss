@@ -4,6 +4,8 @@
     height: 68px;
     padding-bottom:5px ;
 }
+
+
 .box1, .box1b, .box1c{
     padding-top: 5px;
 }
@@ -23,16 +25,12 @@
 }
 
 
-
-
 .choix .text{
     h3{
         //background-color: indianred;
         padding-left: 10px;
         padding-top: 15px;
         width:100%;
-        //font-size: 13px;
-
         font-size: 14px;
         white-space: nowrap;
         /*overflow: hidden;
@@ -56,70 +54,14 @@
 }
 
 
-.choix .coche{
-    background-color: #99E2D0;
-    position: absolute;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border-radius: 0px 10px 10px 0px;
-    top: 0px;
-    bottom: 0px;
-    right: -20px;
-    width: 15%;
-    height: 100%;
-    opacity: 0;
-    transition: 0.2s;
-}
-
-
-.choix .coche i{
-    opacity: 0;
-}
-
-.choix:hover{
-    .text h3, p{
-        //background-color: slateblue;
-        width: 76%;
-        white-space: nowrap;
-        overflow: hidden;
-        text-overflow: ellipsis;
-    }
-}
-
-
-.choix:hover .coche {
-    //background-color: brown;
-    opacity: 1;
-    z-index: 500;
-    border-radius: 0px 10px 10px 0px;
-    transform: translateX(-20px);
-}
-
-
-.choix:hover .coche i{
-    display: flex;
-    color: white;
-    font-size: 22px;
-    z-index: 501;
-    animation: rot 0.4s ease 0.1s forwards;
-    
-}
-
 
 
 
 @media screen and(min-width:735px) and (max-width:1100px) {
-
     .responsive-box{
         .box{ 
             //background-color: violet;
-            //width: 280px;
-
             width: 350px;
-            //margin: 5px;
-
-            //margin-left: 28vw;
             margin-left: 24vw;
         }
         //background-color: yellowgreen;
@@ -127,7 +69,6 @@
         flex-wrap: wrap;
         //justify-content: space-between;
         align-items: center;
-
     }
 
 
@@ -135,25 +76,11 @@
         //background-color: orange;
         width: 100%;
     }
-
-
-   
-.choix:hover{
-    .text h3, p{
-        //background-color: slateblue;
-        width: 73%;
-        white-space: nowrap;
-        overflow: hidden;
-        text-overflow: ellipsis;
-    }
-}
-
 }
 
 
 
 @media screen and(min-width:900px)  {
-
     .responsive-box{
         .box{
             //background-color: palegreen;

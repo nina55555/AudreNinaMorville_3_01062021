@@ -1,9 +1,0 @@
-{
-    "version": 3,
-    "mappings": "AAIA,UAAU,CAAV,GAAU;EACN,IAAI;IACA,OAAO,EAAE,CAAC;IACV,SAAS,EAAE,eAAe;IAC1B,gBAAgB,EAAE,aAAa;;EAEnC,EAAE;IACE,OAAO,EAAE,CAAC;IACV,SAAS,EAAE,YAAY;IACvB,gBAAgB,EAAE,aAAa",
-    "sources": [
-        "coche-rotation.scss"
-    ],
-    "names": [],
-    "file": "coche-rotation.css"
-}

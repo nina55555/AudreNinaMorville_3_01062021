@@ -1,41 +1,34 @@
-
-.aime .icon{
+.icon{
     //background-color: midnightblue;
     width: 50px;
     height: 50px;
+    margin-top: 25px;
 }
 
 
-.aime .icon path{
-    fill: transparent;
-    stroke-width: 2;
-    stroke: black;
-    cursor: pointer;
+.icon path{
+fill: transparent;
+stroke-width: 1.5;
+stroke: rgb(63, 63, 63);
+cursor: pointer;
 }
 
 
 
-.aime .icon:hover path{
-    animation: animate-heart 0.5s linear forwards;
+.icon:hover path{
+animation: animate-heart 0.5s linear forwards;
+
 }
 
 
 
 @keyframes animate-heart{
-    0%{
-        fill: transparent;
-        stroke-width: 2;
-    }
-    100%{
-       fill:#FF79DA  ;
-       stroke-width: 1;
-    }
+0%{
+    fill: transparent;
+    stroke-width: 2;
 }
-
-
-
-
-
-
-
-
+100%{
+   fill: #FF79DA ;
+   stroke-width: 1;
+}
+}

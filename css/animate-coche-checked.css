@@ -1,0 +1,96 @@
+.choix .coche {
+  background-color: #99E2D0;
+  position: absolute;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border-radius: 0px 10px 10px 0px;
+  top: 0px;
+  bottom: 0px;
+  right: -20px;
+  width: 15%;
+  height: 100%;
+  opacity: 0;
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
+}
+
+.choix .coche i {
+  opacity: 0;
+}
+
+.choix:hover .text h3, .choix:hover p {
+  width: 76%;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.choix:hover .coche {
+  opacity: 1;
+  z-index: 500;
+  border-radius: 0px 10px 10px 0px;
+  -webkit-transform: translateX(-20px);
+          transform: translateX(-20px);
+}
+
+.choix:hover .coche i {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  color: white;
+  font-size: 22px;
+  z-index: 501;
+  -webkit-animation: rot 0.4s ease 0.1s forwards;
+          animation: rot 0.4s ease 0.1s forwards;
+}
+
+@-webkit-keyframes rot {
+  from {
+    opacity: 0;
+    -webkit-transform: rotate(-180deg);
+            transform: rotate(-180deg);
+    -webkit-transform-origin: center center;
+            transform-origin: center center;
+  }
+  to {
+    opacity: 1;
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+    -webkit-transform-origin: center center;
+            transform-origin: center center;
+  }
+}
+
+@keyframes rot {
+  from {
+    opacity: 0;
+    -webkit-transform: rotate(-180deg);
+            transform: rotate(-180deg);
+    -webkit-transform-origin: center center;
+            transform-origin: center center;
+  }
+  to {
+    opacity: 1;
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+    -webkit-transform-origin: center center;
+            transform-origin: center center;
+  }
+}
+
+@media screen and (min-width: 735px) and (max-width: 1100px) {
+  .choix:hover .text h3, .choix:hover p {
+    width: 73%;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+}
+/*# sourceMappingURL=animate-coche-checked.css.map */

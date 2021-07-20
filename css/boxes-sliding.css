@@ -1,3 +1,5 @@
+@charset "UTF-8";
+/*-------animation d'entrée horizontale des plats du menu----*/
 @-webkit-keyframes slide {
   from {
     opacity: 0;
