@@ -624,6 +624,7 @@ body {
     padding-top: 70px;
     width: 50%;
     border: 20px solid #F8F6F6;
+    height: 365px;
   }
   .reservation .button {
     width: 80%;
@@ -643,11 +644,18 @@ body {
         -ms-flex-align: center;
             align-items: center;
     width: 50%;
+    height: 365px;
     padding-top: 75px;
+    border: 20px solid #f7f6f6;
   }
   .fonctionnement h2 {
     font-size: 25px;
+    margin-top: 15px;
     margin-left: 0px;
+    padding-bottom: 0px;
+  }
+  .fonctionnement .selection {
+    margin: 10px auto;
   }
   .fonctionnement-button {
     width: 90%;

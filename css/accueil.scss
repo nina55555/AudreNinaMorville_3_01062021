@@ -163,8 +163,6 @@ body{
     flex-wrap: wrap;
     justify-content: center;
     flex-direction: column;
-    //height: 295px;
-
     height: 270px;
     padding-bottom: 10px;
 }
@@ -189,8 +187,7 @@ body{
         width: 90%;
         display: flex;
         align-items: center;
-        
-    margin: 20px auto;
+        margin: 20px auto;
     }
     .selection .number{
         background-color: #9356DC ;
@@ -401,6 +398,7 @@ body{
         padding-top: 70px;
         width: 50%;
         border: 20px solid #F8F6F6 ;
+        height: 365px;
     }
 
 
@@ -410,19 +408,30 @@ body{
 
 
     .fonctionnement{
+        //background-color: coral;
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
         width: 50%;
+        height: 365px;
         padding-top: 75px;
+        border: 20px solid #f7f6f6 ;
     }
 
 
-    .fonctionnement h2{
+    .fonctionnement{
+        h2{
         font-size: 25px;
+        margin-top: 15px;
         margin-left: 0px;
-    }
+        padding-bottom: 0px;
+        }
+    .selection{
+        margin: 10px auto;
+        }
+    } 
+    
 
 
     .fonctionnement-button{
