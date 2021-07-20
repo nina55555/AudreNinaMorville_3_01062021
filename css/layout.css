@@ -14,7 +14,7 @@ header {
   background-color: #fcfcfc;
   width: 100%;
   height: auto;
-  padding: 30px;
+  padding: 40px;
   text-align: center;
   position: fixed;
   top: 0px;
@@ -32,8 +32,8 @@ header {
 }
 
 header .logo {
-  margin: 0 auto;
-  width: 140px;
+  margin: 35px auto 7px;
+  width: 173px;
   position: absolute;
   left: 50vw;
   -webkit-transform: translateX(-50%);

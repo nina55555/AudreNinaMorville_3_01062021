@@ -5,15 +5,16 @@
 .nom-restaurant{
     h1{
         font-family: 'Shrikhand', cursive;
-        font-size: 26px;
+        font-size: 28px;
     }
     background-color: #f3f3f2;
     //background-color: green;
-    min-height: 70px;
+    min-height: 65px;
     //width: 100%;
     display: flex;
     justify-content: space-between;
     margin-top: 30px;
+    margin-bottom: 0px;
     padding-left: 15px;
 
 }
