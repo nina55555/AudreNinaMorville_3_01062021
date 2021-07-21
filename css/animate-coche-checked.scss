@@ -19,7 +19,13 @@
 
 
 .choix .coche i{
-    opacity: 0;
+    color: white;
+    opacity: 0.5;
+    transition: 0.5s;
+    //transform: rotate(-180deg);
+    //transform-origin: center center;
+
+    
 }
 
 
@@ -55,6 +61,7 @@
         transform: rotate(0deg);
         transform-origin: center center;
     }
+    
 }
 
 

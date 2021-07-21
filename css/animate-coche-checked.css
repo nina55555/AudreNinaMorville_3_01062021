@@ -24,7 +24,10 @@
 }
 
 .choix .coche i {
-  opacity: 0;
+  color: white;
+  opacity: 0.5;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
 }
 
 .choix:hover .coche {

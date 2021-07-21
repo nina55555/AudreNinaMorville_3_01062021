@@ -567,7 +567,10 @@
 }
 
 .choix .coche i {
-  opacity: 0;
+  color: white;
+  opacity: 0.5;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
 }
 
 .choix:hover .coche {
@@ -645,7 +648,7 @@
 
 .choix .tarif {
   position: absolute;
-  right: 20px;
+  right: 2px;
   top: 0px;
   width: 20%;
   height: 100%;
