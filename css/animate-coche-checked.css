@@ -11,37 +11,40 @@
       -ms-flex-align: center;
           align-items: center;
   border-radius: 0px 10px 10px 0px;
-  /*top: 0px;
-    bottom: 0px;
-    right: -20px;
-    width: 15%;
-    */
   width: 0%;
   height: 100%;
-  opacity: 0;
-  -webkit-transition: 0.4s;
-  transition: 0.4s;
+  -webkit-transition: 0.6s;
+  transition: 0.6s;
 }
 
 .choix .coche i {
   color: white;
-  opacity: 0.5;
+  opacity: 1;
   -webkit-transition: 0.5s;
   transition: 0.5s;
+  position: absolute;
+  left: 100%;
 }
 
 .choix:hover .coche {
   width: 15%;
-  opacity: 1;
   border-radius: 0px 10px 10px 0px;
-}
-
-.choix:hover .coche i {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.choix:hover .coche i {
   color: white;
+  opacity: 1;
   font-size: 22px;
+  left: 35%;
   -webkit-animation: rot 0.4s ease 0.1s forwards;
           animation: rot 0.4s ease 0.1s forwards;
 }
@@ -81,14 +84,14 @@
 }
 
 .choix:hover .text h3 {
-  width: 78%;
+  width: 79%;
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
 }
 
 .choix:hover p {
-  width: 78%;
+  width: 79%;
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
@@ -100,6 +103,12 @@
     white-space: nowrap;
     overflow: hidden;
     text-overflow: ellipsis;
+  }
+  .choix:hover .choix:hover .coche i {
+    background-color: tomato;
+    right: 50%;
+    -webkit-transform: translateX(50%);
+            transform: translateX(50%);
   }
 }
 /*# sourceMappingURL=animate-coche-checked.css.map */

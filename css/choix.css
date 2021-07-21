@@ -29,7 +29,6 @@
 
 .choix .text {
   width: 65%;
-  height: 100%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -48,7 +47,7 @@
 
 .choix .text h3 {
   padding-left: 10px;
-  padding-top: 15px;
+  padding-top: 5px;
   width: 100%;
   font-size: 14px;
   white-space: nowrap;
@@ -78,10 +77,13 @@
             align-items: center;
   }
   .responsive-box .box {
-    width: 350px;
+    width: 50%;
     margin-left: 24vw;
   }
-  .choix {
+  .choix .text {
+    width: 80%;
+  }
+  .choix .text .text p {
     width: 100%;
   }
 }
@@ -101,8 +103,51 @@
             align-items: center;
   }
   .responsive-box .box {
-    width: 350px;
+    width: 40%;
     margin: 20px;
+  }
+  .choix .text {
+    width: 80%;
+  }
+}
+
+@media screen and (min-width: 1100px) {
+  .responsive-box {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .responsive-box .box {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    width: 30%;
+    height: 100px;
+    margin: 10px;
+  }
+  .choix .text {
+    width: 80%;
+  }
+  .choix .text .text h3 {
+    font-size: 16px;
+  }
+  .choix .text .text p {
+    width: 100%;
+    font-size: 13px;
   }
 }
 /*# sourceMappingURL=choix.css.map */

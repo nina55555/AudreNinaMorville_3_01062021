@@ -438,7 +438,6 @@
 
 .choix .text {
   width: 65%;
-  height: 100%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -457,7 +456,7 @@
 
 .choix .text h3 {
   padding-left: 10px;
-  padding-top: 15px;
+  padding-top: 5px;
   width: 100%;
   font-size: 14px;
   white-space: nowrap;
@@ -487,10 +486,13 @@
             align-items: center;
   }
   .responsive-box .box {
-    width: 350px;
+    width: 50%;
     margin-left: 24vw;
   }
-  .choix {
+  .choix .text {
+    width: 80%;
+  }
+  .choix .text .text p {
     width: 100%;
   }
 }
@@ -510,8 +512,51 @@
             align-items: center;
   }
   .responsive-box .box {
-    width: 350px;
+    width: 40%;
     margin: 20px;
+  }
+  .choix .text {
+    width: 80%;
+  }
+}
+
+@media screen and (min-width: 1100px) {
+  .responsive-box {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .responsive-box .box {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    width: 30%;
+    height: 100px;
+    margin: 10px;
+  }
+  .choix .text {
+    width: 80%;
+  }
+  .choix .text .text h3 {
+    font-size: 16px;
+  }
+  .choix .text .text p {
+    width: 100%;
+    font-size: 13px;
   }
 }
 
@@ -554,37 +599,40 @@
       -ms-flex-align: center;
           align-items: center;
   border-radius: 0px 10px 10px 0px;
-  /*top: 0px;
-    bottom: 0px;
-    right: -20px;
-    width: 15%;
-    */
   width: 0%;
   height: 100%;
-  opacity: 0;
-  -webkit-transition: 0.4s;
-  transition: 0.4s;
+  -webkit-transition: 0.6s;
+  transition: 0.6s;
 }
 
 .choix .coche i {
   color: white;
-  opacity: 0.5;
+  opacity: 1;
   -webkit-transition: 0.5s;
   transition: 0.5s;
+  position: absolute;
+  left: 100%;
 }
 
 .choix:hover .coche {
   width: 15%;
-  opacity: 1;
   border-radius: 0px 10px 10px 0px;
-}
-
-.choix:hover .coche i {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.choix:hover .coche i {
   color: white;
+  opacity: 1;
   font-size: 22px;
+  left: 35%;
   -webkit-animation: rot 0.4s ease 0.1s forwards;
           animation: rot 0.4s ease 0.1s forwards;
 }
@@ -624,14 +672,14 @@
 }
 
 .choix:hover .text h3 {
-  width: 78%;
+  width: 79%;
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
 }
 
 .choix:hover p {
-  width: 78%;
+  width: 79%;
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
@@ -643,6 +691,12 @@
     white-space: nowrap;
     overflow: hidden;
     text-overflow: ellipsis;
+  }
+  .choix:hover .choix:hover .coche i {
+    background-color: tomato;
+    right: 50%;
+    -webkit-transform: translateX(50%);
+            transform: translateX(50%);
   }
 }
 
