@@ -15,11 +15,12 @@
   height: 100%;
   -webkit-transition: 0.6s;
   transition: 0.6s;
+  right: 0px;
 }
 
 .choix .coche i {
   color: white;
-  opacity: 1;
+  opacity: 0;
   -webkit-transition: 0.5s;
   transition: 0.5s;
   position: absolute;
@@ -29,36 +30,25 @@
 .choix:hover .coche {
   width: 15%;
   border-radius: 0px 10px 10px 0px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
 }
 
 .choix:hover .coche i {
   color: white;
   opacity: 1;
   font-size: 22px;
-  left: 35%;
+  left: 33%;
   -webkit-animation: rot 0.4s ease 0.1s forwards;
           animation: rot 0.4s ease 0.1s forwards;
 }
 
 @-webkit-keyframes rot {
   from {
-    opacity: 0;
     -webkit-transform: rotate(-360deg);
             transform: rotate(-360deg);
     -webkit-transform-origin: center center;
             transform-origin: center center;
   }
   to {
-    opacity: 1;
     -webkit-transform: rotate(0deg);
             transform: rotate(0deg);
     -webkit-transform-origin: center center;
@@ -68,14 +58,12 @@
 
 @keyframes rot {
   from {
-    opacity: 0;
     -webkit-transform: rotate(-360deg);
             transform: rotate(-360deg);
     -webkit-transform-origin: center center;
             transform-origin: center center;
   }
   to {
-    opacity: 1;
     -webkit-transform: rotate(0deg);
             transform: rotate(0deg);
     -webkit-transform-origin: center center;
@@ -103,12 +91,6 @@
     white-space: nowrap;
     overflow: hidden;
     text-overflow: ellipsis;
-  }
-  .choix:hover .choix:hover .coche i {
-    background-color: tomato;
-    right: 50%;
-    -webkit-transform: translateX(50%);
-            transform: translateX(50%);
   }
 }
 /*# sourceMappingURL=animate-coche-checked.css.map */
