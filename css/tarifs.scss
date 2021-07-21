@@ -2,15 +2,17 @@
 
 .choix .tarif{
     p{
+        //background-color: deepskyblue;
         padding-top: 20px;
         font-size: 14px;
         font-weight: bold;
     }
     //background-color: #07b664;
     position: absolute;
-    right: 0px;
+    //right: 0px;
+    right: 20px;
     top: 0px;
-    width: 25%;
+    width: 20%;
     height: 100%;
     border-radius: 0px 10px 10px 0px;
     display: flex;
@@ -22,11 +24,7 @@
 
 
 .choix:hover .tarif {
-    //background-color: blueviolet;
-    //right: 35px;
-    //transform: translateX(-35px);
-    //width: 30%;
-    right: 30px;
+    right: 40px;
 }
 
 

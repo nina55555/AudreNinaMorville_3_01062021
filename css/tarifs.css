@@ -1,8 +1,8 @@
 .choix .tarif {
   position: absolute;
-  right: 0px;
+  right: 20px;
   top: 0px;
-  width: 25%;
+  width: 20%;
   height: 100%;
   border-radius: 0px 10px 10px 0px;
   display: -webkit-box;
@@ -25,6 +25,6 @@
 }
 
 .choix:hover .tarif {
-  right: 30px;
+  right: 40px;
 }
 /*# sourceMappingURL=tarifs.css.map */

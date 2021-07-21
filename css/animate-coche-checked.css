@@ -19,8 +19,8 @@
   width: 0%;
   height: 100%;
   opacity: 0;
-  -webkit-transition: 0.7s;
-  transition: 0.7s;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
 }
 
 .choix .coche i {
@@ -30,7 +30,6 @@
 .choix:hover .coche {
   width: 15%;
   opacity: 1;
-  z-index: 500;
   border-radius: 0px 10px 10px 0px;
 }
 
@@ -40,7 +39,6 @@
   display: flex;
   color: white;
   font-size: 22px;
-  z-index: 501;
   -webkit-animation: rot 0.4s ease 0.1s forwards;
           animation: rot 0.4s ease 0.1s forwards;
 }
@@ -48,8 +46,8 @@
 @-webkit-keyframes rot {
   from {
     opacity: 0;
-    -webkit-transform: rotate(-180deg);
-            transform: rotate(-180deg);
+    -webkit-transform: rotate(-360deg);
+            transform: rotate(-360deg);
     -webkit-transform-origin: center center;
             transform-origin: center center;
   }
@@ -65,8 +63,8 @@
 @keyframes rot {
   from {
     opacity: 0;
-    -webkit-transform: rotate(-180deg);
-            transform: rotate(-180deg);
+    -webkit-transform: rotate(-360deg);
+            transform: rotate(-360deg);
     -webkit-transform-origin: center center;
             transform-origin: center center;
   }
