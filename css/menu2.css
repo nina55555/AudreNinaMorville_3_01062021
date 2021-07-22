@@ -460,12 +460,10 @@
   width: 100%;
   font-size: 14px;
   white-space: nowrap;
-  -webkit-transition: 0.8s;
-  transition: 0.8s;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
   /*overflow: hidden;
         text-overflow: ellipsis;*/
-  overflow-x: hidden;
-  text-overflow: ellipsis;
 }
 
 .choix .text p {
@@ -476,14 +474,14 @@
   white-space: nowrap;
   overflow-x: hidden;
   text-overflow: ellipsis;
-  -webkit-transition: 0.8s;
-  transition: 0.8s;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
 }
 
 .choix:hover .text h3 {
   width: 65%;
-  -webkit-animation: push  ease;
-          animation: push  ease;
+  -webkit-animation: push1  ease;
+          animation: push1  ease;
 }
 
 .choix:hover .text p {
@@ -492,7 +490,7 @@
           animation: push2  ease;
 }
 
-@-webkit-keyframes push {
+@-webkit-keyframes push1 {
   0% {
     width: 100%;
   }
@@ -501,7 +499,7 @@
   }
 }
 
-@keyframes push {
+@keyframes push1 {
   0% {
     width: 100%;
   }
@@ -545,9 +543,63 @@
   }
   .choix .text {
     width: 80%;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
   }
-  .choix .text .text p {
+  .choix .text h3 {
     width: 100%;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+  }
+  .choix .text p {
+    width: 100%;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+  }
+  .choix:hover .text h3 {
+    width: 98%;
+    -webkit-animation: push3  ease;
+            animation: push3  ease;
+  }
+  .choix:hover .text p {
+    width: 73%;
+    -webkit-animation: push4  ease;
+            animation: push4  ease;
+  }
+  .choix:hover .text {
+    width: 80%;
+  }
+  @-webkit-keyframes push3 {
+    0% {
+      width: 100%;
+    }
+    100% {
+      width: 98%;
+    }
+  }
+  @keyframes push3 {
+    0% {
+      width: 100%;
+    }
+    100% {
+      width: 98%;
+    }
+  }
+  @-webkit-keyframes push4 {
+    0% {
+      width: 100%;
+    }
+    100% {
+      width: 73%;
+    }
+  }
+  @keyframes push4 {
+    0% {
+      width: 100%;
+    }
+    100% {
+      width: 73%;
+    }
   }
 }
 
