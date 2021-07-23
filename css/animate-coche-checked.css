@@ -11,11 +11,12 @@
       -ms-flex-align: center;
           align-items: center;
   border-radius: 0px 10px 10px 0px;
-  width: 0%;
+  right: 0px;
   height: 100%;
   -webkit-transition: 0.6s;
   transition: 0.6s;
-  right: 0px;
+  width: 15%;
+  margin-left: 100%;
 }
 
 .choix .coche i {
@@ -24,19 +25,23 @@
   -webkit-transition: 0.5s;
   transition: 0.5s;
   position: absolute;
-  left: 100%;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translateX(50%);
+          transform: translateX(50%);
+  -webkit-transform: translateY(50%);
+          transform: translateY(50%);
 }
 
 .choix:hover .coche {
-  width: 15%;
   border-radius: 0px 10px 10px 0px;
+  margin-left: 0%;
 }
 
 .choix:hover .coche i {
   color: white;
   opacity: 1;
   font-size: 22px;
-  left: 33%;
   -webkit-animation: rot 0.4s ease 0.1s forwards;
           animation: rot 0.4s ease 0.1s forwards;
 }
