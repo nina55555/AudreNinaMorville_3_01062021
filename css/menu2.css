@@ -437,7 +437,6 @@
 }
 
 .choix .text {
-  background-color: #9ac41c;
   width: 90%;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -453,10 +452,11 @@
       -ms-flex-align: start;
           align-items: flex-start;
   border-radius: 10px 0px 0px 10px;
+  -webkit-transition: 2s;
+  transition: 2s;
 }
 
 .choix .text h3 {
-  background-color: #71449c;
   padding-left: 10px;
   padding-top: 5px;
   width: 100%;
@@ -471,7 +471,6 @@
 }
 
 .choix .text p {
-  background-color: mediumpurple;
   padding-left: 10px;
   padding-top: 8px;
   font-size: 11px;
@@ -483,7 +482,6 @@
   transition: 0.5s;
 }
 
-/*-----*/
 .choix:hover .text {
   width: 55%;
   -webkit-transition: 0.8s;
@@ -491,7 +489,6 @@
 }
 
 .choix:hover .text h3 {
-  background-color: tomato;
   width: 100%;
   white-space: nowrap;
   overflow-x: hidden;
@@ -499,14 +496,23 @@
 }
 
 .choix:hover .text p {
-  background-color: #473f3d;
   width: 100%;
   white-space: nowrap;
   overflow-x: hidden;
   text-overflow: ellipsis;
 }
 
-/*---*/
+/*
+@keyframes pushA{
+    from{
+        width: 90%;
+    }
+    to{
+        
+    width: 55%;
+    }
+}
+*/
 @media screen and (min-width: 735px) and (max-width: 1100px) {
   .responsive-box {
     display: -webkit-box;
