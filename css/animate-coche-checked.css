@@ -11,11 +11,12 @@
       -ms-flex-align: center;
           align-items: center;
   border-radius: 0px 10px 10px 0px;
-  width: 0%;
+  width: 15%;
   height: 100%;
   -webkit-transition: 0.6s;
   transition: 0.6s;
   right: 0px;
+  margin-left: 100%;
 }
 
 .choix .coche i {
@@ -23,20 +24,18 @@
   opacity: 0;
   -webkit-transition: 0.5s;
   transition: 0.5s;
-  position: absolute;
-  left: 100%;
 }
 
 .choix:hover .coche {
   width: 15%;
   border-radius: 0px 10px 10px 0px;
+  margin-left: 0%;
 }
 
 .choix:hover .coche i {
   color: white;
   opacity: 1;
   font-size: 22px;
-  left: 33%;
   -webkit-animation: rot 0.4s ease 0.1s forwards;
           animation: rot 0.4s ease 0.1s forwards;
 }
@@ -71,26 +70,34 @@
   }
 }
 
-.choix:hover .text h3 {
-  width: 79%;
-  white-space: nowrap;
-  overflow: hidden;
-  text-overflow: ellipsis;
+/*
+.choix:hover{
+    .text h3{
+        //background-color: slateblue;
+        width: 79%;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
+    p{
+        width: 79%;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
 }
-
-.choix:hover p {
-  width: 79%;
-  white-space: nowrap;
-  overflow: hidden;
-  text-overflow: ellipsis;
+*/
+/*
+@media screen and(min-width:735px) and (max-width:1100px) {
+        .choix:hover{
+            .text h3, p{
+                //background-color: slateblue;
+                width: 73%;
+                white-space: nowrap;
+                overflow: hidden;
+                text-overflow: ellipsis;
+            }
+        }
 }
-
-@media screen and (min-width: 735px) and (max-width: 1100px) {
-  .choix:hover .text h3, .choix:hover p {
-    width: 73%;
-    white-space: nowrap;
-    overflow: hidden;
-    text-overflow: ellipsis;
-  }
-}
+*/
 /*# sourceMappingURL=animate-coche-checked.css.map */

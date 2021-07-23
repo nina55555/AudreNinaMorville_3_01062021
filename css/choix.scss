@@ -25,9 +25,20 @@
 }
 
 
+
+
+
+
+
+
+
+
+
+
+
 .choix .text{
     h3{
-        //background-color: rgb(113, 68, 156);
+        background-color: rgb(113, 68, 156);
         padding-left: 10px;
         padding-top: 5px;
         width:100%;
@@ -37,9 +48,11 @@
 
         /*overflow: hidden;
         text-overflow: ellipsis;*/
+        overflow-x: hidden;
+        text-overflow: ellipsis;
     }
     p{
-        //background-color: mediumpurple;
+        background-color: mediumpurple;
         padding-left: 10px;
         padding-top: 8px;
         font-size: 11px;
@@ -49,8 +62,10 @@
         text-overflow: ellipsis;
         transition: 0.5s;
     }
-    //background-color: #9ac41c;
-    width: 65%;
+    background-color: #9ac41c;
+    //width: 65%;
+
+    width: 90%;
     display: flex;
     justify-content: start;
     flex-direction: column;
@@ -59,41 +74,80 @@
 }
 
 
+/*-----*/
+
+
+
+
+
+
 .choix:hover {
+    .text{
+        width: 55%;
+        transition: 0.8s;
+    }
     .text h3{
-        //background-color: tomato;
-        width: 65%;
-        animation: push1  ease ;
+        background-color: tomato;
+        //width: 65%;
+
+        //width: 80%;
+
+        width: 100%;
+        white-space: nowrap;
+        overflow-x: hidden;
+        text-overflow: ellipsis;
+        //transition: 0.5s;
+
+        //animation: push1  ease ;
     }
     .text p{
-        //background-color: rgb(71, 63, 61);
-        width: 80%;
-        animation: push2  ease ;
-    }
-}
+        background-color: rgb(71, 63, 61);
 
+       // width: 80%;
 
-@keyframes push1{
-    0%{
-        //background-color: violet;
         width: 100%;
-    }
-    100%{
-        //background-color: rgb(70, 49, 12);
-        width: 65%;
+        white-space: nowrap;
+        overflow-x: hidden;
+        text-overflow: ellipsis;
+        //transition: 0.5s;
+
+        //animation: push2  ease ;
     }
 }
 
-@keyframes push2{
-    0%{
+
+/*---*/
+
+
+
+
+
+
+//@keyframes push1{
+    
+    //0%{
         //background-color: violet;
-        width: 100%;
-    }
-    100%{
+        //width: 100%;
+    //}
+    //100%{
         //background-color: rgb(70, 49, 12);
-        width: 80%;
-    }
-}
+        //width: 65%;
+    //}
+    
+//}
+
+
+
+//@keyframes push2{
+    //0%{
+        //background-color: violet;
+        //width: 100%;
+    //}
+    //100%{
+        //background-color: rgb(70, 49, 12);
+        //width: 80%;
+    //}
+//}
 
 
 

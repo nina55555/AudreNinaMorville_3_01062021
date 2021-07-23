@@ -28,7 +28,8 @@
 }
 
 .choix .text {
-  width: 65%;
+  background-color: #9ac41c;
+  width: 90%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -46,6 +47,7 @@
 }
 
 .choix .text h3 {
+  background-color: #71449c;
   padding-left: 10px;
   padding-top: 5px;
   width: 100%;
@@ -55,9 +57,12 @@
   transition: 0.5s;
   /*overflow: hidden;
         text-overflow: ellipsis;*/
+  overflow-x: hidden;
+  text-overflow: ellipsis;
 }
 
 .choix .text p {
+  background-color: mediumpurple;
   padding-left: 10px;
   padding-top: 8px;
   font-size: 11px;
@@ -69,54 +74,30 @@
   transition: 0.5s;
 }
 
+/*-----*/
+.choix:hover .text {
+  width: 55%;
+  -webkit-transition: 0.8s;
+  transition: 0.8s;
+}
+
 .choix:hover .text h3 {
-  width: 65%;
-  -webkit-animation: push1  ease;
-          animation: push1  ease;
+  background-color: tomato;
+  width: 100%;
+  white-space: nowrap;
+  overflow-x: hidden;
+  text-overflow: ellipsis;
 }
 
 .choix:hover .text p {
-  width: 80%;
-  -webkit-animation: push2  ease;
-          animation: push2  ease;
+  background-color: #473f3d;
+  width: 100%;
+  white-space: nowrap;
+  overflow-x: hidden;
+  text-overflow: ellipsis;
 }
 
-@-webkit-keyframes push1 {
-  0% {
-    width: 100%;
-  }
-  100% {
-    width: 65%;
-  }
-}
-
-@keyframes push1 {
-  0% {
-    width: 100%;
-  }
-  100% {
-    width: 65%;
-  }
-}
-
-@-webkit-keyframes push2 {
-  0% {
-    width: 100%;
-  }
-  100% {
-    width: 80%;
-  }
-}
-
-@keyframes push2 {
-  0% {
-    width: 100%;
-  }
-  100% {
-    width: 80%;
-  }
-}
-
+/*---*/
 @media screen and (min-width: 735px) and (max-width: 1100px) {
   .responsive-box {
     display: -webkit-box;
