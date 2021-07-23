@@ -21,9 +21,8 @@
 
 .choix .coche i {
   color: white;
-  opacity: 0;
-  -webkit-transition: 0.5s;
-  transition: 0.5s;
+  -webkit-transition: 0.6s;
+  transition: 0.6s;
 }
 
 .choix:hover .coche {
@@ -34,7 +33,6 @@
 
 .choix:hover .coche i {
   color: white;
-  opacity: 1;
   font-size: 22px;
   -webkit-animation: rot 0.4s ease 0.1s forwards;
           animation: rot 0.4s ease 0.1s forwards;
@@ -70,23 +68,6 @@
   }
 }
 
-/*
-.choix:hover{
-    .text h3{
-        //background-color: slateblue;
-        width: 79%;
-        white-space: nowrap;
-        overflow: hidden;
-        text-overflow: ellipsis;
-    }
-    p{
-        width: 79%;
-        white-space: nowrap;
-        overflow: hidden;
-        text-overflow: ellipsis;
-    }
-}
-*/
 /*
 @media screen and(min-width:735px) and (max-width:1100px) {
         .choix:hover{

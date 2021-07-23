@@ -437,7 +437,8 @@
 }
 
 .choix .text {
-  width: 90%;
+  background-color: #9ac41c;
+  width: 65%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -452,11 +453,12 @@
       -ms-flex-align: start;
           align-items: flex-start;
   border-radius: 10px 0px 0px 10px;
-  -webkit-transition: 2s;
-  transition: 2s;
+  -webkit-transition: 1s;
+  transition: 1s;
 }
 
 .choix .text h3 {
+  background-color: #71449c;
   padding-left: 10px;
   padding-top: 5px;
   width: 100%;
@@ -464,13 +466,12 @@
   white-space: nowrap;
   -webkit-transition: 0.5s;
   transition: 0.5s;
-  /*overflow: hidden;
-        text-overflow: ellipsis;*/
   overflow-x: hidden;
   text-overflow: ellipsis;
 }
 
 .choix .text p {
+  background-color: mediumpurple;
   padding-left: 10px;
   padding-top: 8px;
   font-size: 11px;
@@ -483,7 +484,7 @@
 }
 
 .choix:hover .text {
-  width: 55%;
+  width: 52%;
   -webkit-transition: 0.8s;
   transition: 0.8s;
 }
@@ -502,17 +503,6 @@
   text-overflow: ellipsis;
 }
 
-/*
-@keyframes pushA{
-    from{
-        width: 90%;
-    }
-    to{
-        
-    width: 55%;
-    }
-}
-*/
 @media screen and (min-width: 735px) and (max-width: 1100px) {
   .responsive-box {
     display: -webkit-box;
@@ -702,9 +692,8 @@
 
 .choix .coche i {
   color: white;
-  opacity: 0;
-  -webkit-transition: 0.5s;
-  transition: 0.5s;
+  -webkit-transition: 0.6s;
+  transition: 0.6s;
 }
 
 .choix:hover .coche {
@@ -715,7 +704,6 @@
 
 .choix:hover .coche i {
   color: white;
-  opacity: 1;
   font-size: 22px;
   -webkit-animation: rot 0.4s ease 0.1s forwards;
           animation: rot 0.4s ease 0.1s forwards;
@@ -751,23 +739,6 @@
   }
 }
 
-/*
-.choix:hover{
-    .text h3{
-        //background-color: slateblue;
-        width: 79%;
-        white-space: nowrap;
-        overflow: hidden;
-        text-overflow: ellipsis;
-    }
-    p{
-        width: 79%;
-        white-space: nowrap;
-        overflow: hidden;
-        text-overflow: ellipsis;
-    }
-}
-*/
 /*
 @media screen and(min-width:735px) and (max-width:1100px) {
         .choix:hover{

@@ -26,34 +26,20 @@
 }
 
 
-
-
-
-
-
-
-
-
-
-
-
 .choix .text{
     h3{
-        //background-color: rgb(113, 68, 156);
+        background-color: rgb(113, 68, 156);
         padding-left: 10px;
         padding-top: 5px;
         width:100%;
         font-size: 14px;
         white-space: nowrap;
         transition: 0.5s;
-
-        /*overflow: hidden;
-        text-overflow: ellipsis;*/
         overflow-x: hidden;
         text-overflow: ellipsis;
     }
     p{
-        //background-color: mediumpurple;
+        background-color: mediumpurple;
         padding-left: 10px;
         padding-top: 8px;
         font-size: 11px;
@@ -63,26 +49,26 @@
         text-overflow: ellipsis;
         transition: 0.5s;
     }
-    //background-color: #9ac41c;
+    background-color: #9ac41c;
     //width: 65%;
 
-    width: 90%;
+    //width: 90%;
+    width: 65%;
+
     display: flex;
     justify-content: start;
     flex-direction: column;
     align-items: flex-start;
     border-radius: 10px 0px 0px 10px;
-
-    transition: 2s;
+    transition: 1s;
 }
 
 
 
 .choix:hover {
     .text{
-        width: 55%;
+        width: 52%;
         transition: 0.8s;
-        //animation: pushA ease;
     }
     .text h3{
         //background-color: tomato;
@@ -95,8 +81,6 @@
         overflow-x: hidden;
         text-overflow: ellipsis;
         //transition: 0.5s;
-
-        //animation: push1  ease ;
     }
     .text p{
         //background-color: rgb(71, 63, 61);
@@ -108,53 +92,8 @@
         overflow-x: hidden;
         text-overflow: ellipsis;
         //transition: 0.5s;
-
-        //animation: push2  ease ;
     }
 }
-
-
-
-/*
-@keyframes pushA{
-    from{
-        width: 90%;
-    }
-    to{
-        
-    width: 55%;
-    }
-}
-*/
-
-
-
-
-//@keyframes push1{
-    
-    //0%{
-        //background-color: violet;
-        //width: 100%;
-    //}
-    //100%{
-        //background-color: rgb(70, 49, 12);
-        //width: 65%;
-    //}
-    
-//}
-
-
-
-//@keyframes push2{
-    //0%{
-        //background-color: violet;
-        //width: 100%;
-    //}
-    //100%{
-        //background-color: rgb(70, 49, 12);
-        //width: 80%;
-    //}
-//}
 
 
 
