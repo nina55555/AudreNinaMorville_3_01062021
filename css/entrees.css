@@ -64,6 +64,10 @@
   font-size: 14px;
 }
 
+.entrée h3 {
+  white-space: nowrap;
+}
+
 @media screen and (min-width: 765px) and (max-width: 1100px) {
   .entrée h2::after {
     width: 55%;

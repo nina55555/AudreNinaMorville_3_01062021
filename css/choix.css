@@ -28,7 +28,6 @@
 }
 
 .choix .text {
-  background-color: #9ac41c;
   /*---*/
   width: 71%;
   display: -webkit-box;
@@ -50,17 +49,18 @@
 }
 
 .choix .text h3 {
-  background-color: #71449c;
   padding-left: 10px;
   padding-top: 5px;
   width: 100%;
-  font-size: 18px;
-  -webkit-transition: 0.5s;
-  transition: 0.5s;
+  font-size: 17px;
+  -webkit-transition: 1s;
+  transition: 1s;
+  /*----*/
+  overflow-x: hidden;
+  text-overflow: ellipsis;
 }
 
 .choix .text p {
-  background-color: mediumpurple;
   padding-left: 10px;
   padding-top: 8px;
   padding-bottom: 3px;
@@ -68,14 +68,14 @@
   white-space: nowrap;
   overflow-x: hidden;
   text-overflow: ellipsis;
-  -webkit-transition: 0.5s;
-  transition: 0.5s;
+  -webkit-transition: 1s;
+  transition: 1s;
 }
 
 .choix:hover .text {
   width: 53%;
-  -webkit-transition: 0.8s;
-  transition: 0.8s;
+  -webkit-transition: 1s;
+  transition: 1s;
 }
 
 .choix:hover .text h3 {

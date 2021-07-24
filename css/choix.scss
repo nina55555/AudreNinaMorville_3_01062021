@@ -28,19 +28,21 @@
 
 .choix .text{
     h3{
-        background-color: rgb(113, 68, 156);
+        //background-color: rgb(113, 68, 156);
         padding-left: 10px;
         padding-top: 5px;
         width:100%;
-        font-size: 18px;
-        transition: 0.5s;
+        font-size: 17px;
+        transition: 1s;
 
+        /*----*/
         //white-space: nowrap;
-        //overflow-x: hidden;
-         //text-overflow: ellipsis;
+
+        overflow-x: hidden;
+         text-overflow: ellipsis;
     }
     p{
-        background-color: mediumpurple;
+        //background-color: mediumpurple;
         padding-left: 10px;
         padding-top: 8px;
         padding-bottom: 3px;
@@ -51,11 +53,10 @@
         white-space: nowrap;
         overflow-x: hidden;
         text-overflow: ellipsis;
-        transition: 0.5s;
+        transition: 1s;
 
-        
     }
-    background-color: #9ac41c;
+    //background-color: #9ac41c;
     /*---*/
     //width: 90%;
 
@@ -78,7 +79,7 @@
 .choix:hover {
     .text{
         width: 53%;
-        transition: 0.8s;
+        transition: 1s;
     }
     .text h3{
         //background-color: tomato;

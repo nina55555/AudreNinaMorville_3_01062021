@@ -1,5 +1,4 @@
 .choix .tarif {
-  background-color: #07b664;
   position: absolute;
   right: 2px;
   top: 0px;
@@ -20,14 +19,12 @@
 }
 
 .choix .tarif p {
-  background-color: deepskyblue;
   padding-top: 20px;
   font-size: 14px;
   font-weight: bold;
 }
 
 .choix:hover .tarif {
-  background-color: mediumseagreen;
   right: 40px;
 }
 /*# sourceMappingURL=tarifs.css.map */
