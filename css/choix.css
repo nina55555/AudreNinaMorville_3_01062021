@@ -30,7 +30,7 @@
 .choix .text {
   background-color: #9ac41c;
   /*---*/
-  width: 60%;
+  width: 71%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -54,7 +54,7 @@
   padding-left: 10px;
   padding-top: 5px;
   width: 100%;
-  font-size: 14px;
+  font-size: 18px;
   -webkit-transition: 0.5s;
   transition: 0.5s;
 }
@@ -63,7 +63,7 @@
   background-color: mediumpurple;
   padding-left: 10px;
   padding-top: 8px;
-  font-size: 11px;
+  padding-bottom: 3px;
   width: 100%;
   white-space: nowrap;
   overflow-x: hidden;
@@ -73,7 +73,7 @@
 }
 
 .choix:hover .text {
-  width: 52%;
+  width: 53%;
   -webkit-transition: 0.8s;
   transition: 0.8s;
 }

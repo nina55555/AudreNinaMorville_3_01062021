@@ -60,6 +60,10 @@
   left: 0px;
 }
 
+.entrée p {
+  font-size: 14px;
+}
+
 @media screen and (min-width: 765px) and (max-width: 1100px) {
   .entrée h2::after {
     width: 55%;
