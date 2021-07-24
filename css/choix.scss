@@ -33,10 +33,11 @@
         padding-top: 5px;
         width:100%;
         font-size: 14px;
-        white-space: nowrap;
         transition: 0.5s;
-        overflow-x: hidden;
-        text-overflow: ellipsis;
+
+        //white-space: nowrap;
+        //overflow-x: hidden;
+         //text-overflow: ellipsis;
     }
     p{
         background-color: mediumpurple;
@@ -50,17 +51,18 @@
         transition: 0.5s;
     }
     background-color: #9ac41c;
-    //width: 65%;
-
+    /*---*/
     //width: 90%;
-    width: 65%;
+
+    width: 60%;
 
     display: flex;
-    justify-content: start;
     flex-direction: column;
+    justify-content: start;
     align-items: flex-start;
     border-radius: 10px 0px 0px 10px;
     transition: 1s;
+
 }
 
 
@@ -72,10 +74,6 @@
     }
     .text h3{
         //background-color: tomato;
-        //width: 65%;
-
-        //width: 80%;
-
         width: 100%;
         white-space: nowrap;
         overflow-x: hidden;
@@ -84,14 +82,10 @@
     }
     .text p{
         //background-color: rgb(71, 63, 61);
-
-       // width: 80%;
-
         width: 100%;
         white-space: nowrap;
         overflow-x: hidden;
         text-overflow: ellipsis;
-        //transition: 0.5s;
     }
 }
 

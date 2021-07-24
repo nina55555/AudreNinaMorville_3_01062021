@@ -1,7 +1,5 @@
 @charset "UTF-8";
 .entrée {
-  background-color: #f3f3f2;
-  text-transform: uppercase;
   width: 95%;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -39,6 +37,10 @@
           animation: slide 4s ease  0.2s;
   margin-top: 10px;
   cursor: pointer;
+}
+
+.entrée h2 {
+  text-transform: uppercase;
 }
 
 .entrée h2 {

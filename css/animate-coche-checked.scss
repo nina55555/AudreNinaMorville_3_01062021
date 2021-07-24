@@ -5,11 +5,19 @@
     justify-content: center;
     align-items: center;
     border-radius: 0px 10px 10px 0px;
-    width: 15%;
+    
     height: 100%;
     transition: 0.6s;
     right: 0px;
-    margin-left: 100%;
+
+    //width: 15%;
+    /*----*/
+    //width: 0%;
+
+    width: 15%;
+    margin-right: -15%;
+
+    //margin-left: 100%;
 }
 
 
@@ -24,7 +32,9 @@
     //background-color: brown;
     width: 15%;
     border-radius: 0px 10px 10px 0px;
-    margin-left: 0%;
+    
+    //margin-left: 0%;
+    margin-right: 0%;
 }
 
 

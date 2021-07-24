@@ -1,6 +1,5 @@
 .dessert {
   background-color: #f3f3f2;
-  text-transform: uppercase;
   width: 95%;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -32,6 +31,10 @@
           animation: slide 3s ease 0.2s;
   margin-top: 10px;
   cursor: pointer;
+}
+
+.dessert h2 {
+  text-transform: uppercase;
 }
 
 .dessert h2 {
