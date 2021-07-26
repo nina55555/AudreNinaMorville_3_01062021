@@ -33,15 +33,12 @@
 }
 
 .plat h2 {
-  text-transform: uppercase;
-}
-
-.plat h2 {
   position: relative;
   color: #353535;
   padding-bottom: 10px;
   padding-top: 45px;
   font-size: 17px;
+  text-transform: uppercase;
 }
 
 .plat h2::after {
@@ -54,23 +51,33 @@
   left: 0px;
 }
 
-.plat p {
-  font-size: 14px;
-}
-
 .plat h3 {
   white-space: wrap;
+}
+
+.short h3 {
+  white-space: nowrap;
+}
+
+.plat p {
+  font-size: 14px;
 }
 
 @media screen and (min-width: 765px) and (max-width: 1100px) {
   .plat h2::after {
     width: 55%;
   }
+  .plat h3 {
+    white-space: nowrap;
+  }
 }
 
 @media screen and (min-width: 1100px) {
   .plat h2::after {
     width: 85%;
+  }
+  .plat h3 {
+    white-space: nowrap;
   }
 }
 /*# sourceMappingURL=plats.css.map */

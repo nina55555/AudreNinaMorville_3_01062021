@@ -14,29 +14,26 @@
   height: 100%;
   -webkit-transition: 0.6s;
   transition: 0.6s;
-  right: 0px;
-  /*----*/
   width: 15%;
-  margin-right: -15%;
+  margin-right: -75%;
 }
 
 .choix .coche i {
-  color: white;
-  -webkit-transition: 0.6s;
-  transition: 0.6s;
+  font-size: 22px;
+  color: #f3f3f2;
 }
 
 .choix:hover .coche {
   width: 15%;
   border-radius: 0px 10px 10px 0px;
   margin-right: 0%;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
 }
 
 .choix:hover .coche i {
-  color: white;
-  font-size: 22px;
-  -webkit-animation: rot 0.4s ease 0.1s forwards;
-          animation: rot 0.4s ease 0.1s forwards;
+  -webkit-animation: rot 0.45s ease 0.2s forwards;
+          animation: rot 0.45s ease 0.2s forwards;
 }
 
 @-webkit-keyframes rot {
@@ -69,17 +66,25 @@
   }
 }
 
-/*
-@media screen and(min-width:735px) and (max-width:1100px) {
-        .choix:hover{
-            .text h3, p{
-                //background-color: slateblue;
-                width: 73%;
-                white-space: nowrap;
-                overflow: hidden;
-                text-overflow: ellipsis;
-            }
-        }
+@media screen and (min-width: 735px) and (max-width: 1100px) {
+  .choix .coche {
+    width: 20%;
+    margin-right: -80%;
+  }
+  .choix:hover .coche {
+    width: 20%;
+    margin-right: 0%;
+  }
 }
-*/
+
+@media screen and (min-width: 1100px) {
+  .choix .coche {
+    width: 25%;
+    margin-right: -85%;
+  }
+  .choix:hover .coche {
+    width: 25%;
+    margin-right: 0%;
+  }
+}
 /*# sourceMappingURL=animate-coche-checked.css.map */

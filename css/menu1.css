@@ -33,31 +33,6 @@
           transform: scaleY(1.03);
 }
 
-/*
-.photo img{
-    width: 100%;
-    //height: 100%;
-    height: 250px;
-
-    
-    background-position: top;
-
-    object-fit: cover;
-    position: relative;
-    bottom: -20px;
-
-
-
-
-    //position: absolute;
-    //top: 20px;
-    
-   
-
-    //bottom: -70px;
-}
-
-*/
 .commande {
   width: 100%;
   display: -webkit-box;
@@ -246,14 +221,11 @@
 }
 
 .entrée h2 {
-  text-transform: uppercase;
-}
-
-.entrée h2 {
   position: relative;
   color: #353535;
   padding-bottom: 10px;
   font-size: 17px;
+  text-transform: uppercase;
 }
 
 .entrée h2::after {
@@ -266,12 +238,12 @@
   left: 0px;
 }
 
-.entrée p {
-  font-size: 14px;
-}
-
 .entrée h3 {
   white-space: nowrap;
+}
+
+.entrée p {
+  font-size: 14px;
 }
 
 @media screen and (min-width: 765px) and (max-width: 1100px) {
@@ -321,15 +293,12 @@
 }
 
 .plat h2 {
-  text-transform: uppercase;
-}
-
-.plat h2 {
   position: relative;
   color: #353535;
   padding-bottom: 10px;
   padding-top: 45px;
   font-size: 17px;
+  text-transform: uppercase;
 }
 
 .plat h2::after {
@@ -342,23 +311,33 @@
   left: 0px;
 }
 
-.plat p {
-  font-size: 14px;
-}
-
 .plat h3 {
   white-space: wrap;
+}
+
+.short h3 {
+  white-space: nowrap;
+}
+
+.plat p {
+  font-size: 14px;
 }
 
 @media screen and (min-width: 765px) and (max-width: 1100px) {
   .plat h2::after {
     width: 55%;
   }
+  .plat h3 {
+    white-space: nowrap;
+  }
 }
 
 @media screen and (min-width: 1100px) {
   .plat h2::after {
     width: 85%;
+  }
+  .plat h3 {
+    white-space: nowrap;
   }
 }
 
@@ -398,15 +377,12 @@
 }
 
 .dessert h2 {
-  text-transform: uppercase;
-}
-
-.dessert h2 {
   position: relative;
   color: #353535;
   padding-bottom: 10px;
   padding-top: 45px;
   font-size: 17px;
+  text-transform: uppercase;
 }
 
 .dessert h2::after {
@@ -419,12 +395,12 @@
   left: 0px;
 }
 
-.dessert p {
-  font-size: 13px;
-}
-
 .dessert h3 {
   white-space: nowrap;
+}
+
+.dessert p {
+  font-size: 13px;
 }
 
 @media screen and (min-width: 765px) and (max-width: 1100px) {
@@ -469,7 +445,6 @@
 }
 
 .choix .text {
-  /*---*/
   width: 71%;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -485,18 +460,15 @@
       -ms-flex-align: start;
           align-items: flex-start;
   border-radius: 10px 0px 0px 10px;
-  -webkit-transition: 1s;
-  transition: 1s;
+  -webkit-transition: 0.6s;
+  transition: 0.6s;
 }
 
 .choix .text h3 {
   padding-left: 10px;
-  padding-top: 5px;
+  padding-top: 10px;
   width: 100%;
   font-size: 17px;
-  -webkit-transition: 1s;
-  transition: 1s;
-  /*----*/
   overflow-x: hidden;
   text-overflow: ellipsis;
 }
@@ -504,19 +476,17 @@
 .choix .text p {
   padding-left: 10px;
   padding-top: 8px;
-  padding-bottom: 3px;
+  padding-bottom: 10px;
   width: 100%;
   white-space: nowrap;
   overflow-x: hidden;
   text-overflow: ellipsis;
-  -webkit-transition: 1s;
-  transition: 1s;
 }
 
 .choix:hover .text {
   width: 53%;
-  -webkit-transition: 1s;
-  transition: 1s;
+  -webkit-transition: 0.6s;
+  transition: 0.6s;
 }
 
 .choix:hover .text h3 {
@@ -555,58 +525,20 @@
   }
   .choix .text h3 {
     width: 100%;
-    -webkit-transition: 0.5s;
-    transition: 0.5s;
+    white-space: nowrap;
+    /*overflow-x: hidden;
+            text-overflow: ellipsis;
+            */
   }
   .choix .text p {
     width: 100%;
-    -webkit-transition: 0.5s;
-    transition: 0.5s;
-  }
-  .choix:hover .text h3 {
-    width: 98%;
-    -webkit-animation: push3  ease;
-            animation: push3  ease;
-  }
-  .choix:hover .text p {
-    width: 73%;
-    -webkit-animation: push4  ease;
-            animation: push4  ease;
+    /*white-space: nowrap;
+            overflow-x: hidden;
+            text-overflow: ellipsis;
+            */
   }
   .choix:hover .text {
-    width: 80%;
-  }
-  @-webkit-keyframes push3 {
-    0% {
-      width: 100%;
-    }
-    100% {
-      width: 98%;
-    }
-  }
-  @keyframes push3 {
-    0% {
-      width: 100%;
-    }
-    100% {
-      width: 98%;
-    }
-  }
-  @-webkit-keyframes push4 {
-    0% {
-      width: 100%;
-    }
-    100% {
-      width: 73%;
-    }
-  }
-  @keyframes push4 {
-    0% {
-      width: 100%;
-    }
-    100% {
-      width: 73%;
-    }
+    width: 60%;
   }
 }
 
@@ -664,12 +596,12 @@
   .choix .text {
     width: 80%;
   }
-  .choix .text .text h3 {
-    font-size: 16px;
+  .choix .text h3 {
+    font-size: 20px;
   }
-  .choix .text .text p {
+  .choix .text p {
     width: 100%;
-    font-size: 13px;
+    font-size: 17px;
   }
 }
 
@@ -715,29 +647,26 @@
   height: 100%;
   -webkit-transition: 0.6s;
   transition: 0.6s;
-  right: 0px;
-  /*----*/
   width: 15%;
-  margin-right: -15%;
+  margin-right: -75%;
 }
 
 .choix .coche i {
-  color: white;
-  -webkit-transition: 0.6s;
-  transition: 0.6s;
+  font-size: 22px;
+  color: #f3f3f2;
 }
 
 .choix:hover .coche {
   width: 15%;
   border-radius: 0px 10px 10px 0px;
   margin-right: 0%;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
 }
 
 .choix:hover .coche i {
-  color: white;
-  font-size: 22px;
-  -webkit-animation: rot 0.4s ease 0.1s forwards;
-          animation: rot 0.4s ease 0.1s forwards;
+  -webkit-animation: rot 0.45s ease 0.2s forwards;
+          animation: rot 0.45s ease 0.2s forwards;
 }
 
 @-webkit-keyframes rot {
@@ -770,19 +699,28 @@
   }
 }
 
-/*
-@media screen and(min-width:735px) and (max-width:1100px) {
-        .choix:hover{
-            .text h3, p{
-                //background-color: slateblue;
-                width: 73%;
-                white-space: nowrap;
-                overflow: hidden;
-                text-overflow: ellipsis;
-            }
-        }
+@media screen and (min-width: 735px) and (max-width: 1100px) {
+  .choix .coche {
+    width: 20%;
+    margin-right: -80%;
+  }
+  .choix:hover .coche {
+    width: 20%;
+    margin-right: 0%;
+  }
 }
-*/
+
+@media screen and (min-width: 1100px) {
+  .choix .coche {
+    width: 25%;
+    margin-right: -85%;
+  }
+  .choix:hover .coche {
+    width: 25%;
+    margin-right: 0%;
+  }
+}
+
 .choix .tarif {
   position: absolute;
   right: 2px;
@@ -810,7 +748,19 @@
 }
 
 .choix:hover .tarif {
-  right: 40px;
+  right: 10%;
+}
+
+@media screen and (min-width: 735px) and (max-width: 1100px) {
+  .choix:hover .tarif {
+    right: 20%;
+  }
+}
+
+@media screen and (min-width: 1100px) {
+  .choix:hover .tarif {
+    right: 25%;
+  }
 }
 
 * {
