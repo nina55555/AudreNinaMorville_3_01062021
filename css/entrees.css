@@ -66,14 +66,26 @@
 }
 
 @media screen and (min-width: 765px) and (max-width: 1100px) {
+  .entrée h2 {
+    font-size: 20px;
+  }
   .entrée h2::after {
     width: 55%;
+  }
+  .entrée p {
+    font-size: 16px;
   }
 }
 
 @media screen and (min-width: 1100px) {
+  .entrée h2 {
+    font-size: 22px;
+  }
   .entrée h2::after {
     width: 85%;
+  }
+  .entrée p {
+    font-size: 18px;
   }
 }
 /*# sourceMappingURL=entrees.css.map */

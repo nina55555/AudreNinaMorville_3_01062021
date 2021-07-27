@@ -642,7 +642,7 @@ body {
     width: 80%;
   }
   .reservation .button a {
-    font-size: 14px;
+    font-size: 19px;
   }
   .fonctionnement {
     display: -webkit-box;
@@ -667,6 +667,9 @@ body {
     font-size: 25px;
     padding-bottom: 0px;
     margin-left: 0px;
+  }
+  .fonctionnement p {
+    font-size: 20px;
   }
   .fonctionnement .selection {
     margin: 10px auto;

@@ -16,4 +16,16 @@
   font-family: 'Shrikhand', cursive;
   font-size: 28px;
 }
+
+@media screen and (min-width: 735px) and (max-width: 1100px) {
+  .nom-restaurant h1 {
+    font-size: 32px;
+  }
+}
+
+@media screen and (min-width: 1100px) {
+  .nom-restaurant h1 {
+    font-size: 34px;
+  }
+}
 /*# sourceMappingURL=nom-resto.css.map */
