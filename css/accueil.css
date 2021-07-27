@@ -601,6 +601,12 @@ body {
   .localisation {
     height: 55px;
   }
+  .localisation p {
+    font-size: 20px;
+  }
+  .localisation i {
+    font-size: 20px;
+  }
   .responsive {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -626,8 +632,17 @@ body {
     border: 20px solid #F8F6F6;
     height: 365px;
   }
+  .reservation h1 {
+    font-size: 25px;
+  }
+  .reservation p {
+    font-size: 18px;
+  }
   .reservation .button {
     width: 80%;
+  }
+  .reservation .button a {
+    font-size: 14px;
   }
   .fonctionnement {
     display: -webkit-box;
@@ -648,18 +663,6 @@ body {
     padding-top: 75px;
     border: 20px solid #f7f6f6;
   }
-  .fonctionnement {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-  }
   .fonctionnement h2 {
     font-size: 25px;
     padding-bottom: 0px;
@@ -667,6 +670,16 @@ body {
   }
   .fonctionnement .selection {
     margin: 10px auto;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .fonctionnement .selection .number {
+    width: 25px;
+    height: 25px;
   }
   .fonctionnement-button {
     width: 90%;
@@ -744,6 +757,64 @@ body {
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
+  }
+}
+
+@media screen and (min-width: 1100px) {
+  .reservation h1 {
+    font-size: 35px;
+  }
+  .reservation p {
+    font-size: 25px;
+  }
+  .fonctionnement {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    width: 60%;
+    height: 365px;
+    padding-top: 75px;
+    border: 20px solid #f7f6f6;
+  }
+  .fonctionnement h2 {
+    font-size: 30px;
+    margin-left: 0px;
+  }
+  .fonctionnement p {
+    font-size: 25px;
+  }
+  .fonctionnement i {
+    font-size: 25px;
+  }
+  .fonctionnement .selection {
+    margin: 10px auto;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .fonctionnement .selection .number {
+    width: 30px;
+    height: 30px;
+  }
+  .fonctionnement .number p {
+    font-size: 25px;
+  }
+  .fonctionnement-button {
+    -webkit-transform: translateX(-10px);
+            transform: translateX(-10px);
   }
 }
 /*# sourceMappingURL=accueil.css.map */
