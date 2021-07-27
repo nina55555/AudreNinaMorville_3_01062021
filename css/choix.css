@@ -1,17 +1,24 @@
-.box {
-  width: 100%;
-  height: 68px;
-  padding-bottom: 5px;
+/*.box{
+    //background-color: rgb(158, 22, 90);
+    width: 100%;
+    height: 68px;
+    padding-bottom:5px ;
 }
 
-.box1, .box1b, .box1c {
+
+.box1, .box1b, .box1c{
+    padding-top: 5px;
+}
+*/
+.choix1, .choix1b, .choix1c {
   padding-top: 5px;
 }
 
 .choix {
   overflow: hidden;
   width: 100%;
-  height: 100%;
+  height: 68px;
+  padding-bottom: 5px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -97,7 +104,7 @@
         -ms-flex-align: center;
             align-items: center;
   }
-  .responsive-box .box {
+  .responsive-box .choix {
     width: 50%;
     margin-left: 24vw;
   }
@@ -139,7 +146,7 @@
         -ms-flex-align: center;
             align-items: center;
   }
-  .responsive-box .box {
+  .responsive-box .choix {
     width: 40%;
     margin: 20px;
   }
@@ -162,16 +169,13 @@
         -ms-flex-align: center;
             align-items: center;
   }
-  .responsive-box .box {
+  .responsive-box .choix {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
     width: 30%;
     height: 100px;
     margin: 10px;
@@ -180,11 +184,11 @@
     width: 80%;
   }
   .choix .text h3 {
-    font-size: 20px;
+    font-size: 24px;
   }
   .choix .text p {
     width: 100%;
-    font-size: 17px;
+    font-size: 22px;
   }
 }
 /*# sourceMappingURL=choix.css.map */

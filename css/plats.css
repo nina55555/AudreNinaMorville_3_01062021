@@ -11,21 +11,21 @@
   margin: 0 auto;
 }
 
-.plat .box1b {
+.plat .choix1b {
   -webkit-animation: slide 1s ease  0.2s;
           animation: slide 1s ease  0.2s;
   margin-top: 10px;
   cursor: pointer;
 }
 
-.plat .box2b {
+.plat .choix2b {
   -webkit-animation: slide 2s ease  0.2s;
           animation: slide 2s ease  0.2s;
   margin-top: 10px;
   cursor: pointer;
 }
 
-.plat .box3b {
+.plat .choix3b {
   -webkit-animation: slide 3s ease 0.2s;
           animation: slide 3s ease 0.2s;
   margin-top: 10px;

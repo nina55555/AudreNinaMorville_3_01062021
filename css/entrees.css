@@ -11,28 +11,28 @@
   margin: 0 auto;
 }
 
-.entrée .box1 {
+.entrée .choix1 {
   -webkit-animation: slide 1s ease  0.2s;
           animation: slide 1s ease  0.2s;
   margin-top: 10px;
   cursor: pointer;
 }
 
-.entrée .box2 {
+.entrée .choix2 {
   -webkit-animation: slide 2s ease 0.2s;
           animation: slide 2s ease 0.2s;
   margin-top: 10px;
   cursor: pointer;
 }
 
-.entrée .box3 {
+.entrée .choix3 {
   -webkit-animation: slide 3s ease  0.2s;
           animation: slide 3s ease  0.2s;
   margin-top: 10px;
   cursor: pointer;
 }
 
-.entrée .box4 {
+.entrée .choix4 {
   -webkit-animation: slide 4s ease  0.2s;
           animation: slide 4s ease  0.2s;
   margin-top: 10px;
