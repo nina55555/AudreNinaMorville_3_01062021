@@ -597,7 +597,7 @@ body {
   padding-left: 10px;
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 813px) {
   .localisation {
     height: 55px;
   }
@@ -667,9 +667,6 @@ body {
     font-size: 25px;
     padding-bottom: 0px;
     margin-left: 0px;
-  }
-  .fonctionnement p {
-    font-size: 20px;
   }
   .fonctionnement .selection {
     margin: 10px auto;

@@ -379,7 +379,7 @@ body{
 
 
 
-@media screen and (min-width:768px)  {
+@media screen and /*(min-width:768px)*/(min-width:813px)  {
     .localisation{
         p{
             font-size: 20px;
@@ -431,9 +431,11 @@ body{
             padding-bottom: 0px;
             margin-left: 0px;
         }
-        p{
-            font-size: 20px;
-        }
+        
+        //p{
+            //font-size: 20px;
+        //}
+        
         .selection{
             //background-color: #4d746a;
             margin: 10px auto;
